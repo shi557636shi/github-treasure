@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 宝藏每日推荐</title>
+<style>
+  :root {
+    --bg-primary: #0d1117;
+    --bg-card: #161b22;
+    --bg-hover: #1c2128;
+    --border: #21262d;
+    --border-light: #30363d;
+    --text-primary: #e6edf3;
+    --text-secondary: #8b949e;
+    --text-muted: #484f58;
+    --accent-blue: #58a6ff;
+    --accent-orange: #f0883e;
+    --accent-green: #3fb950;
+    --accent-purple: #bc8cff;
+    --accent-red: #f85149;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+    line-height: 1.5;
+  }
+
+  /* ===== 顶部Banner ===== */
+  .hero {
+    background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #0d1117 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 16px 32px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(88,166,255,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero h1 {
+    font-size: 32px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #58a6ff 0%, #bc8cff 50%, #f78166 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.5px;
+    position: relative;
+  }
+  .hero-sub {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-top: 8px;
+    position: relative;
+  }
+  .stats-bar {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 20px;
+    position: relative;
+  }
+  .stat-item {
+    text-align: center;
+  }
+  .stat-num {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .stat-label {
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .container { max-width: 1000px; margin: 0 auto; padding: 24px 16px; }
+
+  /* ===== 日期导航 ===== */
+  .date-nav {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .date-btn {
+    padding: 10px 20px;
+    border: 1px solid var(--border-light);
+    border-radius: 24px;
+    background: var(--bg-card);
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .date-btn:hover { border-color: var(--accent-blue); color: var(--accent-blue); }
+  .date-btn.active {
+    background: linear-gradient(135deg, #1f6feb, #388bfd);
+    border-color: transparent;
+    color: #fff;
+    box-shadow: 0 2px 12px rgba(31,111,235,0.3);
+  }
+  .date-btn .count {
+    background: rgba(255,255,255,0.15);
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .date-btn.active .count {
+    background: rgba(255,255,255,0.25);
+  }
+
+  /* ===== AI报告 ===== */
+  .ai-report {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 12px;
+    margin-bottom: 28px;
+    overflow: hidden;
+  }
+  .ai-report-header {
+    padding: 14px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    transition: background 0.2s;
+  }
+  .ai-report-header:hover { background: var(--bg-hover); }
+  .ai-report-header h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--accent-orange);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .ai-report-toggle {
+    color: var(--text-secondary);
+    font-size: 13px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.05);
+    transition: all 0.2s;
+  }
+  .ai-report-toggle:hover { background: rgba(255,255,255,0.1); }
+  .ai-report-body {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+  }
+  .ai-report-body.open {
+    padding: 0 20px 20px;
+    max-height: 8000px;
+  }
+  .ai-report-body pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #c9d1d9;
+  }
+
+  /* ===== 项目卡片 ===== */
+  .section-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-title span {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.25s;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+  }
+  .card:hover {
+    border-color: var(--accent-blue);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+  }
+
+  /* 序号指示器 */
+  .card-index {
+    position: absolute;
+    top: -1px;
+    left: 20px;
+    background: linear-gradient(135deg, #1f6feb, #388bfd);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 10px 4px;
+    border-radius: 0 0 8px 8px;
+    letter-spacing: 0.5px;
+  }
+
+  /* 卡片头部 */
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    padding-top: 4px;
+  }
+  .card-repo {
+    font-size: 18px;
+    font-weight: 700;
+    flex: 1;
+  }
+  .card-repo a {
+    color: var(--accent-blue);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .card-repo a:hover { color: #79c0ff; text-decoration: underline; }
+
+  .card-link-btn {
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 14px;
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    transition: all 0.2s;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .card-link-btn:hover {
+    background: rgba(56,139,253,0.1);
+    border-color: var(--accent-blue);
+    color: var(--accent-blue);
+  }
+
+  /* 数据行 */
+  .card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+  .meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .lang-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .today-stars {
+    color: var(--accent-orange);
+    font-weight: 600;
+  }
+
+  /* 描述 */
+  .card-desc {
+    font-size: 15px;
+    color: var(--text-primary);
+    line-height: 1.6;
+    font-weight: 500;
+  }
+
+  /* AI分析 */
+  .card-analysis {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    padding: 14px 16px;
+    background: linear-gradient(135deg, rgba(56,139,253,0.04), rgba(188,140,255,0.04));
+    border-left: 3px solid var(--accent-blue);
+    border-radius: 0 8px 8px 0;
+  }
+  .card-analysis-label {
+    color: var(--accent-blue);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .analysis-section {
+    margin-top: 6px;
+  }
+  .analysis-section strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  /* 推荐指数 */
+  .rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 8px;
+    padding: 4px 10px;
+    background: rgba(240,136,62,0.08);
+    border-radius: 6px;
+    font-size: 12px;
+  }
+  .rating-stars { color: var(--accent-orange); letter-spacing: 1px; }
+  .rating-text { color: var(--text-secondary); margin-left: 4px; }
+
+  /* 标签 */
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .tag {
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 14px;
+    background: rgba(56,139,253,0.08);
+    color: var(--accent-blue);
+    border: 1px solid rgba(56,139,253,0.15);
+    transition: all 0.2s;
+  }
+  .tag:hover { background: rgba(56,139,253,0.15); }
+  .tag-license {
+    background: rgba(240,136,62,0.08);
+    color: var(--accent-orange);
+    border-color: rgba(240,136,62,0.15);
+  }
+  .tag-source {
+    background: rgba(63,185,80,0.08);
+    color: var(--accent-green);
+    border-color: rgba(63,185,80,0.15);
+  }
+
+  /* 空状态 */
+  .empty-state {
+    text-align: center;
+    padding: 64px 16px;
+    color: var(--text-muted);
+  }
+  .empty-state p { margin-top: 8px; font-size: 14px; }
+
+  /* 底部 */
+  footer {
+    text-align: center;
+    padding: 32px 0 16px;
+    color: var(--text-muted);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+  }
+  footer a { color: var(--accent-blue); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  /* 加载动画 */
+  .loading {
+    text-align: center;
+    padding: 80px;
+    color: var(--text-secondary);
+  }
+  .spinner {
+    width: 36px; height: 36px;
+    border: 3px solid var(--border-light);
+    border-top-color: var(--accent-blue);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 16px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* 响应式 */
+  @media (min-width: 768px) {
+    .hero h1 { font-size: 36px; }
+    .stats-bar { gap: 48px; }
+    .stat-num { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>GitHub 宝藏每日推荐</h1>
+  <p class="hero-sub">每日精选优质开源项目 · AI 深度分析 · 自动推送到飞书</p>
+  <div class="stats-bar" id="statsBar"></div>
+</div>
+
+<div class="container">
+  <div class="date-nav" id="dateNav"></div>
+  <div id="aiReport"></div>
+  <div class="section-title" id="sectionTitle"></div>
+  <div class="cards" id="cards"></div>
+  <div id="emptyState"></div>
+
+  <footer>
+    数据每日 10:00 自动更新 · SQLite 数据库驱动 · Claude AI 深度分析<br>
+    <a href="https://github.com/trending" target="_blank">GitHub Trending</a> + 定向搜索精选 · 30天智能去重
+  </footer>
+</div>
+
+<script>
+const LANG_COLORS = {
+  JavaScript:'#f1e05a', TypeScript:'#3178c6', Python:'#3572A5', Rust:'#dea584',
+  Go:'#00ADD8', Java:'#b07219', 'C++':'#f34b7d', C:'#555555', Shell:'#89e051',
+  Ruby:'#701516', Swift:'#F05138', Kotlin:'#A97BFF', Dart:'#00B4AB',
+  HTML:'#e34c26', CSS:'#563d7c', Vue:'#41b883', 'Jupyter Notebook':'#DA5B0B',
+  PowerShell:'#012456', Lua:'#000080', Zig:'#ec915c', Elixir:'#6e4a7e',
+};
+
+function formatStars(n) {
+  if (!n) return '0';
+  if (n >= 10000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
+  return String(n);
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// 将分析文本中的【标题】转为高亮
+function formatAnalysis(text) {
+  if (!text) return '';
+  return escapeHtml(text)
+    .replace(/【([^】]+)】/g, '<strong>【$1】</strong>')
+    .replace(/[★⭐]{1,5}/g, '<span class="rating-stars">$&</span>')
+    .replace(/\n/g, '<br>');
+}
+
+let DATA = null;
+
+async function loadData() {
+  document.getElementById('cards').innerHTML = '<div class="loading"><div class="spinner"></div>加载数据中...</div>';
+  try {
+    const resp = await fetch('data/treasure-data.json');
+    DATA = await resp.json();
+    init();
+  } catch (e) {
+    document.getElementById('cards').innerHTML = `<div class="empty-state"><p>加载失败: ${e.message}</p><p>请通过 HTTP 服务访问：./install.sh open</p></div>`;
+  }
+}
+
+function init() {
+  if (!DATA || !DATA.days || DATA.days.length === 0) {
+    document.getElementById('cards').innerHTML = '<div class="empty-state"><p>暂无数据</p></div>';
+    return;
+  }
+
+  const totalDays = DATA.days.length;
+  const totalProjects = DATA.days.reduce((s, d) => s + d.projects.length, 0);
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat-item"><div class="stat-num">${totalDays}</div><div class="stat-label">天</div></div>
+    <div class="stat-item"><div class="stat-num">${totalProjects}</div><div class="stat-label">项目</div></div>
+    <div class="stat-item"><div class="stat-num">${new Set(DATA.days.flatMap(d => d.projects.map(p => p.language)).filter(Boolean)).size}</div><div class="stat-label">语言</div></div>
+  `;
+
+  const nav = document.getElementById('dateNav');
+  nav.innerHTML = '';
+  DATA.days.forEach((day, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'date-btn' + (i === 0 ? ' active' : '');
+    const weekday = ['日','一','二','三','四','五','六'][new Date(day.date).getDay()];
+    btn.innerHTML = `${day.date} 周${weekday}<span class="count">${day.projects.length}</span>`;
+    btn.onclick = () => selectDate(day.date, btn);
+    nav.appendChild(btn);
+  });
+
+  selectDate(DATA.days[0].date);
+}
+
+function selectDate(date, clickedBtn) {
+  document.querySelectorAll('.date-btn').forEach(b => b.classList.remove('active'));
+  if (clickedBtn) {
+    clickedBtn.classList.add('active');
+  } else {
+    document.querySelector('.date-btn')?.classList.add('active');
+  }
+
+  const day = DATA.days.find(d => d.date === date);
+  if (!day) return;
+
+  document.getElementById('sectionTitle').innerHTML =
+    `${day.date} 精选 <span>共 ${day.projects.length} 个项目</span>`;
+
+  renderAIReport(day);
+  renderCards(day.projects);
+}
+
+function renderAIReport(day) {
+  const el = document.getElementById('aiReport');
+  if (!day.ai_report) { el.innerHTML = ''; return; }
+  el.innerHTML = `
+    <div class="ai-report">
+      <div class="ai-report-header" onclick="toggleReport()">
+        <h3>AI 深度分析报告</h3>
+        <span class="ai-report-toggle" id="reportToggle">展开查看</span>
+      </div>
+      <div class="ai-report-body" id="reportBody">
+        <pre>${escapeHtml(day.ai_report)}</pre>
+      </div>
+    </div>`;
+}
+
+function toggleReport() {
+  const body = document.getElementById('reportBody');
+  const toggle = document.getElementById('reportToggle');
+  if (body.classList.contains('open')) {
+    body.classList.remove('open');
+    toggle.textContent = '展开查看';
+  } else {
+    body.classList.add('open');
+    toggle.textContent = '收起';
+  }
+}
+
+function renderCards(projects) {
+  const container = document.getElementById('cards');
+  if (!projects || projects.length === 0) {
+    container.innerHTML = '<div class="empty-state"><p>该日无推荐数据</p></div>';
+    return;
+  }
+
+  container.innerHTML = projects.map((p, idx) => {
+    const langColor = LANG_COLORS[p.language] || '#8b949e';
+    const langHtml = p.language
+      ? `<span class="meta-item"><span class="lang-dot" style="background:${langColor}"></span>${escapeHtml(p.language)}</span>`
+      : '';
+    const starsHtml = `<span class="meta-item">&#11088; ${formatStars(p.stars)}</span>`;
+    const todayHtml = p.today_stars > 0 ? `<span class="meta-item today-stars">+${formatStars(p.today_stars)} today</span>` : '';
+    const forksHtml = p.forks ? `<span class="meta-item">&#127860; ${formatStars(p.forks)}</span>` : '';
+
+    const topics = (Array.isArray(p.topics) ? p.topics : []).slice(0, 5);
+    const topicTags = topics.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('');
+    const licenseBadge = p.license && p.license !== 'null' && p.license !== 'NOASSERTION'
+      ? `<span class="tag tag-license">${escapeHtml(p.license)}</span>` : '';
+    const sourceBadge = p.source
+      ? `<span class="tag tag-source">${escapeHtml(p.source)}</span>` : '';
+
+    const analysisHtml = p.ai_analysis
+      ? `<div class="card-analysis">
+           <div class="card-analysis-label">AI 深度分析</div>
+           <div>${formatAnalysis(p.ai_analysis)}</div>
+         </div>`
+      : '';
+
+    const repoUrl = escapeHtml(p.url || 'https://github.com/' + p.repo);
+
+    return `
+      <div class="card">
+        <div class="card-index">#${idx + 1}</div>
+        <div class="card-header">
+          <div class="card-repo">
+            <a href="${repoUrl}" target="_blank" rel="noopener">${escapeHtml(p.repo)}</a>
+          </div>
+          <a class="card-link-btn" href="${repoUrl}" target="_blank" rel="noopener">GitHub &rarr;</a>
+        </div>
+        <div class="card-meta">${langHtml}${starsHtml}${todayHtml}${forksHtml}</div>
+        <div class="card-desc">${escapeHtml(p.description || '暂无描述')}</div>
+        ${analysisHtml}
+        <div class="card-tags">${sourceBadge}${licenseBadge}${topicTags}</div>
+      </div>`;
+  }).join('');
+}
+
+loadData();
+</script>
+</body>
+</html>

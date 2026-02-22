@@ -1,0 +1,17 @@
+# 后端脚本（不需要在网页上展示）
+scripts/
+logs/
+backups/
+install.sh
+
+# 数据库（二进制文件，只用JSON）
+data/treasure.db
+data/treasure.db-wal
+data/treasure.db-shm
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

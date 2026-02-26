@@ -218,5 +218,25 @@
   {
     "repo": "bytedance/deer-flow",
     "date": "2026-02-26"
+  },
+  {
+    "repo": "clockworklabs/SpacetimeDB",
+    "date": "2026-02-27"
+  },
+  {
+    "repo": "farion1231/cc-switch",
+    "date": "2026-02-27"
+  },
+  {
+    "repo": "moonshine-ai/moonshine",
+    "date": "2026-02-27"
+  },
+  {
+    "repo": "ruvnet/claude-flow",
+    "date": "2026-02-27"
+  },
+  {
+    "repo": "cloudflare/vinext",
+    "date": "2026-02-27"
   }
 ]

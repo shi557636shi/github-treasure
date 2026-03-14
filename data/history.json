@@ -518,5 +518,9 @@
   {
     "repo": "dolthub/dolt",
     "date": "2026-03-14"
+  },
+  {
+    "repo": "volcengine/OpenViking",
+    "date": "2026-03-15"
   }
 ]

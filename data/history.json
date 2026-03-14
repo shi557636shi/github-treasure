@@ -238,5 +238,285 @@
   {
     "repo": "cloudflare/vinext",
     "date": "2026-02-27"
+  },
+  {
+    "repo": "ruvnet/wifi-densepose",
+    "date": "2026-02-28"
+  },
+  {
+    "repo": "moeru-ai/airi",
+    "date": "2026-02-28"
+  },
+  {
+    "repo": "steipete/CodexBar",
+    "date": "2026-02-28"
+  },
+  {
+    "repo": "tukaani-project/xz",
+    "date": "2026-02-28"
+  },
+  {
+    "repo": "Wei-Shaw/claude-relay-service",
+    "date": "2026-02-28"
+  },
+  {
+    "repo": "ruvnet/ruflo",
+    "date": "2026-03-01"
+  },
+  {
+    "repo": "Shubhamsaboo/awesome-llm-apps",
+    "date": "2026-03-01"
+  },
+  {
+    "repo": "NousResearch/hermes-agent",
+    "date": "2026-03-01"
+  },
+  {
+    "repo": "superset-sh/superset",
+    "date": "2026-03-01"
+  },
+  {
+    "repo": "Wei-Shaw/sub2api",
+    "date": "2026-03-01"
+  },
+  {
+    "repo": "microsoft/markitdown",
+    "date": "2026-03-02"
+  },
+  {
+    "repo": "X-PLUG/MobileAgent",
+    "date": "2026-03-02"
+  },
+  {
+    "repo": "basecamp/omarchy",
+    "date": "2026-03-02"
+  },
+  {
+    "repo": "RightNow-AI/openfang",
+    "date": "2026-03-02"
+  },
+  {
+    "repo": "Polymarket/polymarket-cli",
+    "date": "2026-03-02"
+  },
+  {
+    "repo": "K-Dense-AI/claude-scientific-skills",
+    "date": "2026-03-03"
+  },
+  {
+    "repo": "servo/servo",
+    "date": "2026-03-03"
+  },
+  {
+    "repo": "anthropics/prompt-eng-interactive-tutorial",
+    "date": "2026-03-03"
+  },
+  {
+    "repo": "Lakr233/vphone-cli",
+    "date": "2026-03-03"
+  },
+  {
+    "repo": "ringhyacinth/Star-Office-UI",
+    "date": "2026-03-03"
+  },
+  {
+    "repo": "ruvnet/RuView",
+    "date": "2026-03-04"
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "date": "2026-03-04"
+  },
+  {
+    "repo": "LMCache/LMCache",
+    "date": "2026-03-04"
+  },
+  {
+    "repo": "CodebuffAI/codebuff",
+    "date": "2026-03-04"
+  },
+  {
+    "repo": "agentscope-ai/agentscope",
+    "date": "2026-03-04"
+  },
+  {
+    "repo": "KeygraphHQ/shannon",
+    "date": "2026-03-05"
+  },
+  {
+    "repo": "ItzCrazyKns/Perplexica",
+    "date": "2026-03-05"
+  },
+  {
+    "repo": "agentscope-ai/ReMe",
+    "date": "2026-03-05"
+  },
+  {
+    "repo": "FujiwaraChoki/MoneyPrinterV2",
+    "date": "2026-03-05"
+  },
+  {
+    "repo": "nautechsystems/nautilus_trader",
+    "date": "2026-03-05"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "date": "2026-03-06"
+  },
+  {
+    "repo": "inclusionAI/AReaL",
+    "date": "2026-03-06"
+  },
+  {
+    "repo": "microsoft/mcp-for-beginners",
+    "date": "2026-03-06"
+  },
+  {
+    "repo": "microsoft/hve-core",
+    "date": "2026-03-06"
+  },
+  {
+    "repo": "googleworkspace/cli",
+    "date": "2026-03-06"
+  },
+  {
+    "repo": "openai/skills",
+    "date": "2026-03-07"
+  },
+  {
+    "repo": "aidenybai/react-grab",
+    "date": "2026-03-07"
+  },
+  {
+    "repo": "Ed1s0nZ/CyberStrikeAI",
+    "date": "2026-03-07"
+  },
+  {
+    "repo": "lingfengQAQ/webnovel-writer",
+    "date": "2026-03-07"
+  },
+  {
+    "repo": "paperclipai/paperclip",
+    "date": "2026-03-07"
+  },
+  {
+    "repo": "GoogleCloudPlatform/generative-ai",
+    "date": "2026-03-08"
+  },
+  {
+    "repo": "666ghj/MiroFish",
+    "date": "2026-03-08"
+  },
+  {
+    "repo": "toeverything/AFFiNE",
+    "date": "2026-03-08"
+  },
+  {
+    "repo": "virattt/ai-hedge-fund",
+    "date": "2026-03-08"
+  },
+  {
+    "repo": "alibaba/page-agent",
+    "date": "2026-03-08"
+  },
+  {
+    "repo": "pbakaus/impeccable",
+    "date": "2026-03-09"
+  },
+  {
+    "repo": "teng-lin/notebooklm-py",
+    "date": "2026-03-09"
+  },
+  {
+    "repo": "is-a-dev/register",
+    "date": "2026-03-09"
+  },
+  {
+    "repo": "karpathy/autoresearch",
+    "date": "2026-03-09"
+  },
+  {
+    "repo": "twostraws/SwiftUI-Agent-Skill",
+    "date": "2026-03-09"
+  },
+  {
+    "repo": "666ghj/BettaFish",
+    "date": "2026-03-10"
+  },
+  {
+    "repo": "karpathy/nanochat",
+    "date": "2026-03-10"
+  },
+  {
+    "repo": "Raphire/Win11Debloat",
+    "date": "2026-03-10"
+  },
+  {
+    "repo": "duoan/TorchCode",
+    "date": "2026-03-10"
+  },
+  {
+    "repo": "viperrcrypto/Siftly",
+    "date": "2026-03-10"
+  },
+  {
+    "repo": "promptfoo/promptfoo",
+    "date": "2026-03-11"
+  },
+  {
+    "repo": "sepinf-inc/IPED",
+    "date": "2026-03-11"
+  },
+  {
+    "repo": "HKUDS/CLI-Anything",
+    "date": "2026-03-11"
+  },
+  {
+    "repo": "karpathy/agenthub",
+    "date": "2026-03-11"
+  },
+  {
+    "repo": "jackwener/twitter-cli",
+    "date": "2026-03-11"
+  },
+  {
+    "repo": "AstrBotDevs/AstrBot",
+    "date": "2026-03-12"
+  },
+  {
+    "repo": "fishaudio/fish-speech",
+    "date": "2026-03-12"
+  },
+  {
+    "repo": "langflow-ai/openrag",
+    "date": "2026-03-13"
+  },
+  {
+    "repo": "vectorize-io/hindsight",
+    "date": "2026-03-13"
+  },
+  {
+    "repo": "InsForge/InsForge",
+    "date": "2026-03-13"
+  },
+  {
+    "repo": "google/A2UI",
+    "date": "2026-03-13"
+  },
+  {
+    "repo": "lightpanda-io/browser",
+    "date": "2026-03-14"
+  },
+  {
+    "repo": "public-apis/public-apis",
+    "date": "2026-03-14"
+  },
+  {
+    "repo": "anthropics/claude-plugins-official",
+    "date": "2026-03-14"
+  },
+  {
+    "repo": "dolthub/dolt",
+    "date": "2026-03-14"
   }
 ]

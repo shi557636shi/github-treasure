@@ -1,6 +1,77 @@
 {
-  "generated_at": "2026-03-15T20:04:41.798323",
+  "generated_at": "2026-03-16T01:52:39.269969",
   "days": [
+    {
+      "date": "2026-03-16",
+      "ai_report": "GitHub 宝藏日报 | 2026-03-16\n\n🔥 1. shanraisshan/claude-code-best-practice（16.6k星 (今日+852)）\n   [HTML] practice made claude perfect\n   https://github.com/shanraisshan/claude-code-best-practice\n\n⚡ 2. topoteretes/cognee（13.7k星 (今日+310)）\n   [Python] Knowledge Engine for AI Agent Memory in 6 lines of code\n   https://github.com/topoteretes/cognee\n\n💎 3. voidzero-dev/vite-plus（1.5k星 (今日+301)）\n   [Rust] Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.\n   https://github.com/voidzero-dev/vite-plus\n\n🚀 4. Crosstalk-Solutions/project-nomad（837星 (今日+241)）\n   [TypeScript] Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—any\n   https://github.com/Crosstalk-Solutions/project-nomad\n\n---\n从 GitHub Trending + 定向搜索精选，30天去重",
+      "project_count": 4,
+      "projects": [
+        {
+          "date": "2026-03-16",
+          "repo": "shanraisshan/claude-code-best-practice",
+          "description": "practice made claude perfect",
+          "language": "HTML",
+          "stars": 16648,
+          "today_stars": 852,
+          "score": 2567.442724134407,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/shanraisshan/claude-code-best-practice",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-03-16",
+          "repo": "topoteretes/cognee",
+          "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
+          "language": "Python",
+          "stars": 13745,
+          "today_stars": 310,
+          "score": 941.276289488359,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/topoteretes/cognee",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-03-16",
+          "repo": "voidzero-dev/vite-plus",
+          "description": "Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.",
+          "language": "Rust",
+          "stars": 1521,
+          "today_stars": 301,
+          "score": 912.364258428106,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/voidzero-dev/vite-plus",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-03-16",
+          "repo": "Crosstalk-Solutions/project-nomad",
+          "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+          "language": "TypeScript",
+          "stars": 837,
+          "today_stars": 241,
+          "score": 731.8454509159865,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+          "ai_analysis": ""
+        }
+      ]
+    },
     {
       "date": "2026-03-15",
       "ai_report": "GitHub 宝藏日报 | 2026-03-15\n\n🧠 1. volcengine/OpenViking\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 专为AI Agent设计的上下文数据库，统一管理记忆、资源和技能\n🎯 对用户的具体价值\n- astro-finance项目：可以让你的占星金融预测Agent记住历史分析结果、行星周期数据，形成长期记忆，提升预测的连续性\n- OpenClaw项目：能给远程控制Agent添加上下文记忆，记住常用操作序列、用户偏好设置，实现更智能的自动化\n- 小红书占星运营：可以构建内容运营Agent，记住爆款选题、用户互动历史、发文规律，自动优化发布策略\n\n📊 今日总结\n- 直接能用：如果你的astro-finance或小红书运营已经在用Agent，OpenViking可以直接接入，解决记忆管理的痛点\n- 值得研究：看看它的记忆、资源、技能三层架构能不能用到OpenClaw的指令序列管理上\n- 先收藏：等你的返厂统计分析系统需要加智能助手功能时，这个数据库架构值得参考",

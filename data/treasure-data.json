@@ -1,6 +1,45 @@
 {
-  "generated_at": "2026-03-16T20:00:05.222257",
+  "generated_at": "2026-03-17T00:07:58.751860",
   "days": [
+    {
+      "date": "2026-03-17",
+      "ai_report": "GitHub 宝藏日报 | 2026-03-17\n\n🤖 1. langchain-ai/deepagents\n⭐ 活跃项目 | 🔤 Python | 📄 MIT\n💡 LangChain官方出品的智能体框架，能让AI自己规划任务、操作文件、生成子代理\n🎯 对你有用：astro-finance预测系统可以接入这个框架，让AI自动处理数据分析任务；返厂统计系统的FastAPI后端也能用它做自动化报告生成。文件操作能力特别适合批量处理占星数据文件。\n\n📝 2. YishenTu/claudian\n⭐ 新鲜出炉 | 🔤 TypeScript | 📄 MIT\n💡 把Claude Code直接装进Obsidian笔记里，边写笔记边调AI写代码\n🎯 对你有用：做小红书占星内容运营时，可以在Obsidian里整理星盘解读思路，同时让Claude帮你生成配套的Python分析脚本或数据可视化代码。OpenClaw项目的文档也能在笔记里直接调试代码片段。\n\n📊 今日总结\n- 直接能用：claudian插件装上就能在笔记软件里写代码，适合边整理占星知识边开发工具\n- 值得研究：deepagents的子代理生成机制，可以改造成astro-finance里的多策略并行回测系统\n- 先收藏：deepagents的规划能力，等返厂统计系统做到自动生成分析报告时再深入",
+      "project_count": 2,
+      "projects": [
+        {
+          "date": "2026-03-17",
+          "repo": "langchain-ai/deepagents",
+          "description": "LangChain构建的智能体框架,支持规划、文件系统和子代理生成",
+          "language": "Python",
+          "stars": 12444,
+          "today_stars": 1238,
+          "score": 3725.1899200048733,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/langchain-ai/deepagents",
+          "ai_analysis": "【是什么】基于LangChain/LangGraph的复杂任务智能体编排框架,具备规划工具和多代理协同能力\n【技术亮点】原生支持subagent spawning、filesystem backend持久化、planning tool增强决策能力,架构与LangGraph深度集成\n【对你的价值】可直接应用于返厂统计系统的智能分析模块,用多代理协同处理复杂数据pipeline;占星金融预测可用其规划工具拆解多步推理(行星周期→市场指标→预测输出);FastAPI后端可集成其agent作为智能助手\n【推荐指数】★★★★☆ 技术栈匹配度高(Python+LangChain生态),但需评估与现有FastAPI架构的集成成本,适合作为智能决策层补充"
+        },
+        {
+          "date": "2026-03-17",
+          "repo": "YishenTu/claudian",
+          "description": "将Claude Code嵌入Obsidian笔记的AI协作插件",
+          "language": "TypeScript",
+          "stars": 4040,
+          "today_stars": 109,
+          "score": 337.2127627302212,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/YishenTu/claudian",
+          "ai_analysis": "【是什么】Obsidian插件,在笔记库中直接调用Claude Code进行代码生成和AI辅助\n【对你的价值】适合小红书运营的内容创作场景,可在Obsidian中管理占星知识库+AI生成推文;OpenClaw项目文档可用其做技术笔记的智能问答;但对返厂系统等工程项目帮助有限,更偏向知识管理而非开发工具链\n【推荐指数】★★★☆☆ 适合内容创作者做知识沉淀,但你的核心场景是系统开发和数据分析,TypeScript插件开发优先级较低,除非重度依赖Obsidian做占星内容运营"
+        }
+      ]
+    },
     {
       "date": "2026-03-16",
       "ai_report": "GitHub 宝藏日报 | 2026-03-16\n\n🔥 1. shanraisshan/claude-code-best-practice（16.6k星 (今日+852)）\n   [HTML] practice made claude perfect\n   https://github.com/shanraisshan/claude-code-best-practice\n\n⚡ 2. topoteretes/cognee（13.7k星 (今日+310)）\n   [Python] Knowledge Engine for AI Agent Memory in 6 lines of code\n   https://github.com/topoteretes/cognee\n\n💎 3. voidzero-dev/vite-plus（1.5k星 (今日+301)）\n   [Rust] Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.\n   https://github.com/voidzero-dev/vite-plus\n\n🚀 4. Crosstalk-Solutions/project-nomad（837星 (今日+241)）\n   [TypeScript] Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—any\n   https://github.com/Crosstalk-Solutions/project-nomad\n\n---\n从 GitHub Trending + 定向搜索精选，30天去重",

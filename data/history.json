@@ -538,5 +538,13 @@
   {
     "repo": "Crosstalk-Solutions/project-nomad",
     "date": "2026-03-16"
+  },
+  {
+    "repo": "langchain-ai/deepagents",
+    "date": "2026-03-17"
+  },
+  {
+    "repo": "YishenTu/claudian",
+    "date": "2026-03-17"
   }
 ]

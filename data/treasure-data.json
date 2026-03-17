@@ -1,6 +1,61 @@
 {
-  "generated_at": "2026-03-17T20:00:01.122172",
+  "generated_at": "2026-03-18T00:09:49.209961",
   "days": [
+    {
+      "date": "2026-03-18",
+      "ai_report": "GitHub 宝藏日报 | 2026-03-18\n\n🎓 1. codecrafters-io/build-your-own-x\n⭐ 高星项目 | 🔤 多语言 | 📄 开源\n💡 一步步教你从零撸出 Git、Docker、Redis 等经典工具的实战教程合集\n🎯 返厂统计分析系统可以参考里面\"从零实现 Web Server\"和\"数据库\"的章节，理解 FastAPI 底层原理；OpenClaw 远程控制如果要优化性能，可以看\"实现自己的网络协议\"部分\n\n🔧 2. cloudflare/workerd\n⭐ 高星项目 | 🔤 C++ | 📄 Apache-2.0\n💡 Cloudflare Workers 的运行时引擎，能在边缘节点跑 JS 和 WebAssembly\n🎯 astro-finance 占星预测如果要做全球化部署，用这个能把 API 部署到离用户最近的节点，降低延迟；返厂系统的 API 也能用边缘计算加速海外访问\n\n📊 3. jarrodwatts/claude-hud\n⭐ 新项目 | 🔤 TypeScript | 📄 MIT\n💡 给 Claude Code 加个实时监控面板，看 token 消耗、请求次数、运行状态\n🎯 你现在就在用 Claude，装这个插件能直观看到每次对话花了多少 token，对控制 API 成本有帮助；如果要给小红书粉丝做占星 AI 助手，这个能监控调用量\n\n📊 今日总结\n- 直接能用：claude-hud 装上就能监控 Claude 使用情况，workerd 可以试试部署 astro-finance 的预测 API\n- 值得研究：build-your-own-x 里的 Web Server 和数据库章节，能让返厂系统的架构设计更扎实\n- 先收藏：workerd 的边缘计算能力，等 OpenClaw 或占星项目要做全球部署时再深入",
+      "project_count": 3,
+      "projects": [
+        {
+          "date": "2026-03-18",
+          "repo": "codecrafters-io/build-your-own-x",
+          "description": "从零实现经典技术项目的编程学习指南",
+          "language": "Markdown",
+          "stars": 479325,
+          "today_stars": 2011,
+          "score": 6047.361260161881,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/codecrafters-io/build-your-own-x",
+          "ai_analysis": "【是什么】汇集各类技术项目的从零实现教程合集，涵盖数据库、编译器、Web服务器等\n【技术亮点】精选优质教程资源，按技术类型分类整理，提供动手实践路径\n【对你的价值】对FastAPI+React项目可学习Web框架底层原理；占星金融系统可参考数据库实现；OpenClaw可学习网络协议；整体提升技术深度\n【推荐指数】★★★★☆ 适合进阶学习但需要时间投入，对当前业务帮助偏理论"
+        },
+        {
+          "date": "2026-03-18",
+          "repo": "jarrodwatts/claude-hud",
+          "description": "Claude Code可视化监控插件",
+          "language": "JavaScript",
+          "stars": 5329,
+          "today_stars": 454,
+          "score": 1372.4532914404817,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/jarrodwatts/claude-hud",
+          "ai_analysis": "【是什么】实时显示Claude Code运行状态的HUD插件，监控上下文、工具调用、Agent和任务进度\n【技术亮点】JavaScript实现的轻量级监控面板，实时追踪AI编程助手工作流\n【对你的价值】直接提升当前开发效率！监控AI辅助开发过程，优化FastAPI/React项目开发流程；追踪OpenClaw复杂交互实现；了解AI工具使用模式\n【推荐指数】★★★★★ 立即可用，直接提升AI辅助开发的透明度和效率，强烈推荐安装"
+        },
+        {
+          "date": "2026-03-18",
+          "repo": "cloudflare/workerd",
+          "description": "Cloudflare Workers的JS/Wasm运行时",
+          "language": "C++",
+          "stars": 7703,
+          "today_stars": 21,
+          "score": 73.7733197957224,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/cloudflare/workerd",
+          "ai_analysis": "【是什么】Cloudflare边缘计算平台的核心运行时引擎，支持JavaScript和WebAssembly\n【技术亮点】高性能C++实现，V8隔离技术，边缘计算架构，毫秒级冷启动\n【对你的价值】占星金融API可部署到边缘节点降低延迟；FastAPI项目可考虑迁移到Serverless架构降本增效；小红书运营可用边缘计算做内容分发\n【推荐指数】★★★☆☆ 技术先进但迁移成本高，更适合新项目从零开始采用"
+        }
+      ]
+    },
     {
       "date": "2026-03-17",
       "ai_report": "GitHub 宝藏日报 | 2026-03-17\n\n🤖 1. langchain-ai/deepagents\n⭐ 活跃项目 | 🔤 Python | 📄 MIT\n💡 LangChain官方出品的智能体框架，能让AI自己规划任务、操作文件、生成子代理\n🎯 对你有用：astro-finance预测系统可以接入这个框架，让AI自动处理数据分析任务；返厂统计系统的FastAPI后端也能用它做自动化报告生成。文件操作能力特别适合批量处理占星数据文件。\n\n📝 2. YishenTu/claudian\n⭐ 新鲜出炉 | 🔤 TypeScript | 📄 MIT\n💡 把Claude Code直接装进Obsidian笔记里，边写笔记边调AI写代码\n🎯 对你有用：做小红书占星内容运营时，可以在Obsidian里整理星盘解读思路，同时让Claude帮你生成配套的Python分析脚本或数据可视化代码。OpenClaw项目的文档也能在笔记里直接调试代码片段。\n\n📊 今日总结\n- 直接能用：claudian插件装上就能在笔记软件里写代码，适合边整理占星知识边开发工具\n- 值得研究：deepagents的子代理生成机制，可以改造成astro-finance里的多策略并行回测系统\n- 先收藏：deepagents的规划能力，等返厂统计系统做到自动生成分析报告时再深入",

@@ -546,5 +546,17 @@
   {
     "repo": "YishenTu/claudian",
     "date": "2026-03-17"
+  },
+  {
+    "repo": "codecrafters-io/build-your-own-x",
+    "date": "2026-03-18"
+  },
+  {
+    "repo": "jarrodwatts/claude-hud",
+    "date": "2026-03-18"
+  },
+  {
+    "repo": "cloudflare/workerd",
+    "date": "2026-03-18"
   }
 ]

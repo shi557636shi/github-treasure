@@ -1,6 +1,61 @@
 {
-  "generated_at": "2026-03-18T20:00:05.697819",
+  "generated_at": "2026-03-19T00:11:33.262991",
   "days": [
+    {
+      "date": "2026-03-19",
+      "ai_report": "GitHub 宝藏日报 | 2026-03-19\n\n🔥 1. unslothai/unsloth\n⭐ 大量star | 🔤 Python | 📄 Apache-2.0\n💡 本地训练Qwen/DeepSeek等开源模型的统一Web界面\n🎯 你做小红书占星运营,可以用它本地微调Qwen模型,训练一个懂占星话术的AI助手,自动生成星座文案。比调用API省钱,数据还不外泄。\n\n🎮 2. shadps4-emu/shadPS4\n⭐ 中等star | 🔤 C++ | 📄 GPL-2.0\n💡 跨平台PS4模拟器,能在Mac/Windows上跑PS4游戏\n🎯 跟你的远程Mac控制项目(OpenClaw)思路接近,都是跨平台控制。可以研究它的C++跨平台架构设计和远程渲染方案,借鉴到OpenClaw的Mac画面传输优化上。\n\n🤖 3. langchain-ai/open-swe\n⭐ 较高star | 🔤 Python | 📄 MIT\n💡 基于LangChain的开源异步编程Agent,能自动写代码改bug\n🎯 你的返厂统计分析系统(FastAPI+React)后续加功能时,可以让这个Agent帮你写数据统计接口和React组件。还能用在astro-finance项目里,让AI自动生成金融数据清洗脚本。\n\n📊 今日总结\n- 直接能用: unsloth微调占星模型给小红书运营用,open-swe生成FastAPI接口代码\n- 值得研究: shadPS4的跨平台架构能优化OpenClaw的远程控制性能\n- 先收藏: open-swe的异步Agent模式,等astro-finance数据量大了再接入自动化分析",
+      "project_count": 3,
+      "projects": [
+        {
+          "date": "2026-03-19",
+          "repo": "unslothai/unsloth",
+          "description": "本地训练Qwen/DeepSeek等开源模型的统一Web界面",
+          "language": "Python",
+          "stars": 55430,
+          "today_stars": 975,
+          "score": 2937.487489757185,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/unslothai/unsloth",
+          "ai_analysis": "【是什么】提供可视化界面用于在本地微调和运行Qwen、DeepSeek等大语言模型\n【技术亮点】统一UI降低LLM微调门槛，支持多种主流开源模型，本地化部署保护数据隐私\n【对你的价值】占星金融预测可用它微调专属模型（训练占星-金融关联数据），小红书运营可训练个性化文案生成模型，FastAPI项目可集成本地AI能力避免API成本\n【推荐指数】★★★★★ 核心工具级项目，55k星证明成熟度，与你的AI应用场景高度契合"
+        },
+        {
+          "date": "2026-03-19",
+          "repo": "shadps4-emu/shadPS4",
+          "description": "跨平台PS4模拟器(C++开发)",
+          "language": "C++",
+          "stars": 29683,
+          "today_stars": 683,
+          "score": 2060.9450155841578,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/shadps4-emu/shadPS4",
+          "ai_analysis": "【是什么】用C++编写的PlayStation 4游戏模拟器，支持Windows/Linux/macOS\n【技术亮点】跨平台底层模拟技术，29k星的高性能C++架构实现\n【对你的价值】与你的业务方向无直接关联，但若对底层系统编程、跨平台架构感兴趣可作学习参考（OpenClaw的Mac控制也涉及跨平台底层技术）\n【推荐指数】★★☆☆☆ 技术有趣但业务关联度低，除非拓展游戏相关副业"
+        },
+        {
+          "date": "2026-03-19",
+          "repo": "langchain-ai/open-swe",
+          "description": "开源异步编程Agent(基于LangChain)",
+          "language": "Python",
+          "stars": 6032,
+          "today_stars": 454,
+          "score": 1372.5609226657234,
+          "source": "trending",
+          "topics": [],
+          "forks": 0,
+          "license": "",
+          "homepage": "",
+          "url": "https://github.com/langchain-ai/open-swe",
+          "ai_analysis": "【是什么】LangChain官方推出的异步AI编程助手，自动化处理代码任务\n【技术亮点】异步架构提升效率，LangChain生态加持，Agent自主决策能力\n【对你的价值】可集成到返厂统计系统实现智能代码生成/审查，加速FastAPI后端开发；OpenClaw项目可用Agent自动化测试；占星数据分析可让Agent辅助编写计算逻辑\n【推荐指数】★★★★☆ 实用开发工具，能直接提升编码效率，但需评估引入LangChain的复杂度成本"
+        }
+      ]
+    },
     {
       "date": "2026-03-18",
       "ai_report": "GitHub 宝藏日报 | 2026-03-18\n\n🎓 1. codecrafters-io/build-your-own-x\n⭐ 高星项目 | 🔤 多语言 | 📄 开源\n💡 一步步教你从零撸出 Git、Docker、Redis 等经典工具的实战教程合集\n🎯 返厂统计分析系统可以参考里面\"从零实现 Web Server\"和\"数据库\"的章节，理解 FastAPI 底层原理；OpenClaw 远程控制如果要优化性能，可以看\"实现自己的网络协议\"部分\n\n🔧 2. cloudflare/workerd\n⭐ 高星项目 | 🔤 C++ | 📄 Apache-2.0\n💡 Cloudflare Workers 的运行时引擎，能在边缘节点跑 JS 和 WebAssembly\n🎯 astro-finance 占星预测如果要做全球化部署，用这个能把 API 部署到离用户最近的节点，降低延迟；返厂系统的 API 也能用边缘计算加速海外访问\n\n📊 3. jarrodwatts/claude-hud\n⭐ 新项目 | 🔤 TypeScript | 📄 MIT\n💡 给 Claude Code 加个实时监控面板，看 token 消耗、请求次数、运行状态\n🎯 你现在就在用 Claude，装这个插件能直观看到每次对话花了多少 token，对控制 API 成本有帮助；如果要给小红书粉丝做占星 AI 助手，这个能监控调用量\n\n📊 今日总结\n- 直接能用：claude-hud 装上就能监控 Claude 使用情况，workerd 可以试试部署 astro-finance 的预测 API\n- 值得研究：build-your-own-x 里的 Web Server 和数据库章节，能让返厂系统的架构设计更扎实\n- 先收藏：workerd 的边缘计算能力，等 OpenClaw 或占星项目要做全球部署时再深入",

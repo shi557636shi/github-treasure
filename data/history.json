@@ -558,5 +558,17 @@
   {
     "repo": "cloudflare/workerd",
     "date": "2026-03-18"
+  },
+  {
+    "repo": "unslothai/unsloth",
+    "date": "2026-03-19"
+  },
+  {
+    "repo": "shadps4-emu/shadPS4",
+    "date": "2026-03-19"
+  },
+  {
+    "repo": "langchain-ai/open-swe",
+    "date": "2026-03-19"
   }
 ]

@@ -570,5 +570,25 @@
   {
     "repo": "langchain-ai/open-swe",
     "date": "2026-03-19"
+  },
+  {
+    "repo": "gsd-build/get-shit-done",
+    "date": "2026-03-20"
+  },
+  {
+    "repo": "opendataloader-project/opendataloader-pdf",
+    "date": "2026-03-20"
+  },
+  {
+    "repo": "louis-e/arnis",
+    "date": "2026-03-20"
+  },
+  {
+    "repo": "mobile-dev-inc/Maestro",
+    "date": "2026-03-20"
+  },
+  {
+    "repo": "newton-physics/newton",
+    "date": "2026-03-20"
   }
 ]

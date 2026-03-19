@@ -1,6 +1,137 @@
 {
-  "generated_at": "2026-03-19T20:00:04.981493",
+  "generated_at": "2026-03-20T03:34:43.505146",
   "days": [
+    {
+      "date": "2026-03-20",
+      "ai_report": "GitHub 宝藏日报 | 2026-03-20\n\n🚀 1. get-shit-done（35.8k星）\n是什么：一个专门为 Claude Code 设计的元提示和上下文工程系统，能让 AI 编程助手更高效地理解需求、生成代码。\n\n对你的价值：你现在做的返厂统计分析系统正好是 FastAPI+React 技术栈，这个工具能大幅提升你用 AI 写代码的效率。尤其是业务逻辑复杂的数据分析模块，用好上下文工程能让 Claude 更准确理解你的需求，减少返工。占星金融预测的算法开发也能用上。\n\n值得关注吗：强烈推荐。今日暴涨1400星说明质量过硬，而且你本来就在用 Claude Code，这个工具能直接提升你的开发效率，属于立刻能用上的生产力工具。\n\n📄 2. opendataloader-pdf（5.3k星）\n是什么：把 PDF 文件自动解析成 AI 可以直接处理的数据格式，支持提取文本、表格、图片位置等结构化信息。\n\n对你的价值：返厂统计分析系统如果涉及处理设备报告、供应商文档这类 PDF，这个工具能省掉大量手工录入。更关键的是占星金融预测场景，很多金融报表、研报都是 PDF 格式，用这个解析后能直接喂给 AI 做分析，结合星象数据形成更完整的预测模型。\n\n值得关注吗：值得收藏。虽然不是核心工具，但在数据采集环节能解决实际痛点，尤其你做金融数据分析，PDF 解析是绕不开的需求。\n\n🎮 3. arnis（10.6k星）\n是什么：用 Rust 写的工具，能把真实世界的任何地点高精度还原到 Minecraft 里，基于 OpenStreetMap 地图数据。\n\n对你的价值：坦白说跟你现在的项目关系不大。不过如果未来小红书运营想做占星内容创意，比如\"用 Minecraft 重建你的星盘宫位\"这类脑洞营销，倒是个有意思的素材来源。或者飞书远程控制项目如果要做 demo 演示，也能用这个生成点视觉冲击力强的场景。\n\n值得关注吗：纯技术收藏。短期用不上，但 Rust 性能优化和地图数据处理的思路可以参考，尤其你做数据分析系统时处理地理位置相关数据。\n\n📱 4. Maestro（12.4k星）\n是什么：专门做移动端和 Web 自动化测试的工具，支持 Android/iOS，号称\"无痛\"的黑盒测试方案。\n\n对你的价值：返厂统计分析系统的前端测试能用上，React 界面的自动化测试用这个能省不少人力。更直接的是小红书运营场景，如果你在批量管理账号或者做内容发布自动化，Maestro 能模拟真人操作流程，测试发布流程的稳定性。OpenClaw 远程控制 Mac 项目如果需要测试跨平台兼容性，也能派上用场。\n\n值得关注吗：推荐上手。12.4k 星的成熟项目，文档肯定完善，你的三个开发项目都能用到自动化测试，尤其小红书运营的批量操作场景特别适合。\n\n⚙️ 5. newton（3.2k星）\n是什么：基于 NVIDIA GPU 加速的物理仿真引擎，专门给机器人研究和仿真场景用，用 Python 写的很好上手。\n\n对你的价值：这个比较偏门，跟你现有项目直接关系不大。但如果占星金融预测想做天体运行的可视化模拟（比如行星轨道对金融周期的影响），GPU 加速的物理引擎理论上能派上用场。不过这属于比较远期的脑洞应用了。\n\n值得关注吗：可以先收藏观望。现阶段优先级不高，但如果未来占星项目要做复杂的天体力学计算或可视化，这个 Python 生态的 GPU 加速方案会比从零搭建省很多事。\n\n总结来看：get-shit-done 和 Maestro 是直接能用的生产力工具，前者提升你的 AI 开发效率，后者解决测试自动化痛点，建议优先上手。opendataloader-pdf 在金融数据采集场景能解决实际问题，属于间接有用的工具型项目。arnis 和 newton 偏技术探索，短期用不上但思路有参考价值，收藏备用就好。如果只选一个马上试用，选 get-shit-done，能立刻提升你现在的开发体验。",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-03-20",
+          "repo": "gsd-build/get-shit-done",
+          "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+          "language": "JavaScript",
+          "stars": 35848,
+          "today_stars": 1414,
+          "score": 4254.10892986181,
+          "source": "trending",
+          "topics": [
+            "claude-code",
+            "context-engineering",
+            "meta-prompting",
+            "spec-driven-development"
+          ],
+          "forks": 2939,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/gsd-build/get-shit-done",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-03-20",
+          "repo": "opendataloader-project/opendataloader-pdf",
+          "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+          "language": "Java",
+          "stars": 5317,
+          "today_stars": 1394,
+          "score": 4192.451333320629,
+          "source": "trending",
+          "topics": [
+            "a11y",
+            "accessibility",
+            "ai",
+            "bounding-box",
+            "document-parsing",
+            "eaa",
+            "html",
+            "json",
+            "markdown",
+            "ocr",
+            "ocr-recognition",
+            "pdf",
+            "pdf-accessibility",
+            "pdf-converter",
+            "pdf-extraction",
+            "pdf-parser",
+            "pdf-ua",
+            "rag",
+            "tables",
+            "tagged-pdf"
+          ],
+          "forks": 388,
+          "license": "Apache-2.0",
+          "homepage": "https://opendataloader.org",
+          "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-03-20",
+          "repo": "louis-e/arnis",
+          "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+          "language": "Rust",
+          "stars": 10573,
+          "today_stars": 918,
+          "score": 2765.0483964644136,
+          "source": "trending",
+          "topics": [
+            "maps",
+            "minecraft",
+            "openstreetmap",
+            "osm",
+            "overpass-api",
+            "rust",
+            "tauri"
+          ],
+          "forks": 955,
+          "license": "Apache-2.0",
+          "homepage": "https://arnismc.com/",
+          "url": "https://github.com/louis-e/arnis",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-03-20",
+          "repo": "mobile-dev-inc/Maestro",
+          "description": "Painless E2E Automation for Mobile and Web",
+          "language": "Kotlin",
+          "stars": 12358,
+          "today_stars": 468,
+          "score": 1415.1838963817572,
+          "source": "trending",
+          "topics": [
+            "android",
+            "blackbox-testing",
+            "ios",
+            "ui-automation"
+          ],
+          "forks": 701,
+          "license": "Apache-2.0",
+          "homepage": "https://maestro.dev",
+          "url": "https://github.com/mobile-dev-inc/Maestro",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-03-20",
+          "repo": "newton-physics/newton",
+          "description": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
+          "language": "Python",
+          "stars": 3176,
+          "today_stars": 345,
+          "score": 1045.00376098751,
+          "source": "trending",
+          "topics": [
+            "newton-physics",
+            "nvidia-warp",
+            "physics-simulation",
+            "robotics"
+          ],
+          "forks": 341,
+          "license": "Apache-2.0",
+          "homepage": "https://newton-physics.github.io/newton/",
+          "url": "https://github.com/newton-physics/newton",
+          "ai_analysis": ""
+        }
+      ]
+    },
     {
       "date": "2026-03-19",
       "ai_report": "GitHub 宝藏日报 | 2026-03-19\n\n🔥 1. unslothai/unsloth\n⭐ 大量star | 🔤 Python | 📄 Apache-2.0\n💡 本地训练Qwen/DeepSeek等开源模型的统一Web界面\n🎯 你做小红书占星运营,可以用它本地微调Qwen模型,训练一个懂占星话术的AI助手,自动生成星座文案。比调用API省钱,数据还不外泄。\n\n🎮 2. shadps4-emu/shadPS4\n⭐ 中等star | 🔤 C++ | 📄 GPL-2.0\n💡 跨平台PS4模拟器,能在Mac/Windows上跑PS4游戏\n🎯 跟你的远程Mac控制项目(OpenClaw)思路接近,都是跨平台控制。可以研究它的C++跨平台架构设计和远程渲染方案,借鉴到OpenClaw的Mac画面传输优化上。\n\n🤖 3. langchain-ai/open-swe\n⭐ 较高star | 🔤 Python | 📄 MIT\n💡 基于LangChain的开源异步编程Agent,能自动写代码改bug\n🎯 你的返厂统计分析系统(FastAPI+React)后续加功能时,可以让这个Agent帮你写数据统计接口和React组件。还能用在astro-finance项目里,让AI自动生成金融数据清洗脚本。\n\n📊 今日总结\n- 直接能用: unsloth微调占星模型给小红书运营用,open-swe生成FastAPI接口代码\n- 值得研究: shadPS4的跨平台架构能优化OpenClaw的远程控制性能\n- 先收藏: open-swe的异步Agent模式,等astro-finance数据量大了再接入自动化分析",

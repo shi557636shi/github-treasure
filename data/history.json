@@ -1,65 +1,5 @@
 [
   {
-    "repo": "openclaw/openclaw",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "alibaba/zvec",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "p-e-w/heretic",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "hummingbot/hummingbot",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "obra/superpowers",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "HailToDodongo/pyrite64",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "p2r3/convert",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "harvard-edge/cs249r_book",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "OpenCTI-Platform/opencti",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "NirDiamant/RAG_Techniques",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "QwenLM/qwen-code",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "ComposioHQ/composio",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "zeroclaw-labs/zeroclaw",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "bwya77/vscode-dark-islands",
-    "date": "2026-02-18"
-  },
-  {
-    "repo": "HKUDS/ClawWork",
-    "date": "2026-02-18"
-  },
-  {
     "repo": "millionco/react-doctor",
     "date": "2026-02-19"
   },
@@ -590,5 +530,25 @@
   {
     "repo": "newton-physics/newton",
     "date": "2026-03-20"
+  },
+  {
+    "repo": "vas3k/TaxHacker",
+    "date": "2026-03-21"
+  },
+  {
+    "repo": "openrocket/openrocket",
+    "date": "2026-03-21"
+  },
+  {
+    "repo": "NVIDIA/NemoClaw",
+    "date": "2026-03-21"
+  },
+  {
+    "repo": "aiming-lab/AutoResearchClaw",
+    "date": "2026-03-21"
+  },
+  {
+    "repo": "MoonshotAI/Attention-Residuals",
+    "date": "2026-03-21"
   }
 ]

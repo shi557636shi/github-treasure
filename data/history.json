@@ -1,25 +1,5 @@
 [
   {
-    "repo": "millionco/react-doctor",
-    "date": "2026-02-19"
-  },
-  {
-    "repo": "vercel-labs/portless",
-    "date": "2026-02-19"
-  },
-  {
-    "repo": "mickamy/sql-tap",
-    "date": "2026-02-19"
-  },
-  {
-    "repo": "HKUDS/FastCode",
-    "date": "2026-02-19"
-  },
-  {
-    "repo": "Zaneham/BarraCUDA",
-    "date": "2026-02-19"
-  },
-  {
     "repo": "RichardAtCT/claude-code-telegram",
     "date": "2026-02-20"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "MoonshotAI/Attention-Residuals",
     "date": "2026-03-21"
+  },
+  {
+    "repo": "systemd/systemd",
+    "date": "2026-03-22"
+  },
+  {
+    "repo": "protocolbuffers/protobuf",
+    "date": "2026-03-22"
+  },
+  {
+    "repo": "HKUDS/ClawTeam",
+    "date": "2026-03-22"
+  },
+  {
+    "repo": "VoltAgent/awesome-codex-subagents",
+    "date": "2026-03-22"
+  },
+  {
+    "repo": "lcoutodemos/clui-cc",
+    "date": "2026-03-22"
   }
 ]

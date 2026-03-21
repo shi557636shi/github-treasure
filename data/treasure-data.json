@@ -1,6 +1,117 @@
 {
-  "generated_at": "2026-03-21T20:00:00.148522",
+  "generated_at": "2026-03-22T00:08:54.989007",
   "days": [
+    {
+      "date": "2026-03-22",
+      "ai_report": "GitHub 宝藏日报 | 2026-03-22\n\n🔧 1. protocolbuffers/protobuf\n⭐ 67.8k stars | 🔤 C++ | 📄 BSD-3-Clause\n💡 Google出品的跨语言数据序列化协议，比JSON快5倍省空间\n🎯 你的返厂统计分析系统如果数据量大，用protobuf替换JSON能大幅提升前后端传输效率；OpenClaw的飞书远程控制场景下，传输屏幕数据和指令用这个能降低延迟\n\n⚙️ 2. systemd/systemd\n⭐ 14.2k stars | 🔤 C | 📄 GPL-2.0\n💡 Linux系统的核心服务管理器，控制所有后台进程\n🎯 你的FastAPI返厂系统部署到Linux服务器时，用systemd管理进程比nohup靠谱得多，崩了自动重启、日志统一管理；astro-finance的定时预测任务也能直接用systemd.timer替代cron\n\n🤖 3. HKUDS/ClawTeam\n⭐ 新项目 | 🔤 Python | 📄 MIT\n💡 多智能体协作系统，一条命令从需求分析到代码测试全自动\n🎯 跟你的OpenClaw项目名字撞了，但这个是编程助手。适合快速搭建占星金融预测的新模型实验，让AI帮你写数据处理pipeline\n\n📚 4. VoltAgent/awesome-codex-subagents\n⭐ 收藏向 | 🔤 文档 | 📄 MIT\n💡 130+个垂直领域编程代理合集，前端/数据库/测试都有\n🎯 你做FastAPI+React项目时，直接调专门的数据库优化agent或React组件agent，比自己调通用GPT效率高；小红书运营如果要批量生成占星文案，里面的content-generator也能用\n\n💻 5. lcoutodemos/clui-cc\n⭐ 工具向 | 🔤 TypeScript | 📄 MIT\n💡 给Claude Code加命令行交互界面，让AI编程更顺手\n🎯 你现在用的就是Claude Code，装这个能提升体验；尤其调试OpenClaw的飞书API或者改返厂系统的React组件时，命令历史、快捷操作都更方便\n\n📊 今日总结\n- 直接能用：systemd管理你的FastAPI服务，protobuf优化返厚系统数据传输\n- 值得研究：ClawTeam的多智能体架构，看能不能用到占星预测的自动化分析流程\n- 先收藏：awesome-codex-subagents留着，下次写小红书批量发文工具或者优化React组件时翻",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-03-22",
+          "repo": "systemd/systemd",
+          "description": "Linux系统的init系统和服务管理器",
+          "language": "C",
+          "stars": 15618,
+          "today_stars": 112,
+          "score": 347.38725083698574,
+          "source": "trending",
+          "topics": [
+            "c",
+            "init",
+            "linux",
+            "services",
+            "system",
+            "systemd"
+          ],
+          "forks": 4340,
+          "license": "GPL-2.0",
+          "homepage": "https://systemd.io",
+          "url": "https://github.com/systemd/systemd",
+          "ai_analysis": "【是什么】现代Linux发行版的核心系统管理守护进程，负责启动、管理服务和系统资源\n【技术亮点】并行启动服务、按需激活、cgroup资源管理、日志集中管理(journald)、socket激活\n【对你的价值】★☆☆☆☆ 纯底层Linux系统组件，与你的占星、远程控制、Web应用等业务完全无关；除非要在Linux服务器部署时写systemd服务文件\n【推荐指数】⭐ 系统级工具，对应用开发者价值极低"
+        },
+        {
+          "date": "2026-03-22",
+          "repo": "protocolbuffers/protobuf",
+          "description": "Google开发的高性能跨语言数据序列化协议",
+          "language": "C++",
+          "stars": 70907,
+          "today_stars": 7,
+          "score": 33.70137822244821,
+          "source": "trending",
+          "topics": [
+            "marshalling",
+            "protobuf",
+            "protobuf-runtime",
+            "protoc",
+            "protocol-buffers",
+            "protocol-compiler",
+            "rpc",
+            "serialization"
+          ],
+          "forks": 16081,
+          "license": "NOASSERTION",
+          "homepage": "http://protobuf.dev",
+          "url": "https://github.com/protocolbuffers/protobuf",
+          "ai_analysis": "【是什么】Google的二进制数据序列化格式，比JSON更小更快，支持多语言\n【技术亮点】强类型schema定义、向后兼容、比JSON省50-70%空间、序列化速度快3-10倍\n【对你的价值】★★★☆☆ 返厂统计系统(FastAPI)如需高性能API可用protobuf替代JSON；占星金融数据量大时优化传输性能；但学习成本较高，现有JSON方案已够用\n【推荐指数】⭐⭐⭐ 基础设施级工具，适合高性能场景，但对你当前项目非刚需"
+        },
+        {
+          "date": "2026-03-22",
+          "repo": "HKUDS/ClawTeam",
+          "description": "多智能体协作系统，一键命令实现全流程自动化",
+          "language": "Python",
+          "stars": 2386,
+          "today_stars": 0,
+          "score": 11.755340878668646,
+          "source": "新星",
+          "topics": [],
+          "forks": 298,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/HKUDS/ClawTeam",
+          "ai_analysis": "【是什么】Agent群体智能框架，通过一条命令调度多个AI代理协同完成复杂任务\n【技术亮点】Agent Swarm架构、任务自动分解与分配、多代理协作通信、全流程自动化编排\n【对你的价值】★★★★★ 与你的OpenClaw(飞书远程控制)名称呼应！可用于：①占星金融预测的多模型协同分析 ②返厂系统的智能客服/数据分析Agent ③小红书内容生成的多角色协作(文案+配图+排版)\n【推荐指数】⭐⭐⭐⭐⭐ 强烈推荐！符合你的多项目需求，Agent技术是2025年热点，可显著提升自动化能力"
+        },
+        {
+          "date": "2026-03-22",
+          "repo": "VoltAgent/awesome-codex-subagents",
+          "description": "130+个专业化编程子代理的精选集合",
+          "language": "",
+          "stars": 1948,
+          "today_stars": 0,
+          "score": 11.579177905085192,
+          "source": "新星",
+          "topics": [
+            "ai-agents",
+            "awesome-list",
+            "chatgpt",
+            "codex",
+            "codex-skills",
+            "codex-subagents",
+            "subagents"
+          ],
+          "forks": 157,
+          "license": "MIT",
+          "homepage": "https://github.com/VoltAgent/voltagent",
+          "url": "https://github.com/VoltAgent/awesome-codex-subagents",
+          "ai_analysis": "【是什么】整理了130多个细分领域的AI编程助手(subagent)配置，涵盖前后端、测试、部署等场景\n【技术亮点】模块化子代理设计、场景化prompt工程、可复用的agent技能库、覆盖全栈开发流程\n【对你的价值】★★★★☆ 直接可用的agent配置库：①FastAPI后端可用Python/API测试类agent ②React前端可用UI/测试类agent ③参考其架构设计优化你的OpenClaw远程控制逻辑 ④学习如何拆分专业化agent\n【推荐指数】⭐⭐⭐⭐ 实用工具集，能快速提升开发效率，但需要Claude Codex环境支持"
+        },
+        {
+          "date": "2026-03-22",
+          "repo": "lcoutodemos/clui-cc",
+          "description": "Claude Code的命令行交互界面增强工具",
+          "language": "TypeScript",
+          "stars": 951,
+          "today_stars": 0,
+          "score": 10.956361033874828,
+          "source": "新星",
+          "topics": [],
+          "forks": 124,
+          "license": "MIT",
+          "homepage": null,
+          "url": "https://github.com/lcoutodemos/clui-cc",
+          "ai_analysis": "【是什么】为Claude Code打造的终端UI工具，提供更友好的命令行交互体验\n【技术亮点】TypeScript实现、优化Claude Code的终端交互、提升开发者命令行体验、MIT开源可定制\n【对你的价值】★★☆☆☆ 如果你用Claude Code做开发可提升体验；但你的项目栈(FastAPI/React/飞书API)更偏向Web/GUI，命令行工具优先级不高；除非要开发OpenClaw的CLI版本\n【推荐指数】⭐⭐ 工具类项目，对使用Claude Code的开发者有价值，但对你业务帮助有限"
+        }
+      ]
+    },
     {
       "date": "2026-03-21",
       "ai_report": "GitHub 宝藏日报 | 2026-03-21\n\n🔐 1. NVIDIA/NemoClaw\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 NVIDIA官方出品的OpenClaw安全安装插件\n🎯 你正在做飞书远程Mac控制(OpenClaw)，这个官方安全插件能直接集成，省去自己造轮子排查安全漏洞的时间\n\n🤖 2. aiming-lab/AutoResearchClaw\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 从想法到论文全流程自动化的AI研究系统\n🎯 占星金融预测需要持续输出研究报告，这套系统能把你的astro-finance数据分析自动转成论文格式，小红书内容也能复用\n\n🧠 3. MoonshotAI/Attention-Residuals\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 Moonshot AI团队关于注意力残差机制的底层研究\n🎯 如果要优化占星预测模型的准确率，这个机制可以参考用在时序数据的注意力计算上\n\n🚀 4. openrocket/openrocket\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 模型火箭的空气动力学和轨迹仿真工具\n🎯 跟你现有项目关联不大，但轨迹预测算法可能对金融K线走势预测有启发\n\n💰 5. vas3k/TaxHacker\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 自托管的AI财务记账工具，用LLM自动分析发票\n🎯 你的返厂统计分析系统(FastAPI+React)可以借鉴它的票据识别逻辑，直接复用LLM解析功能模块\n\n📊 今日总结\n- 直接能用：NemoClaw安全插件集成进OpenClaw项目，TaxHacker的票据解析代码搬到返厂系统\n- 值得研究：AutoResearchClaw用来批量生产占星分析报告，Attention-Residuals的注意力机制改进预测模型\n- 先收藏：openrocket的轨迹算法，等占星金融预测做到趋势预判时再看",

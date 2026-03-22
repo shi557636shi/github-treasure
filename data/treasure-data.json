@@ -1,6 +1,110 @@
 {
-  "generated_at": "2026-03-22T20:00:05.903616",
+  "generated_at": "2026-03-23T00:11:20.286618",
   "days": [
+    {
+      "date": "2026-03-23",
+      "ai_report": "GitHub 宝藏日报 | 2026-03-23\n\n🛠️ 1. everything-claude-code\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 Claude Code的增强工具箱，涵盖性能优化、技能扩展、记忆管理和安全框架\n🎯 你现在用Claude Code做OpenClaw和返厂系统，这个项目的技能框架和记忆系统能让你把重复的开发流程固化成自动化模板，比如FastAPI的CRUD生成、飞书API对接这些套路活儿\n\n🌐 2. browser-use\n⭐ 未知 | 🔤 Python | 📄  未知\n💡 用Python让AI代理自动操作浏览器的自动化库\n🎯 小红书占星运营可以用这个自动化数据采集和内容发布，OpenClaw项目如果要做网页端控制也能复用这套逻辑，省得手动写Selenium脚本\n\n📚 3. production-agentic-rag-course\n⭐ 未知 | 🔤 未知 | 📄  未知\n💡 生产级Agent RAG系统的实战教程，教你怎么把RAG部署到真实业务\n🎯 astro-finance如果要做历史数据分析和预测，RAG能把占星理论、历史金融数据整合成知识库，让AI给出有依据的预测建议\n\n⚙️ 4. MiniMax-AI-skills\n⭐ 未知 | 🔤 C# | 📄  未知\n💡 MiniMax AI的技能库，用C#实现的AI能力模块\n🎯 虽然是C#，但技能设计思路可以借鉴到你的Python项目里，尤其是返厂系统需要模块化功能的时候\n\n📋 5. autoresearch-genealogy\n⭐ 未知 | 🔤 未知 | 📄  未知\n💡 用Claude Code做家谱研究的结构化提示词和模板集合\n🎯 这套结构化提示词的设计方法论可以直接复用到astro-finance的星盘解读模板生成，把占星分析标准化输出\n\n📊 今日总结\n- 直接能用：browser-use装上就能跑小红书自动化，everything-claude-code的技能模板立刻提升开发效率\n- 值得研究：production-agentic-rag-course的RAG架构，琢磨怎么把占星知识库和金融数据打通\n- 先收藏：autoresearch-genealogy的提示词工程方法，MiniMax技能库的模块化思路等有空再细看",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-03-23",
+          "repo": "affaan-m/everything-claude-code",
+          "description": "Claude Code性能优化系统，包含技能、记忆、安全等增强框架",
+          "language": "JavaScript",
+          "stars": 96831,
+          "today_stars": 3370,
+          "score": 10122.972028833907,
+          "source": "trending",
+          "topics": [
+            "ai-agents",
+            "anthropic",
+            "claude",
+            "claude-code",
+            "developer-tools",
+            "llm",
+            "mcp",
+            "productivity"
+          ],
+          "forks": 12646,
+          "license": "MIT",
+          "homepage": "https://ecc.tools",
+          "url": "https://github.com/affaan-m/everything-claude-code",
+          "ai_analysis": "【是什么】Claude Code的增强工具集，提供技能系统、记忆管理、安全机制和研究优先开发模式\n【技术亮点】Agent性能优化引擎，支持多AI工具(Claude/Cursor/Codex)，模块化技能扩展架构\n【对你的价值】可直接用于OpenClaw项目的AI辅助开发，提升飞书Mac控制的代码质量；为返厂系统的FastAPI后端提供智能开发辅助；小红书运营可借鉴其记忆系统做用户画像\n【推荐指数】★★★★★ 高Star项目且与你所有开发场景强相关，技能系统可复用"
+        },
+        {
+          "date": "2026-03-23",
+          "repo": "browser-use/browser-use",
+          "description": "让AI代理可操作网站的浏览器自动化Python库",
+          "language": "Python",
+          "stars": 82269,
+          "today_stars": 405,
+          "score": 1227.8304724367633,
+          "source": "trending",
+          "topics": [
+            "ai-agents",
+            "ai-tools",
+            "browser-automation",
+            "browser-use",
+            "llm",
+            "playwright",
+            "python"
+          ],
+          "forks": 9658,
+          "license": "MIT",
+          "homepage": "https://browser-use.com",
+          "url": "https://github.com/browser-use/browser-use",
+          "ai_analysis": "【是什么】Python浏览器自动化框架，专为AI Agent设计，让LLM能直接操控网页完成任务\n【技术亮点】AI原生设计的浏览器操作抽象层，与LLM深度集成，支持复杂网页交互自动化\n【对你的价值】OpenClaw远程控制可参考其浏览器操作架构；小红书运营可自动化数据采集、内容发布、互动监控；返厂系统可集成自动填报功能；占星金融可抓取实时行情数据\n【推荐指数】★★★★★ Python技术栈匹配，82k Stars验证成熟度，四个项目均可应用"
+        },
+        {
+          "date": "2026-03-23",
+          "repo": "jamwithai/production-agentic-rag-course",
+          "description": "生产级Agent RAG系统实战课程",
+          "language": "Python",
+          "stars": 4637,
+          "today_stars": 235,
+          "score": 715.3324741917916,
+          "source": "trending",
+          "topics": [],
+          "forks": 1170,
+          "license": "MIT",
+          "homepage": null,
+          "url": "https://github.com/jamwithai/production-agentic-rag-course",
+          "ai_analysis": "【是什么】教授如何构建生产环境可用的Agent增强检索(RAG)系统的完整课程\n【技术亮点】Production-ready实践指南，涵盖Agent设计模式、RAG架构优化、工程化部署\n【对你的价值】占星金融预测可构建知识库RAG(占星理论+金融数据)；返厂系统可做智能问答；小红书运营可建立内容知识库辅助创作；整体提升AI应用工程化能力\n【推荐指数】★★★★☆ 适合系统化学习，但需投入学习时间，占星+金融场景RAG价值高"
+        },
+        {
+          "date": "2026-03-23",
+          "repo": "MiniMax-AI/skills",
+          "description": "MiniMax AI的技能库(C#实现)",
+          "language": "C#",
+          "stars": 1296,
+          "today_stars": 0,
+          "score": 11.225210003069149,
+          "source": "新星",
+          "topics": [],
+          "forks": 75,
+          "license": "MIT",
+          "homepage": null,
+          "url": "https://github.com/MiniMax-AI/skills",
+          "ai_analysis": "【是什么】MiniMax AI开源的Agent技能集合，使用C#语言开发\n【技术亮点】大厂开源技能库，可能包含多模态、工具调用等企业级实现\n【对你的价值】技术栈不匹配(你用Python/JS/TS)，但可学习技能设计思路；如需跨语言集成或.NET环境部署可参考；当前项目直接应用价值较低\n【推荐指数】★★☆☆☆ C#技术栈与你的项目不符，参考价值有限，仅作设计借鉴"
+        },
+        {
+          "date": "2026-03-23",
+          "repo": "mattprusak/autoresearch-genealogy",
+          "description": "Claude Code辅助家谱研究的结构化提示词和模板库",
+          "language": "",
+          "stars": 868,
+          "today_stars": 0,
+          "score": 10.877039450352985,
+          "source": "新星",
+          "topics": [],
+          "forks": 70,
+          "license": "MIT",
+          "homepage": null,
+          "url": "https://github.com/mattprusak/autoresearch-genealogy",
+          "ai_analysis": "【是什么】专为AI辅助家谱研究设计的提示词工程库，包含结构化模板和档案指南\n【技术亮点】垂直领域Prompt工程最佳实践，展示如何为特定研究场景构建AI工作流\n【对你的价值】可学习其Prompt结构化方法论应用到占星分析(星盘解读模板)；小红书内容生成可借鉴模板化创作；但家谱领域本身与你业务无关\n【推荐指数】★★★☆☆ 方法论有参考价值，占星领域可复用Prompt工程思路，但需自行迁移"
+        }
+      ]
+    },
     {
       "date": "2026-03-22",
       "ai_report": "GitHub 宝藏日报 | 2026-03-22\n\n🔧 1. protocolbuffers/protobuf\n⭐ 67.8k stars | 🔤 C++ | 📄 BSD-3-Clause\n💡 Google出品的跨语言数据序列化协议，比JSON快5倍省空间\n🎯 你的返厂统计分析系统如果数据量大，用protobuf替换JSON能大幅提升前后端传输效率；OpenClaw的飞书远程控制场景下，传输屏幕数据和指令用这个能降低延迟\n\n⚙️ 2. systemd/systemd\n⭐ 14.2k stars | 🔤 C | 📄 GPL-2.0\n💡 Linux系统的核心服务管理器，控制所有后台进程\n🎯 你的FastAPI返厂系统部署到Linux服务器时，用systemd管理进程比nohup靠谱得多，崩了自动重启、日志统一管理；astro-finance的定时预测任务也能直接用systemd.timer替代cron\n\n🤖 3. HKUDS/ClawTeam\n⭐ 新项目 | 🔤 Python | 📄 MIT\n💡 多智能体协作系统，一条命令从需求分析到代码测试全自动\n🎯 跟你的OpenClaw项目名字撞了，但这个是编程助手。适合快速搭建占星金融预测的新模型实验，让AI帮你写数据处理pipeline\n\n📚 4. VoltAgent/awesome-codex-subagents\n⭐ 收藏向 | 🔤 文档 | 📄 MIT\n💡 130+个垂直领域编程代理合集，前端/数据库/测试都有\n🎯 你做FastAPI+React项目时，直接调专门的数据库优化agent或React组件agent，比自己调通用GPT效率高；小红书运营如果要批量生成占星文案，里面的content-generator也能用\n\n💻 5. lcoutodemos/clui-cc\n⭐ 工具向 | 🔤 TypeScript | 📄 MIT\n💡 给Claude Code加命令行交互界面，让AI编程更顺手\n🎯 你现在用的就是Claude Code，装这个能提升体验；尤其调试OpenClaw的飞书API或者改返厂系统的React组件时，命令历史、快捷操作都更方便\n\n📊 今日总结\n- 直接能用：systemd管理你的FastAPI服务，protobuf优化返厚系统数据传输\n- 值得研究：ClawTeam的多智能体架构，看能不能用到占星预测的自动化分析流程\n- 先收藏：awesome-codex-subagents留着，下次写小红书批量发文工具或者优化React组件时翻",

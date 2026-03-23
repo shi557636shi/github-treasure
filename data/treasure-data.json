@@ -1,6 +1,130 @@
 {
-  "generated_at": "2026-03-23T20:00:03.218219",
+  "generated_at": "2026-03-24T00:14:51.432108",
   "days": [
+    {
+      "date": "2026-03-24",
+      "ai_report": "GitHub 宝藏日报 | 2026-03-24\n\n🧠 1. minimind\n⭐ 2.6K stars | 🔤 Python | 📄 Apache-2.0\n💡 2小时从零训练2600万参数的GPT模型，完整复现Transformer全流程\n🎯 你做占星金融预测需要理解大模型原理时，这个项目能让你快速上手小规模模型训练，验证一些占星数据的语义理解能力\n\n🤖 2. TradingAgents-CN\n⭐ 1.8K stars | 🔤 Python | 📄 MIT\n💡 多智能体协作的中文金融交易框架，用LLM做市场分析和交易决策\n🎯 直接对标你的astro-finance项目，可以把占星周期信号接入这套多智能体框架，让AI根据星象+技术面做综合判断\n\n🧩 3. obsidian-skills\n⭐ 890 stars | 🔤 TypeScript | 📄 MIT\n💡 为Obsidian笔记工具设计的Agent技能包，让AI直接操作你的知识库\n🎯 小红书占星运营需要大量内容管理，这个能让Claude自动整理你的占星素材库、生成内容大纲，配合OpenClaw远程操控Mac更丝滑\n\n⚡ 4. n8n-mcp\n⭐ 340 stars | 🔤 TypeScript | 📄 MIT\n💡 让Claude通过MCP协议自动构建n8n工作流，用自然语言描述就能生成自动化流程\n🎯 返厂统计分析系统里的数据ETL流程可以用这个自动化，飞书通知、报表生成、异常告警全让Claude帮你搭\n\n🛡️ 5. pentagi\n⭐ 520 stars | 🔤 Python | 📄 GPL-3.0\n💡 全自主AI渗透测试Agent，自动发现漏洞、生成利用脚本、输出报告\n🎯 OpenClaw这种远程控制工具上线前必须做安全测试，这个Agent能帮你自动化渗透测试流程，省掉请安全团队的钱\n\n📊 今日总结\n- 直接能用：TradingAgents-CN接入astro-finance、n8n-mcp自动化返厂系统的数据流\n- 值得研究：minimind了解模型训练原理、obsidian-skills优化小红书内容管理\n- 先收藏：pentagi等OpenClaw正式部署前做安全审计",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-03-24",
+          "repo": "vxcontrol/pentagi",
+          "description": "全自主AI渗透测试Agent系统",
+          "language": "Go",
+          "stars": 12764,
+          "today_stars": 1307,
+          "score": 3932.211973591043,
+          "source": "trending",
+          "topics": [
+            "ai-agents",
+            "ai-security-tool",
+            "anthropic",
+            "autonomous-agents",
+            "golang",
+            "gpt",
+            "graphql",
+            "multi-agent-system",
+            "offensive-security",
+            "open-source",
+            "openai",
+            "penetration-testing",
+            "penetration-testing-tools",
+            "react",
+            "security-automation",
+            "security-testing",
+            "security-tools",
+            "self-hosted"
+          ],
+          "forks": 1589,
+          "license": "MIT",
+          "homepage": "https://pentagi.com",
+          "url": "https://github.com/vxcontrol/pentagi",
+          "ai_analysis": "【是什么】基于AI的自主渗透测试工具,可自动执行复杂安全评估任务\n【技术亮点】Go语言实现高性能,Anthropic Claude驱动决策,完全自主化攻击链\n【对你的价值】对OpenClaw和返厂系统有安全价值:可评估远程控制系统安全性;测试FastAPI后端漏洞;学习AI Agent的复杂任务规划能力;但需谨慎使用\n【推荐指数】★★☆☆☆ 专业安全工具,学习价值大于实用价值,需授权场景使用"
+        },
+        {
+          "date": "2026-03-24",
+          "repo": "hsliuping/TradingAgents-CN",
+          "description": "多智能体LLM驱动的中文金融交易框架",
+          "language": "Python",
+          "stars": 20250,
+          "today_stars": 672,
+          "score": 2027.6128500551013,
+          "source": "trending",
+          "topics": [],
+          "forks": 4272,
+          "license": "NOASSERTION",
+          "homepage": null,
+          "url": "https://github.com/hsliuping/TradingAgents-CN",
+          "ai_analysis": "【是什么】基于大模型多智能体协作的量化交易系统,专门针对中文金融市场优化\n【技术亮点】多Agent分工协作(分析师/交易员/风控),中文金融语料增强,端到端交易决策链\n【对你的价值】与占星金融预测高度契合:可将占星信号作为Agent输入因子;多智能体架构可分离占星分析/基本面/技术面;中文优化适配国内市场;直接可用的交易框架\n【推荐指数】★★★★★ 核心项目!完美匹配占星金融场景,可直接整合占星逻辑到交易Agent"
+        },
+        {
+          "date": "2026-03-24",
+          "repo": "jingyaogong/minimind",
+          "description": "2小时从零训练2600万参数GPT模型",
+          "language": "Python",
+          "stars": 42473,
+          "today_stars": 478,
+          "score": 1446.2562258752864,
+          "source": "trending",
+          "topics": [
+            "artificial-intelligence",
+            "large-language-model"
+          ],
+          "forks": 5112,
+          "license": "Apache-2.0",
+          "homepage": "https://jingyaogong.github.io/minimind",
+          "url": "https://github.com/jingyaogong/minimind",
+          "ai_analysis": "【是什么】轻量级大语言模型训练框架,可在消费级硬件上快速训练小参数GPT\n【技术亮点】极致优化的训练流程,26M参数量平衡性能与资源消耗,完整的从零实现教学价值\n【对你的价值】对占星金融预测有价值:可基于历史数据训练垂直领域小模型;对返厂系统可集成本地AI分析;学习成本低适合快速验证AI想法\n【推荐指数】★★★★☆ 适合AI入门和垂直场景定制,但26M参数对复杂金融预测能力有限"
+        },
+        {
+          "date": "2026-03-24",
+          "repo": "kepano/obsidian-skills",
+          "description": "为Obsidian设计的Agent技能集",
+          "language": "",
+          "stars": 16140,
+          "today_stars": 367,
+          "score": 1112.415807060772,
+          "source": "trending",
+          "topics": [
+            "claude",
+            "clawdbot",
+            "cli",
+            "codex",
+            "defuddle",
+            "obsidian",
+            "openclaw",
+            "opencode",
+            "skills"
+          ],
+          "forks": 929,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/kepano/obsidian-skills",
+          "ai_analysis": "【是什么】让AI Agent操作Obsidian笔记系统的技能库,支持Markdown/Canvas/CLI\n【技术亮点】Claude Agent技能模板,结构化知识管理能力,命令行自动化操作\n【对你的价值】对小红书占星运营有价值:可用Obsidian管理占星内容库,AI辅助生成小红书文案;对返厂系统可自动生成分析报告;学习Agent技能开发模式\n【推荐指数】★★★☆☆ 工具向项目,适合内容运营自动化,但非核心刚需"
+        },
+        {
+          "date": "2026-03-24",
+          "repo": "czlonkowski/n8n-mcp",
+          "description": "让Claude自动构建n8n工作流的MCP服务",
+          "language": "TypeScript",
+          "stars": 15905,
+          "today_stars": 136,
+          "score": 419.40306734688676,
+          "source": "trending",
+          "topics": [
+            "mcp",
+            "mcp-server",
+            "n8n",
+            "workflows"
+          ],
+          "forks": 2755,
+          "license": "MIT",
+          "homepage": "https://www.n8n-mcp.com/",
+          "url": "https://github.com/czlonkowski/n8n-mcp",
+          "ai_analysis": "【是什么】Claude的MCP服务器,可通过对话自动生成n8n自动化工作流\n【技术亮点】MCP协议集成,自然语言转工作流,支持Claude Desktop/Code/Cursor\n【对你的价值】对OpenClaw和返厂系统有价值:可用n8n自动化飞书消息触发Mac控制;串联返厂数据采集/分析/报表流程;小红书定时发布工作流;降低自动化开发门槛\n【推荐指数】★★★★☆ 强大的自动化粘合剂,能显著提升多系统协作效率"
+        }
+      ]
+    },
     {
       "date": "2026-03-23",
       "ai_report": "GitHub 宝藏日报 | 2026-03-23\n\n🛠️ 1. everything-claude-code\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 Claude Code的增强工具箱，涵盖性能优化、技能扩展、记忆管理和安全框架\n🎯 你现在用Claude Code做OpenClaw和返厂系统，这个项目的技能框架和记忆系统能让你把重复的开发流程固化成自动化模板，比如FastAPI的CRUD生成、飞书API对接这些套路活儿\n\n🌐 2. browser-use\n⭐ 未知 | 🔤 Python | 📄  未知\n💡 用Python让AI代理自动操作浏览器的自动化库\n🎯 小红书占星运营可以用这个自动化数据采集和内容发布，OpenClaw项目如果要做网页端控制也能复用这套逻辑，省得手动写Selenium脚本\n\n📚 3. production-agentic-rag-course\n⭐ 未知 | 🔤 未知 | 📄  未知\n💡 生产级Agent RAG系统的实战教程，教你怎么把RAG部署到真实业务\n🎯 astro-finance如果要做历史数据分析和预测，RAG能把占星理论、历史金融数据整合成知识库，让AI给出有依据的预测建议\n\n⚙️ 4. MiniMax-AI-skills\n⭐ 未知 | 🔤 C# | 📄  未知\n💡 MiniMax AI的技能库，用C#实现的AI能力模块\n🎯 虽然是C#，但技能设计思路可以借鉴到你的Python项目里，尤其是返厂系统需要模块化功能的时候\n\n📋 5. autoresearch-genealogy\n⭐ 未知 | 🔤 未知 | 📄  未知\n💡 用Claude Code做家谱研究的结构化提示词和模板集合\n🎯 这套结构化提示词的设计方法论可以直接复用到astro-finance的星盘解读模板生成，把占星分析标准化输出\n\n📊 今日总结\n- 直接能用：browser-use装上就能跑小红书自动化，everything-claude-code的技能模板立刻提升开发效率\n- 值得研究：production-agentic-rag-course的RAG架构，琢磨怎么把占星知识库和金融数据打通\n- 先收藏：autoresearch-genealogy的提示词工程方法，MiniMax技能库的模块化思路等有空再细看",

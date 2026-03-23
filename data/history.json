@@ -1,25 +1,5 @@
 [
   {
-    "repo": "vxcontrol/pentagi",
-    "date": "2026-02-21"
-  },
-  {
-    "repo": "google-research/timesfm",
-    "date": "2026-02-21"
-  },
-  {
-    "repo": "blackboardsh/electrobun",
-    "date": "2026-02-21"
-  },
-  {
-    "repo": "roboflow/trackers",
-    "date": "2026-02-21"
-  },
-  {
-    "repo": "aquasecurity/trivy",
-    "date": "2026-02-21"
-  },
-  {
     "repo": "HandsOnLLM/Hands-On-Large-Language-Models",
     "date": "2026-02-22"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "mattprusak/autoresearch-genealogy",
     "date": "2026-03-23"
+  },
+  {
+    "repo": "vxcontrol/pentagi",
+    "date": "2026-03-24"
+  },
+  {
+    "repo": "hsliuping/TradingAgents-CN",
+    "date": "2026-03-24"
+  },
+  {
+    "repo": "jingyaogong/minimind",
+    "date": "2026-03-24"
+  },
+  {
+    "repo": "kepano/obsidian-skills",
+    "date": "2026-03-24"
+  },
+  {
+    "repo": "czlonkowski/n8n-mcp",
+    "date": "2026-03-24"
   }
 ]

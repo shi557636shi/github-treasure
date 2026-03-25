@@ -1,25 +1,5 @@
 [
   {
-    "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
-    "date": "2026-02-23"
-  },
-  {
-    "repo": "stan-smith/FossFLOW",
-    "date": "2026-02-23"
-  },
-  {
-    "repo": "cloudflare/agents",
-    "date": "2026-02-23"
-  },
-  {
-    "repo": "OpenBB-finance/OpenBB",
-    "date": "2026-02-23"
-  },
-  {
-    "repo": "ShinMegamiBoson/OpenPlanter",
-    "date": "2026-02-23"
-  },
-  {
     "repo": "VectifyAI/PageIndex",
     "date": "2026-02-24"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "aquasecurity/trivy",
     "date": "2026-03-25"
+  },
+  {
+    "repo": "mvanhorn/last30days-skill",
+    "date": "2026-03-26"
+  },
+  {
+    "repo": "usestrix/strix",
+    "date": "2026-03-26"
+  },
+  {
+    "repo": "letta-ai/claude-subconscious",
+    "date": "2026-03-26"
+  },
+  {
+    "repo": "slavingia/skills",
+    "date": "2026-03-26"
+  },
+  {
+    "repo": "dontbesilent2025/dbskill",
+    "date": "2026-03-26"
   }
 ]

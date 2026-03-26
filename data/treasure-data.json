@@ -1,6 +1,107 @@
 {
-  "generated_at": "2026-03-26T20:00:05.241805",
+  "generated_at": "2026-03-27T00:27:11.302833",
   "days": [
+    {
+      "date": "2026-03-27",
+      "ai_report": "GitHub 宝藏日报 | 2026-03-27\n\n🤖 1. virattt/dexter\n⭐ 数据未知 | 🔤 Python | 📄 license未知\n💡 自主式AI代理，能自己做深度金融研究和分析\n🎯 对你的占星金融预测(astro-finance)项目来说，这个能补充技术分析维度。你现在用占星预测市场，可以把dexter的金融数据分析能力接入进来，做占星+技术面的双重验证，提高预测准确率\n\n🎭 2. Yeachan-Heo/oh-my-claudecode\n⭐ 数据未知 | 🔤 Python | 📄 license未知\n💡 让多个Claude Code智能体协作干活的编排框架\n🎯 你现在同时维护4个项目，这个框架能让不同智能体分别负责FastAPI后端、React前端、飞书API对接、小红书内容生成。相当于把一个人变成一个技术团队，各干各的活还能协同\n\n⚡ 3. Vaibhavs10/insanely-fast-whisper\n⭐ 数据未知 | 🔤 Python | 📄 license未知\n💡 速度优化到极致的Whisper语音转文字工具\n🎯 小红书占星运营可以直接用。录音频解读星盘比打字快，用这个转文字后再编辑成笔记发布。另外OpenClaw如果要加语音控制Mac的功能，这个是现成的语音识别引擎\n\n📋 4. datalab-to/chandra\n⭐ 数据未知 | 🔤 语言未知 | 📄 license未知\n💡 专门识别复杂表格、表单、手写内容的OCR模型\n🎯 返厂统计分析系统(FastAPI+React)估计要处理纸质返厂单。用chandra能把手写的故障描述、表格数据直接OCR进系统，不用人工录入。比普通OCR对表格和手写的支持强很多\n\n📚 5. zarazhangrui/codebase-to-course\n⭐ 数据未知 | 🔤 语言未知 | 📄 license未知\n💡 把代码仓库自动转成可交互的HTML教程\n🎯 你的4个项目都可以生成文档。占星金融预测的算法逻辑、OpenClaw的远程控制实现、返厂系统的业务流程，直接转成教程，方便自己回顾，也能做成小红书的技术内容吸引同行\n\n📊 今日总结\n- 直接能用：insanely-fast-whisper接入小红书音频转文字工作流、chandra处理返厂系统的纸质单据OCR\n- 值得研究：oh-my-claudecode用来管理多项目开发、dexter的金融分析逻辑能否和占星预测结合\n- 先收藏：codebase-to-course等项目稳定了再生成文档",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-03-27",
+          "repo": "Vaibhavs10/insanely-fast-whisper",
+          "description": "极速语音转文字Whisper优化版",
+          "language": "Jupyter Notebook",
+          "stars": 10863,
+          "today_stars": 1381,
+          "score": 4154.071899559073,
+          "source": "trending",
+          "topics": [],
+          "forks": 802,
+          "license": "Apache-2.0",
+          "homepage": null,
+          "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
+          "ai_analysis": "【是什么】基于OpenAI Whisper的高性能语音识别方案，大幅提升转录速度\n【技术亮点】通过批处理和硬件加速将Whisper速度提升数十倍，Jupyter Notebook展示完整优化流程\n【对你的价值】小红书占星运营可用于视频内容转文字做SEO优化；飞书远程控制可集成语音指令；10.9k stars证明稳定性，Apache-2.0协议友好\n【推荐指数】★★★☆☆ 属于扩展功能，优先级低于核心业务，但可显著提升内容生产效率"
+        },
+        {
+          "date": "2026-03-27",
+          "repo": "Yeachan-Heo/oh-my-claudecode",
+          "description": "多智能体协作的Claude Code团队编排框架",
+          "language": "TypeScript",
+          "stars": 12251,
+          "today_stars": 576,
+          "score": 1739.1763430797287,
+          "source": "trending",
+          "topics": [
+            "agentic-coding",
+            "ai-agents",
+            "automation",
+            "claude",
+            "claude-code",
+            "multi-agent-systems",
+            "oh-my-opencode",
+            "opencode",
+            "parallel-execution",
+            "vibe-coding"
+          ],
+          "forks": 825,
+          "license": "MIT",
+          "homepage": "https://yeachan-heo.github.io/oh-my-claudecode-website",
+          "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+          "ai_analysis": "【是什么】为Claude Code构建的多agent协同工作框架，支持团队级任务分配和自动化编码\n【技术亮点】实现agent间任务分解、并行执行和结果聚合，提供skill系统扩展编码能力\n【对你的价值】可用于OpenClaw项目的自动化测试生成、返厂系统的代码重构；12.3k stars且有MIT协议，可直接fork定制；适合多项目并行开发的场景\n【推荐指数】★★★★☆ 提升开发效率利器，但需评估学习成本与当前项目紧急度"
+        },
+        {
+          "date": "2026-03-27",
+          "repo": "datalab-to/chandra",
+          "description": "处理复杂表格表单手写的OCR模型",
+          "language": "Python",
+          "stars": 5901,
+          "today_stars": 546,
+          "score": 1648.541851229278,
+          "source": "trending",
+          "topics": [
+            "ai",
+            "ocr"
+          ],
+          "forks": 655,
+          "license": "Apache-2.0",
+          "homepage": "https://www.datalab.to",
+          "url": "https://github.com/datalab-to/chandra",
+          "ai_analysis": "【是什么】支持完整布局识别的OCR引擎，擅长复杂表格、表单和手写内容提取\n【技术亮点】保留原始文档布局结构，处理多列表格和混合内容，Python实现便于集成\n【对你的价值】返厂统计系统可用于自动录入手写返修单和纸质报表；占星咨询可数字化手写星盘笔记；5.9k stars且Apache-2.0协议，可商用\n【推荐指数】★★★★☆ 能解决返厂系统数据录入痛点，ROI明确，建议优先验证识别准确率"
+        },
+        {
+          "date": "2026-03-27",
+          "repo": "virattt/dexter",
+          "description": "自主式深度金融研究AI代理",
+          "language": "TypeScript",
+          "stars": 18791,
+          "today_stars": 269,
+          "score": 818.5478997851001,
+          "source": "trending",
+          "topics": [],
+          "forks": 2319,
+          "license": null,
+          "homepage": null,
+          "url": "https://github.com/virattt/dexter",
+          "ai_analysis": "【是什么】自动化金融数据采集、分析和研究报告生成的AI代理系统\n【技术亮点】TypeScript实现的autonomous agent架构，可自主规划研究路径、调用金融数据API、生成结构化分析报告\n【对你的价值】与你的astro-finance项目高度契合，可借鉴其金融数据获取和分析流程，将占星预测与传统金融分析结合；18.8k stars说明架构成熟度高，可直接集成到FastAPI后端\n【推荐指数】★★★★★ 与占星金融预测项目完美匹配，可直接复用金融数据源和agent架构"
+        },
+        {
+          "date": "2026-03-27",
+          "repo": "zarazhangrui/codebase-to-course",
+          "description": "将代码库转为交互式HTML教程的Claude技能",
+          "language": "",
+          "stars": 1675,
+          "today_stars": 0,
+          "score": 11.448029622745729,
+          "source": "新星",
+          "topics": [],
+          "forks": 150,
+          "license": null,
+          "homepage": null,
+          "url": "https://github.com/zarazhangrui/codebase-to-course",
+          "ai_analysis": "【是什么】Claude Code的skill插件,自动将项目代码生成单页HTML可视化教程\n【技术亮点】面向非技术人员,自动提取代码逻辑生成图文并茂的交互式学习内容\n【对你的价值】可为OpenClaw和返厂系统生成操作文档,降低飞书团队培训成本;小红书运营可生成占星算法科普内容;1.7k stars说明需求真实\n【推荐指数】★★★☆☆ 文档化工具,非核心需求,但能提升项目交付质量和团队协作效率"
+        }
+      ]
+    },
     {
       "date": "2026-03-26",
       "ai_report": "GitHub 宝藏日报 | 2026-03-26\n\n🔒 1. usestrix/strix\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 自动化安全测试工具，能帮AI发现和修复代码漏洞\n🎯 你的返厂统计分析系统(FastAPI+React)和OpenClaw都涉及敏感操作，这工具可以在上线前自动扫一遍SQL注入、XSS这些常见漏洞，省得后期出安全事故\n\n📰 2. mvanhorn/last30days-skill\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 Claude Code技能插件，自动抓取Reddit/X/YouTube内容并生成摘要\n🎯 你做小红书占星运营需要内容灵感，这个能帮你快速了解国外占星博主最近30天在聊什么热点，直接转化成选题\n\n💼 3. slavingia/skills\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 《极简创业者》作者开源的商业技能工具包\n🎯 你的astro-finance项目如果要商业化，这个技能包可能包含市场分析、用户调研之类的实用工具，直接拿来用\n\n🩺 4. dontbesilent2025/dbskill\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 企业诊断工具集，专门分析商业问题\n🎯 返厂统计分析系统本质是帮企业找问题，这个Skill的诊断框架可以参考，看看能不能把诊断逻辑集成到你的系统里\n\n🧠 5. letta-ai/claude-subconscious\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 给Claude Code加长期记忆，让AI记住历史对话\n🎯 你同时维护4个项目，装上这个后Claude能记住每个项目的上下文，不用每次都重新解释astro-finance的预测逻辑或者OpenClaw的架构\n\n📊 今日总结\n- 直接能用：last30days-skill(小红书选题)、claude-subconscious(多项目管理)\n- 值得研究：strix(给返厂系统和OpenClaw做安全审计)、dbskill(诊断框架参考)\n- 先收藏：slavingia/skills(astro-finance商业化时再看)",

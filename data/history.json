@@ -1,25 +1,5 @@
 [
   {
-    "repo": "LadybirdBrowser/ladybird",
-    "date": "2026-02-25"
-  },
-  {
-    "repo": "HunxByts/GhostTrack",
-    "date": "2026-02-25"
-  },
-  {
-    "repo": "ruvnet/ruvector",
-    "date": "2026-02-25"
-  },
-  {
-    "repo": "GVCLab/PersonaLive",
-    "date": "2026-02-25"
-  },
-  {
-    "repo": "openemr/openemr",
-    "date": "2026-02-25"
-  },
-  {
     "repo": "datawhalechina/hello-agents",
     "date": "2026-02-26"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "zarazhangrui/codebase-to-course",
     "date": "2026-03-27"
+  },
+  {
+    "repo": "hacksider/Deep-Live-Cam",
+    "date": "2026-03-28"
+  },
+  {
+    "repo": "twentyhq/twenty",
+    "date": "2026-03-28"
+  },
+  {
+    "repo": "onyx-dot-app/onyx",
+    "date": "2026-03-28"
+  },
+  {
+    "repo": "FreeCAD/FreeCAD",
+    "date": "2026-03-28"
+  },
+  {
+    "repo": "alvinunreal/awesome-opensource-ai",
+    "date": "2026-03-28"
   }
 ]

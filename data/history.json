@@ -1,25 +1,5 @@
 [
   {
-    "repo": "datawhalechina/hello-agents",
-    "date": "2026-02-26"
-  },
-  {
-    "repo": "NevaMind-AI/memU",
-    "date": "2026-02-26"
-  },
-  {
-    "repo": "liyupi/ai-guide",
-    "date": "2026-02-26"
-  },
-  {
-    "repo": "shareAI-lab/learn-claude-code",
-    "date": "2026-02-26"
-  },
-  {
-    "repo": "bytedance/deer-flow",
-    "date": "2026-02-26"
-  },
-  {
     "repo": "clockworklabs/SpacetimeDB",
     "date": "2026-02-27"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "alvinunreal/awesome-opensource-ai",
     "date": "2026-03-28"
+  },
+  {
+    "repo": "SakanaAI/AI-Scientist-v2",
+    "date": "2026-03-29"
+  },
+  {
+    "repo": "apache/superset",
+    "date": "2026-03-29"
+  },
+  {
+    "repo": "magnum6actual/flipoff",
+    "date": "2026-03-29"
+  },
+  {
+    "repo": "HKUDS/OpenSpace",
+    "date": "2026-03-29"
+  },
+  {
+    "repo": "larksuite/cli",
+    "date": "2026-03-29"
   }
 ]

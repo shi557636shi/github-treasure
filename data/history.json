@@ -1,25 +1,5 @@
 [
   {
-    "repo": "clockworklabs/SpacetimeDB",
-    "date": "2026-02-27"
-  },
-  {
-    "repo": "farion1231/cc-switch",
-    "date": "2026-02-27"
-  },
-  {
-    "repo": "moonshine-ai/moonshine",
-    "date": "2026-02-27"
-  },
-  {
-    "repo": "ruvnet/claude-flow",
-    "date": "2026-02-27"
-  },
-  {
-    "repo": "cloudflare/vinext",
-    "date": "2026-02-27"
-  },
-  {
     "repo": "ruvnet/wifi-densepose",
     "date": "2026-02-28"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "larksuite/cli",
     "date": "2026-03-29"
+  },
+  {
+    "repo": "microsoft/VibeVoice",
+    "date": "2026-03-30"
+  },
+  {
+    "repo": "luongnv89/claude-howto",
+    "date": "2026-03-30"
+  },
+  {
+    "repo": "shareAI-lab/learn-claude-code",
+    "date": "2026-03-30"
+  },
+  {
+    "repo": "fastfetch-cli/fastfetch",
+    "date": "2026-03-30"
+  },
+  {
+    "repo": "elder-plinius/G0DM0D3",
+    "date": "2026-03-30"
   }
 ]

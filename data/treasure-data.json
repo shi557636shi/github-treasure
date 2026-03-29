@@ -1,6 +1,119 @@
 {
-  "generated_at": "2026-03-29T20:00:05.591528",
+  "generated_at": "2026-03-30T00:11:47.951421",
   "days": [
+    {
+      "date": "2026-03-30",
+      "ai_report": "GitHub 宝藏日报 | 2026-03-30\n\n🤖 1. shareAI-lab/learn-claude-code\n⭐ stars | 🔤 语言 | 📄 license\n💡 手把手教你写一个 Claude Code，从架构到实现全拆解\n🎯 你正在搞飞书远程Mac控制(OpenClaw)，这个项目能让你看懂 AI Agent 怎么调用系统工具、处理上下文，直接抄作业改成飞书机器人的智能操作层\n\n🎙️ 2. microsoft/VibeVoice\n⭐ stars | 🔤 语言 | 📄 license\n💡 微软刚开源的语音 AI，能听会说还能理解情绪\n🎯 小红书占星运营可以玩起来了——录语音解盘、AI 自动生成占星语音内容，比纯文字更容易涨粉，而且微软出品质量有保障\n\n⚡ 3. fastfetch-cli/fastfetch\n⭐ stars | 🔤 语言 | 📄 license\n💡 比 neofetch 快 10 倍的系统信息展示工具，支持 Mac\n🎯 返厂统计分析系统(FastAPI+React)做设备监控时，可以用这个快速采集机器配置信息，速度快到能实时刷新，比自己写 shell 脚本省事\n\n📚 4. luongnv89/claude-howto\n⭐ stars | 🔤 语言 | 📄 license\n💡 Claude Code 可视化教程，带大量实战案例和模板\n🎯 和第 1 个项目配合食用，这个更偏实战操作手册，教你怎么写 prompt、设计 agent 流程，占星金融预测(astro-finance)里那些复杂的数据处理流程可以用 AI Agent 自动化\n\n🔓 5. elder-plinius/G0DM0D3\n⭐ stars | 🔤 语言 | 📄 license\n💡 去掉各种限制的 AI 对话客户端，啥都敢聊\n🎯 占星金融预测那种非主流话题，正经 AI 可能拒答，这个能放开聊；不过仅限自己研究用，别搞到线上业务\n\n📊 今日总结\n- 直接能用：fastfetch 扔进返厂系统监控脚本，VibeVoice 接入小红书占星内容生产\n- 值得研究：learn-claude-code 和 claude-howto 组合学习，两周内能给 OpenClaw 加个智能操作层\n- 先收藏：G0DM0D3 备用，占星金融数据测试时可能用得上",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-03-30",
+          "repo": "microsoft/VibeVoice",
+          "description": "微软开源的前沿语音AI系统",
+          "language": "Python",
+          "stars": 26492,
+          "today_stars": 1190,
+          "score": 3581.84622949275,
+          "source": "trending",
+          "topics": [],
+          "forks": 2913,
+          "license": "MIT",
+          "homepage": "https://microsoft.github.io/VibeVoice/",
+          "url": "https://github.com/microsoft/VibeVoice",
+          "ai_analysis": "【是什么】微软出品的开源语音AI引擎,支持语音合成和识别\n【技术亮点】Python实现,26.5k star,微软技术背书,前沿语音处理能力\n【对你的价值】可为小红书占星运营添加语音讲解功能,提升内容形式多样性;也可集成到返厂系统做语音报表播报,提升用户体验\n【推荐指数】★★★★☆ 语音交互是趋势,但需评估你项目是否真需要语音功能,占星内容语音化有潜力"
+        },
+        {
+          "date": "2026-03-30",
+          "repo": "luongnv89/claude-howto",
+          "description": "Claude Code可视化实战教程与模板库",
+          "language": "Python",
+          "stars": 5475,
+          "today_stars": 1121,
+          "score": 3373.476768247024,
+          "source": "trending",
+          "topics": [
+            "claude-code",
+            "guide",
+            "tutorial"
+          ],
+          "forks": 651,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/luongnv89/claude-howto",
+          "ai_analysis": "【是什么】提供Claude Code从基础到高级的可视化教程,附带即用模板\n【技术亮点】Python实现,示例驱动学习,复制即用的模板,5.5k star验证实用性\n【对你的价值】配合项目1学习,可快速掌握Claude Code开发技巧。直接复用模板到占星金融预测的数据分析、返厂系统的AI辅助开发,加速你的开发效率\n【推荐指数】★★★★★ 实战教程+模板库,learning curve友好,立即提升你4个项目的AI集成能力"
+        },
+        {
+          "date": "2026-03-30",
+          "repo": "shareAI-lab/learn-claude-code",
+          "description": "从零构建类Claude Code的AI代理框架",
+          "language": "TypeScript",
+          "stars": 42496,
+          "today_stars": 908,
+          "score": 2736.2566961067037,
+          "source": "trending",
+          "topics": [
+            "agent",
+            "agent-development",
+            "ai-agent",
+            "claude",
+            "claude-code",
+            "educational",
+            "llm",
+            "python",
+            "teaching",
+            "tutorial"
+          ],
+          "forks": 6558,
+          "license": "MIT",
+          "homepage": "https://learn.shareai.run",
+          "url": "https://github.com/shareAI-lab/learn-claude-code",
+          "ai_analysis": "【是什么】教你用Bash从0到1构建AI代理系统的教程项目\n【技术亮点】TypeScript实现,揭秘Claude Code底层架构,42.5k star证明价值\n【对你的价值】你在做飞书远程控制和FastAPI系统,这个项目教你如何构建AI代理来自动化操作流程,可用于占星数据处理自动化、返厂系统智能客服等场景\n【推荐指数】★★★★★ 高star数+MIT协议,适合学习AI Agent架构思想,直接应用到你的多个项目中"
+        },
+        {
+          "date": "2026-03-30",
+          "repo": "fastfetch-cli/fastfetch",
+          "description": "高性能系统信息展示命令行工具",
+          "language": "C",
+          "stars": 21073,
+          "today_stars": 28,
+          "score": 95.6474527343107,
+          "source": "trending",
+          "topics": [
+            "bsdfetch",
+            "command-line",
+            "fastfetch",
+            "fetch",
+            "flashfetch",
+            "hacktoberfest",
+            "macfetch",
+            "neofetch",
+            "terminal",
+            "winfetch"
+          ],
+          "forks": 715,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/fastfetch-cli/fastfetch",
+          "ai_analysis": "【是什么】类似neofetch的系统信息获取工具,用C语言实现高性能\n【技术亮点】21.1k star,性能优化极致,命令行美化展示,跨平台支持\n【对你的价值】对你当前项目价值有限,主要用于开发环境美化和系统监控。若OpenClaw需要远程获取Mac系统状态可集成,但不是核心需求\n【推荐指数】★★☆☆☆ 工具类项目,与你的业务场景关联度低,除非做系统监控需求"
+        },
+        {
+          "date": "2026-03-30",
+          "repo": "elder-plinius/G0DM0D3",
+          "description": "无限制AI对话客户端",
+          "language": "TypeScript",
+          "stars": 1875,
+          "today_stars": 0,
+          "score": 11.546002544127475,
+          "source": "新星",
+          "topics": [],
+          "forks": 368,
+          "license": "AGPL-3.0",
+          "homepage": null,
+          "url": "https://github.com/elder-plinius/G0DM0D3",
+          "ai_analysis": "【是什么】去除AI限制的自由聊天界面,AGPL-3.0协议\n【技术亮点】TypeScript实现,1.9k star,强调AI自由度,但协议传染性强\n【对你的价值】可作为占星咨询的私有化部署方案,避免API调用成本。但AGPL协议要求开源,不适合商业化的返厂系统和小红书运营工具\n【推荐指数】★★☆☆☆ 协议风险高,商业化受限,仅适合个人实验或内部工具,不建议集成到你的商业项目"
+        }
+      ]
+    },
     {
       "date": "2026-03-29",
       "ai_report": "GitHub 宝藏日报 | 2026-03-29\n\n🔧 1. apache/superset\n⭐ 63.8k stars | 🔤 TypeScript/Python | 📄 Apache-2.0\n💡 一句话说清楚是什么\n开源BI平台,拖拽式图表+SQL查询,可视化探索数据库数据\n🎯 对用户的具体价值\n返厂统计分析系统现在用FastAPI+React自己写报表,直接接入Superset能省掉前端图表开发。支持多数据源联动,工厂质检、返修率、成本分析这些报表全能拖出来,比自己画echarts快多了\n\n🤖 2. SakanaAI/AI-Scientist-v2\n⭐ 8.2k stars | 🔤 Python | 📄 Apache-2.0\n💡 一句话说清楚是什么\nAI全自动跑实验、写论文、生成图表,从idea到LaTeX论文一条龙\n🎯 对用户的具体价值\nastro-finance项目里行星周期和股市相关性分析,一直缺数据验证。这工具能自动设计实验、跑回测、生成论文,直接产出\"水星逆行与比特币波动\"这类研究报告,小红书选题素材直接拉满\n\n🎨 3. magnum6actual/flipoff\n⭐ 100+ stars | 🔤 JavaScript | 📄 MIT\n💡 一句话说清楚是什么\n网页版翻牌时钟,纯前端实现复古分屏翻牌动效\n🎯 对用户的具体价值\n小红书占星运营可以直接嵌入\"每日星座运势倒计时\"翻牌效果,或者做\"下次水逆还有X天\"这种互动组件。纯静态页面,挂CDN就能用,比canvas自己画省事\n\n🧠 4. HKUDS/OpenSpace\n⭐ 1.5k stars | 🔤 Python | 📄 Apache-2.0\n💡 一句话说清楚是什么\n低成本AI智能体,能自我进化、记忆优化、多智能体协作\n🎯 对用户的具体价值\nOpenClaw现在只能远程控制Mac,接入OpenSpace能做成\"记住你操作习惯的助手\"。比如自动识别\"每天10点打开飞书+某个文档\"这种pattern,或者多智能体分工:一个监控返厂系统异常,一个自动生成周报推送飞书\n\n⚡ 5. larksuite/cli\n⭐ 300+ stars | 🔤 TypeScript | 📄 MIT\n💡 一句话说清楚是什么\n飞书官方CLI工具,本地开发/部署飞书机器人、技能、小程序\n🎯 对用户的具体价值\nOpenClaw现在远程控制Mac估计是走API,用官方CLI能直接开发飞书技能,做成\"/控制mac 打开Chrome\"这种slash命令。返厂系统也能通过CLI快速做飞书报警机器人,异常数据直接@质检组\n\n📊 今日总结\n- 直接能用:larksuite/cli(OpenClaw集成飞书技能)、flipoff(小红书互动组件)\n- 值得研究:AI-Scientist-v2(占星金融数据验证)、OpenSpace(智能化OpenClaw)\n- 先收藏:Superset(返厂系统报表升级备选方案)",

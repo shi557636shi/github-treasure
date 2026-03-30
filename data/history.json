@@ -1,25 +1,5 @@
 [
   {
-    "repo": "ruvnet/wifi-densepose",
-    "date": "2026-02-28"
-  },
-  {
-    "repo": "moeru-ai/airi",
-    "date": "2026-02-28"
-  },
-  {
-    "repo": "steipete/CodexBar",
-    "date": "2026-02-28"
-  },
-  {
-    "repo": "tukaani-project/xz",
-    "date": "2026-02-28"
-  },
-  {
-    "repo": "Wei-Shaw/claude-relay-service",
-    "date": "2026-02-28"
-  },
-  {
     "repo": "ruvnet/ruflo",
     "date": "2026-03-01"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "elder-plinius/G0DM0D3",
     "date": "2026-03-30"
+  },
+  {
+    "repo": "OpenBB-finance/OpenBB",
+    "date": "2026-03-31"
+  },
+  {
+    "repo": "freeCodeCamp/freeCodeCamp",
+    "date": "2026-03-31"
+  },
+  {
+    "repo": "sherlock-project/sherlock",
+    "date": "2026-03-31"
+  },
+  {
+    "repo": "qiuzhi2046/Qclaw",
+    "date": "2026-03-31"
+  },
+  {
+    "repo": "yetone/voice-input-src",
+    "date": "2026-03-31"
   }
 ]

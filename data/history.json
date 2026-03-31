@@ -1,25 +1,5 @@
 [
   {
-    "repo": "ruvnet/ruflo",
-    "date": "2026-03-01"
-  },
-  {
-    "repo": "Shubhamsaboo/awesome-llm-apps",
-    "date": "2026-03-01"
-  },
-  {
-    "repo": "NousResearch/hermes-agent",
-    "date": "2026-03-01"
-  },
-  {
-    "repo": "superset-sh/superset",
-    "date": "2026-03-01"
-  },
-  {
-    "repo": "Wei-Shaw/sub2api",
-    "date": "2026-03-01"
-  },
-  {
     "repo": "microsoft/markitdown",
     "date": "2026-03-02"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "yetone/voice-input-src",
     "date": "2026-03-31"
+  },
+  {
+    "repo": "NousResearch/hermes-agent",
+    "date": "2026-04-01"
+  },
+  {
+    "repo": "jwasham/coding-interview-university",
+    "date": "2026-04-01"
+  },
+  {
+    "repo": "PaddlePaddle/PaddleOCR",
+    "date": "2026-04-01"
+  },
+  {
+    "repo": "Dimillian/Skills",
+    "date": "2026-04-01"
+  },
+  {
+    "repo": "neovim/neovim",
+    "date": "2026-04-01"
   }
 ]

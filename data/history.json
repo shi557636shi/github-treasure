@@ -1,25 +1,5 @@
 [
   {
-    "repo": "microsoft/markitdown",
-    "date": "2026-03-02"
-  },
-  {
-    "repo": "X-PLUG/MobileAgent",
-    "date": "2026-03-02"
-  },
-  {
-    "repo": "basecamp/omarchy",
-    "date": "2026-03-02"
-  },
-  {
-    "repo": "RightNow-AI/openfang",
-    "date": "2026-03-02"
-  },
-  {
-    "repo": "Polymarket/polymarket-cli",
-    "date": "2026-03-02"
-  },
-  {
     "repo": "K-Dense-AI/claude-scientific-skills",
     "date": "2026-03-03"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "neovim/neovim",
     "date": "2026-04-01"
+  },
+  {
+    "repo": "anthropics/claude-code",
+    "date": "2026-04-02"
+  },
+  {
+    "repo": "openai/codex",
+    "date": "2026-04-02"
+  },
+  {
+    "repo": "f/prompts.chat",
+    "date": "2026-04-02"
+  },
+  {
+    "repo": "google-research/timesfm",
+    "date": "2026-04-02"
+  },
+  {
+    "repo": "axios/axios",
+    "date": "2026-04-02"
   }
 ]

@@ -1,6 +1,99 @@
 {
-  "generated_at": "2026-04-03T20:00:02.454090",
+  "generated_at": "2026-04-04T00:06:12.968963",
   "days": [
+    {
+      "date": "2026-04-04",
+      "ai_report": "GitHub 宝藏日报 | 2026-04-04\n\n🛠️ 1. claude-code-best/claude-code\n⭐ stars | 🔤 TypeScript | 📄 MIT\n💡 Claude Code官方源码的企业级可运行版本\n🎯 你正在用Claude Code做开发,这个仓库能让你看懂底层实现,给OpenClaw和返厂系统定制专属AI编程助手,比如加上飞书通知、自动提交等企业级功能\n\n⚙️ 2. openai/codex-plugin-cc\n⭐ stars | 🔤 JavaScript | 📄 Apache-2.0\n💡 在Claude Code里调用OpenAI Codex的插件\n🎯 astro-finance项目如果遇到Claude不擅长的数值计算或复杂算法,可以切换到Codex补充,一个工具同时用两个大模型\n\n🌟 3. Gitlawb/openclaude\n⭐ stars | 🔤 Python | 📄 GPL-3.0\n💡 支持200+模型的开源多模型CLI编程工具\n🎯 小红书占星运营要测试不同模型生成的文案风格时,不用来回切工具,一个CLI搞定Claude、GPT、Gemini等所有主流模型\n\n⚡ 4. Kuberwastaken/claurst\n⭐ stars | 🔤 Rust | 📄 MIT\n💡 Rust写的终端AI编程助手,带完整架构解析\n🎯 返厂系统FastAPI后端如果要追求极致性能,可以参考这个Rust实现改造部分高频模块,同时学习AI Agent的底层架构设计\n\n🔍 5. dmtrKovalenko/fff.nvim\n⭐ stars | 🔤 Lua | 📄 MIT\n💡 专为AI Agent优化的极速文件搜索Neovim插件\n🎯 OpenClaw项目代码量大的话,这个工具能让AI快速定位文件,配合Claude Code做远程Mac控制的代码重构效率翻倍\n\n📊 今日总结\n- 直接能用: openai/codex-plugin-cc装上立刻双模型切换,fff.nvim加速OpenClaw开发\n- 值得研究: claude-code-best源码吃透后给返厂系统定制专属AI助手,Kuberwastaken/claurst的Rust架构可以优化FastAPI性能瓶颈\n- 先收藏: Gitlawb/openclaude等小红书运营要批量测试文案时再用",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-04-04",
+          "repo": "dmtrKovalenko/fff.nvim",
+          "description": "为AI Agent优化的极速文件搜索工具包",
+          "language": "Rust",
+          "stars": 3088,
+          "today_stars": 767,
+          "score": 2310.979354583327,
+          "source": "trending",
+          "topics": [
+            "filesearch",
+            "lua",
+            "neovim",
+            "neovim-plugin",
+            "rust"
+          ],
+          "forks": 122,
+          "license": "MIT",
+          "homepage": "https://fff.dmtrkovalenko.dev/",
+          "url": "https://github.com/dmtrKovalenko/fff.nvim",
+          "ai_analysis": "【是什么】Rust实现的超高速文件搜索引擎，专为AI Agent和Neovim优化\n【技术亮点】Rust+C性能极致、跨语言绑定（Lua/NodeJS）、专为AI上下文检索设计\n【对你的价值】返厂系统可集成快速代码搜索（React组件定位）、OpenClaw脚本可快速查找Mac系统文件、占星内容库可建立高效检索系统\n【推荐指数】★★★☆☆ 工具型价值，适合已有大规模代码库或内容库的优化场景"
+        },
+        {
+          "date": "2026-04-04",
+          "repo": "claude-code-best/claude-code",
+          "description": "Claude Code官方源码的可运行企业级版本",
+          "language": "TypeScript",
+          "stars": 12867,
+          "today_stars": 0,
+          "score": 13.21895460191747,
+          "source": "新星",
+          "topics": [],
+          "forks": 13379,
+          "license": null,
+          "homepage": "https://ccb.agent-aura.top/",
+          "url": "https://github.com/claude-code-best/claude-code",
+          "ai_analysis": "【是什么】Anthropic Claude Code的完整TypeScript实现，修复所有类型错误，开箱即用\n【技术亮点】企业级可靠性保障、完整类型系统、Bun运行时优化、依赖锁文件保真\n【对你的价值】可深度定制AI编程助手集成到返厂系统（FastAPI代码生成）、学习Claude Agent架构用于OpenClaw自动化脚本生成、理解提示词工程优化占星内容创作流程\n【推荐指数】★★★★★ 核心价值极高，可直接fork研究AI Agent实现机制，为3个技术项目提供代码生成能力"
+        },
+        {
+          "date": "2026-04-04",
+          "repo": "openai/codex-plugin-cc",
+          "description": "在Claude Code中调用OpenAI Codex的插件",
+          "language": "JavaScript",
+          "stars": 11155,
+          "today_stars": 0,
+          "score": 13.094939149239712,
+          "source": "新星",
+          "topics": [],
+          "forks": 570,
+          "license": "Apache-2.0",
+          "homepage": null,
+          "url": "https://github.com/openai/codex-plugin-cc",
+          "ai_analysis": "【是什么】让Claude Code能调用OpenAI Codex进行代码审查和任务委派的桥接插件\n【技术亮点】多模型协同、插件化架构、Apache-2.0企业友好许可\n【对你的价值】可为返厂系统接入GPT-4代码审查、结合OpenClaw实现多AI模型协作的自动化测试、占星内容生成可切换不同AI引擎\n【推荐指数】★★★☆☆ 适合需要OpenAI+Claude混合能力的场景，但你的项目可能更需要单一稳定方案"
+        },
+        {
+          "date": "2026-04-04",
+          "repo": "Gitlawb/openclaude",
+          "description": "支持200+模型的开源多模型编程CLI工具",
+          "language": "TypeScript",
+          "stars": 9803,
+          "today_stars": 0,
+          "score": 12.9827180052759,
+          "source": "新星",
+          "topics": [],
+          "forks": 3583,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/Gitlawb/openclaude",
+          "ai_analysis": "【是什么】兼容OpenAI/Gemini/DeepSeek等200+模型的开源代码助手CLI\n【技术亮点】模型无关设计、OpenAI-compatible API统一接口、MIT许可完全自由\n【对你的价值】astro-finance可低成本接入DeepSeek等国产模型降低API费用、返厂系统可灵活切换模型避免供应商锁定、小红书运营可用本地Ollama降本增效\n【推荐指数】★★★★★ 极强实用性，多模型支持完美匹配你的成本控制需求和技术多样性"
+        },
+        {
+          "date": "2026-04-04",
+          "repo": "Kuberwastaken/claurst",
+          "description": "Rust实现的终端AI编程助手及架构解析",
+          "language": "Rust",
+          "stars": 7655,
+          "today_stars": 0,
+          "score": 12.76789039006856,
+          "source": "新星",
+          "topics": [],
+          "forks": 7330,
+          "license": null,
+          "homepage": "https://kuber.studio/blog/AI/Claude-Code's-Entire-Source-Code-Got-Leaked-via-a-Sourcemap-in-npm,-Let's-Talk-About-it",
+          "url": "https://github.com/Kuberwastaken/claurst",
+          "ai_analysis": "【是什么】用Rust重写的高性能终端代码助手，附带Claude Code架构深度剖析文档\n【技术亮点】Rust零成本抽象、极致性能、内存安全、包含Claude Code技术分析\n【对你的价值】OpenClaw的Mac控制可用Rust编写高性能守护进程、返厂系统的数据处理模块可重写提升10倍性能、学习资料价值高（架构breakdown）\n【推荐指数】★★★★☆ 性能敏感场景首选，学习价值4星但需Rust技术栈投入"
+        }
+      ]
+    },
     {
       "date": "2026-04-03",
       "ai_report": "GitHub 宝藏日报 | 2026-04-03\n\n🦀 1. ultraworkers/claw-code\n⭐ 100,000+ stars | 🔤 Rust | 📄 MIT\n💡 史上增长最快的 Rust 开发工具集，刚破10万星\n🎯 OpenClaw 项目是飞书远程Mac控制，如果要提升性能或重构底层，这个 Rust 工具集能提供高性能组件。返厂统计分析系统的后端也可以考虑用 Rust 替换 FastAPI 的性能瓶颈部分\n\n🔓 2. asgeirtj/system_prompts_leaks\n⭐ N/A | 🔤 Markdown | 📄 开源\n💡 收集了 GPT、Claude、Gemini 等主流 AI 的系统提示词\n🎯 占星金融预测(astro-finance)里肯定要调 AI 接口，看看这些提示词能学到怎么设计更好的占星分析 prompt。小红书占星运营也能参考这些提示词结构，优化内容生成质量\n\n📹 3. siddharthvaddem/openscreen\n⭐ N/A | 🔤 N/A | 📄  可商用\n💡 开源屏幕录制工具，无水印可商用\n🎯 OpenClaw 远程控制 Mac 的时候，可以集成这个录屏功能做操作回放或问题排查。小红书运营如果要做教程视频，这个工具免费无水印直接用\n\n🤖 4. sanbuphy/learn-coding-agent\n⭐ N/A | 🔤 N/A | 📄 N/A\n💡 编码智能体的研究资料和案例合集\n🎯 返厂统计分析系统(FastAPI+React)如果想加自动化分析或智能推荐功能，这里的 agent 研究能提供思路。占星金融预测也可以参考，给金融数据分析加上智能体决策\n\n🔧 5. Yeachan-Heo/oh-my-codex\n⭐ N/A | 🔤 N/A | 📄 N/A\n💡 给代码编辑器装上 hooks 和智能体团队协作能力\n🎯 四个项目都在写代码，这个工具能提升开发效率。特别是返厂系统和 OpenClaw 这种前后端分离的项目，智能体团队协作能帮你自动处理重复性的 API 对接和数据转换\n\n📊 今日总结\n- 直接能用：openscreen 录屏工具装上就能给 OpenClaw 和小红书视频用，system_prompts_leaks 的提示词今天就能改进占星 AI 接口\n- 值得研究：learn-coding-agent 的智能体资料能给占星金融预测和返厂系统加智能分析，oh-my-codex 可以提升四个项目的开发效率\n- 先收藏：claw-code 的 Rust 工具集，等 OpenClaw 或返厂系统遇到性能瓶颈时再看",

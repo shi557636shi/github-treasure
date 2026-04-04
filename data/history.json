@@ -1,25 +1,5 @@
 [
   {
-    "repo": "KeygraphHQ/shannon",
-    "date": "2026-03-05"
-  },
-  {
-    "repo": "ItzCrazyKns/Perplexica",
-    "date": "2026-03-05"
-  },
-  {
-    "repo": "agentscope-ai/ReMe",
-    "date": "2026-03-05"
-  },
-  {
-    "repo": "FujiwaraChoki/MoneyPrinterV2",
-    "date": "2026-03-05"
-  },
-  {
-    "repo": "nautechsystems/nautilus_trader",
-    "date": "2026-03-05"
-  },
-  {
     "repo": "TheCraigHewitt/seomachine",
     "date": "2026-03-06"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "Kuberwastaken/claurst",
     "date": "2026-04-04"
+  },
+  {
+    "repo": "block/goose",
+    "date": "2026-04-05"
+  },
+  {
+    "repo": "Blaizzy/mlx-vlm",
+    "date": "2026-04-05"
+  },
+  {
+    "repo": "telegramdesktop/tdesktop",
+    "date": "2026-04-05"
+  },
+  {
+    "repo": "ChinaSiro/claude-code-sourcemap",
+    "date": "2026-04-05"
+  },
+  {
+    "repo": "titanwings/colleague-skill",
+    "date": "2026-04-05"
   }
 ]

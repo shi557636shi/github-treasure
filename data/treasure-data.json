@@ -1,6 +1,115 @@
 {
-  "generated_at": "2026-04-04T20:00:04.680301",
+  "generated_at": "2026-04-05T00:08:30.012119",
   "days": [
+    {
+      "date": "2026-04-05",
+      "ai_report": "GitHub 宝藏日报 | 2026-04-05\n\n🤖 1. block/goose\n⭐ 开源AI智能体 | 🔤 Python | 📄 Apache-2.0\n💡 能自己写代码、改代码、跑测试的AI助手,支持接入任意大模型\n🎯 你的返厂统计分析系统开发可以用它自动生成FastAPI接口和React组件,比手写快很多。占星金融预测的数据处理脚本也能让它帮你写\n\n💬 2. telegramdesktop/tdesktop\n⭐ Telegram官方桌面客户端 | 🔤 C++ | 📄 GPL-3.0\n💡 Telegram桌面版的完整源码,跨平台即时通讯应用\n🎯 如果你想给小红书占星运营做个自动回复机器人,可以参考它的消息处理架构。OpenClaw远程控制也能借鉴它的跨平台通信方案\n\n🗺️ 3. ChinaSiro/claude-code-sourcemap\n⭐ Claude Code源码分析工具 | 🔤 TypeScript | 📄 MIT\n💡 帮你理解Claude Code内部实现的源码映射工具\n🎯 你现在就在用Claude Code,这个工具能让你看懂它怎么工作的,想定制自己的AI工作流时有用\n\n🧠 4. titanwings/colleague-skill\n⭐ 数字生命技能传承系统 | 🔤 未知 | 📄 未知\n💡 把离职同事的工作经验转化成可复用的AI技能包\n🎯 你的返厂统计分析系统如果有特殊业务逻辑,可以用这个思路把知识固化成AI技能,新人来了直接问AI就行\n\n🖼️ 5. Blaizzy/mlx-vlm\n⭐ Mac本地视觉模型工具 | 🔤 Python | 📄 MIT\n💡 在Mac上跑视觉语言模型,能看图说话还能微调\n🎯 小红书占星运营可以用它自动分析用户上传的星盘截图,占星金融预测也能用来识别K线图形态,全在本地跑不用担心数据泄露\n\n📊 今日总结\n- 直接能用：goose帮你写返厂系统代码,mlx-vlm分析星盘和K线图\n- 值得研究：tdesktop的跨平台方案给OpenClaw提供思路,colleague-skill的知识固化方法\n- 先收藏：claude-code-sourcemap等你想深度定制AI工作流再看",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-04-05",
+          "repo": "block/goose",
+          "description": "开源AI智能体,可安装执行编辑测试代码,支持任意LLM",
+          "language": "Rust",
+          "stars": 35425,
+          "today_stars": 947,
+          "score": 2853.098619717839,
+          "source": "trending",
+          "topics": [
+            "mcp"
+          ],
+          "forks": 3325,
+          "license": "Apache-2.0",
+          "homepage": "https://block.github.io/goose/",
+          "url": "https://github.com/block/goose",
+          "ai_analysis": "【是什么】超越代码补全的全能AI开发助手,能自主安装依赖、执行脚本、编辑文件并运行测试\n【技术亮点】Rust高性能实现+MCP协议支持+多LLM适配,可扩展插件架构\n【对你的价值】可集成到返厂统计系统开发流程,加速FastAPI后端开发;辅助OpenClaw项目的Rust组件开发;占星算法Python脚本自动化测试\n【推荐指数】⭐⭐⭐⭐⭐ 35k星热度+开发效率倍增器,技术栈匹配度高"
+        },
+        {
+          "date": "2026-04-05",
+          "repo": "Blaizzy/mlx-vlm",
+          "description": "Mac本地视觉语言模型推理微调工具包(MLX框架)",
+          "language": "Python",
+          "stars": 3440,
+          "today_stars": 316,
+          "score": 958.073116885143,
+          "source": "trending",
+          "topics": [
+            "apple-silicon",
+            "florence2",
+            "idefics",
+            "llava",
+            "llm",
+            "local-ai",
+            "mlx",
+            "molmo",
+            "paligemma",
+            "pixtral",
+            "vision-framework",
+            "vision-language-model",
+            "vision-transformer"
+          ],
+          "forks": 380,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/Blaizzy/mlx-vlm",
+          "ai_analysis": "【是什么】苹果芯片优化的VLM本地运行方案,支持LLaVA/Florence2等多模态模型推理和微调\n【技术亮点】Apple Silicon原生优化+Python易用接口,3.4k星活跃项目,MIT协议\n【对你的价值】可在Mac本地运行视觉模型分析占星图表;为OpenClaw添加屏幕理解能力;返厂系统可集成图像质检;隐私数据本地处理无需API\n【推荐指数】⭐⭐⭐⭐⭐ Mac开发环境完美适配+多模态AI能力扩展,实用价值极高"
+        },
+        {
+          "date": "2026-04-05",
+          "repo": "telegramdesktop/tdesktop",
+          "description": "Telegram桌面版官方客户端,跨平台即时通讯应用",
+          "language": "C++",
+          "stars": 30740,
+          "today_stars": 282,
+          "score": 857.9754077263275,
+          "source": "trending",
+          "topics": [
+            "messenger",
+            "multi-platform",
+            "telegram",
+            "telegram-desktop",
+            "telegram-solution"
+          ],
+          "forks": 6507,
+          "license": "NOASSERTION",
+          "homepage": "https://desktop.telegram.org/",
+          "url": "https://github.com/telegramdesktop/tdesktop",
+          "ai_analysis": "【是什么】Telegram官方维护的跨平台桌面端,C++原生开发的高性能IM客户端\n【技术亮点】30k星成熟项目,完整端到端加密实现,跨平台UI框架参考价值高\n【对你的价值】可参考其跨平台架构设计OpenClaw的Mac控制协议;学习C++桌面应用最佳实践;但与当前项目技术栈关联度较低\n【推荐指数】⭐⭐ 技术参考价值有限,非Python/TypeScript/Rust栈"
+        },
+        {
+          "date": "2026-04-05",
+          "repo": "ChinaSiro/claude-code-sourcemap",
+          "description": "Claude Code源码映射工具(TypeScript实现)",
+          "language": "TypeScript",
+          "stars": 8362,
+          "today_stars": 0,
+          "score": 12.844620326428792,
+          "source": "新星",
+          "topics": [],
+          "forks": 14002,
+          "license": null,
+          "homepage": "https://linux.do/u/huo0",
+          "url": "https://github.com/ChinaSiro/claude-code-sourcemap",
+          "ai_analysis": "【是什么】针对Claude Code的源码分析辅助工具,8.4k星高关注度但无官方描述\n【技术亮点】TypeScript实现,14k Forks显示活跃社区参与,可能涉及AI代码理解增强\n【对你的价值】可提升你使用AI辅助开发的效率(占星算法开发、返厂系统迭代);TypeScript技术栈与React前端契合;辅助理解复杂代码逻辑\n【推荐指数】⭐⭐⭐⭐ 工具类项目实用性强,但缺少官方文档需深入研究"
+        },
+        {
+          "date": "2026-04-05",
+          "repo": "titanwings/colleague-skill",
+          "description": "数字生命1.0技能包,将离别转化为AI技能传承",
+          "language": "Python",
+          "stars": 7047,
+          "today_stars": 0,
+          "score": 12.696008542994537,
+          "source": "新星",
+          "topics": [],
+          "forks": 477,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/titanwings/colleague-skill",
+          "ai_analysis": "【是什么】情感化AI技能封装框架,将个人工作经验转化为可复用的数字化技能包\n【技术亮点】Python实现+创意概念,7k星热度,MIT开源协议友好\n【对你的价值】可将占星分析经验封装成Skill供AI调用;整合到小红书运营自动化工具链;为返厂系统沉淀业务逻辑知识库;概念新颖但实用性待验证\n【推荐指数】⭐⭐⭐ 创意独特但应用场景需自行探索,Python栈契合"
+        }
+      ]
+    },
     {
       "date": "2026-04-04",
       "ai_report": "GitHub 宝藏日报 | 2026-04-04\n\n🛠️ 1. claude-code-best/claude-code\n⭐ stars | 🔤 TypeScript | 📄 MIT\n💡 Claude Code官方源码的企业级可运行版本\n🎯 你正在用Claude Code做开发,这个仓库能让你看懂底层实现,给OpenClaw和返厂系统定制专属AI编程助手,比如加上飞书通知、自动提交等企业级功能\n\n⚙️ 2. openai/codex-plugin-cc\n⭐ stars | 🔤 JavaScript | 📄 Apache-2.0\n💡 在Claude Code里调用OpenAI Codex的插件\n🎯 astro-finance项目如果遇到Claude不擅长的数值计算或复杂算法,可以切换到Codex补充,一个工具同时用两个大模型\n\n🌟 3. Gitlawb/openclaude\n⭐ stars | 🔤 Python | 📄 GPL-3.0\n💡 支持200+模型的开源多模型CLI编程工具\n🎯 小红书占星运营要测试不同模型生成的文案风格时,不用来回切工具,一个CLI搞定Claude、GPT、Gemini等所有主流模型\n\n⚡ 4. Kuberwastaken/claurst\n⭐ stars | 🔤 Rust | 📄 MIT\n💡 Rust写的终端AI编程助手,带完整架构解析\n🎯 返厂系统FastAPI后端如果要追求极致性能,可以参考这个Rust实现改造部分高频模块,同时学习AI Agent的底层架构设计\n\n🔍 5. dmtrKovalenko/fff.nvim\n⭐ stars | 🔤 Lua | 📄 MIT\n💡 专为AI Agent优化的极速文件搜索Neovim插件\n🎯 OpenClaw项目代码量大的话,这个工具能让AI快速定位文件,配合Claude Code做远程Mac控制的代码重构效率翻倍\n\n📊 今日总结\n- 直接能用: openai/codex-plugin-cc装上立刻双模型切换,fff.nvim加速OpenClaw开发\n- 值得研究: claude-code-best源码吃透后给返厂系统定制专属AI助手,Kuberwastaken/claurst的Rust架构可以优化FastAPI性能瓶颈\n- 先收藏: Gitlawb/openclaude等小红书运营要批量测试文案时再用",

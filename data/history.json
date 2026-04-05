@@ -1,25 +1,5 @@
 [
   {
-    "repo": "TheCraigHewitt/seomachine",
-    "date": "2026-03-06"
-  },
-  {
-    "repo": "inclusionAI/AReaL",
-    "date": "2026-03-06"
-  },
-  {
-    "repo": "microsoft/mcp-for-beginners",
-    "date": "2026-03-06"
-  },
-  {
-    "repo": "microsoft/hve-core",
-    "date": "2026-03-06"
-  },
-  {
-    "repo": "googleworkspace/cli",
-    "date": "2026-03-06"
-  },
-  {
     "repo": "openai/skills",
     "date": "2026-03-07"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "titanwings/colleague-skill",
     "date": "2026-04-05"
+  },
+  {
+    "repo": "google-ai-edge/gallery",
+    "date": "2026-04-06"
+  },
+  {
+    "repo": "badlogic/pi-mono",
+    "date": "2026-04-06"
+  },
+  {
+    "repo": "google-ai-edge/LiteRT-LM",
+    "date": "2026-04-06"
+  },
+  {
+    "repo": "VoltAgent/awesome-design-md",
+    "date": "2026-04-06"
+  },
+  {
+    "repo": "emdash-cms/emdash",
+    "date": "2026-04-06"
   }
 ]

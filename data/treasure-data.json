@@ -1,6 +1,106 @@
 {
-  "generated_at": "2026-04-05T20:00:03.849705",
+  "generated_at": "2026-04-06T00:10:48.297258",
   "days": [
+    {
+      "date": "2026-04-06",
+      "ai_report": "GitHub 宝藏日报 | 2026-04-06\n\n🤖 1. badlogic/pi-mono\n⭐ 未知 | 🔤 TypeScript | 📄 未知\n💡 AI代理开发全家桶，包含编码CLI、统一LLM接口、UI组件和Slack机器人\n🎯 你的返厂统计分析系统如果要加AI分析功能，这套工具能直接复用LLM接口层，省得自己封装多个模型API；OpenClaw要做远程协作的话，Slack机器人的实现思路可以借鉴到飞书bot开发\n\n🧠 2. google-ai-edge/gallery\n⭐ 未知 | 🔤 多语言 | 📄 未知\n💡 Google官方的边缘AI案例库，展示如何在本地设备上跑机器学习和生成式AI模型\n🎯 astro-finance做金融预测时，如果想在本地跑模型保护数据隐私(别把用户出生时间传给云端)，这里有现成的端侧部署方案；返厂系统的数据分析也能参考本地模型方案\n\n🎨 3. VoltAgent/awesome-design-md\n⭐ 未知 | 🔤 Markdown | 📄 未知\n💡 收集了知名网站的设计系统DESIGN.md文件，让AI能快速理解并生成符合品牌规范的UI\n🎯 小红书占星运营需要设计配图时，可以喂给AI这些大厂设计规范，生成更专业的视觉素材；返厂系统的前端React组件设计也能参考这些设计系统，快速建立统一视觉语言\n\n📝 4. emdash-cms/emdash\n⭐ 未知 | 🔤 TypeScript | 📄 未知\n💡 基于Astro的全栈CMS，号称WordPress的现代化替代品\n🎯 如果astro-finance要做内容营销站(发占星文章吸引用户)，这个Astro CMS正好匹配技术栈；比WordPress轻量，TypeScript全栈对你现有的React/FastAPI技术栈更友好\n\n⚡ 5. google-ai-edge/LiteRT-LM\n⭐ 未知 | 🔤 C++ | 📄 未知\n💡 Google出品的轻量级语言模型运行时，用C++实现的高性能推理引擎\n🎯 OpenClaw控制Mac时如果要加语音助手(说句话就执行操作)，这个轻量运行时能在Mac本地低延迟跑小模型；astro-finance的占星解读如果要做离线版APP，也能用这个跑本地LLM\n\n📊 今日总结\n- 直接能用：pi-mono的LLM接口封装可以直接接入返厂系统，awesome-design-md能马上喂给AI优化小红书配图\n- 值得研究：google-ai-edge/gallery的本地模型方案值得深入研究，看能不能把astro-finance的预测模型本地化部署\n- 先收藏：emdash CMS暂时收藏，等astro-finance需要做内容站时再拿出来用；LiteRT-LM等OpenClaw要做语音控制时研究",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-04-06",
+          "repo": "google-ai-edge/gallery",
+          "description": "Google边缘AI展示厅：本地运行ML/GenAI模型的案例库",
+          "language": "Kotlin",
+          "stars": 16593,
+          "today_stars": 495,
+          "score": 1496.4398498263777,
+          "source": "trending",
+          "topics": [],
+          "forks": 1510,
+          "license": "Apache-2.0",
+          "homepage": null,
+          "url": "https://github.com/google-ai-edge/gallery",
+          "ai_analysis": "【是什么】Google官方端侧AI模型展示平台，提供可本地运行的机器学习和生成式AI用例集合\n【技术亮点】Kotlin实现，专注边缘设备推理，无需云端依赖，Apache 2.0开源许可适合商用\n【对你的价值】★★☆☆☆ 占星金融预测若需移动端部署可参考端侧推理方案；其他项目以Web/服务端为主，直接价值有限\n【推荐指数】⭐⭐☆☆☆ 你的项目主要是服务端API和Web应用，除非要做占星App的离线预测功能，否则边缘AI优先级不高"
+        },
+        {
+          "date": "2026-04-06",
+          "repo": "badlogic/pi-mono",
+          "description": "AI代理工具包：编码CLI、统一LLM接口、UI库、Slack机器人",
+          "language": "TypeScript",
+          "stars": 31750,
+          "today_stars": 340,
+          "score": 1032.003487459256,
+          "source": "trending",
+          "topics": [],
+          "forks": 3461,
+          "license": "MIT",
+          "homepage": null,
+          "url": "https://github.com/badlogic/pi-mono",
+          "ai_analysis": "【是什么】全栈AI Agent开发工具集，提供命令行编码助手、多模型统一API、TUI/Web界面组件和Slack集成\n【技术亮点】TypeScript全栈方案，支持vLLM推理加速，模块化架构可按需组合，31.8k stars证明生产级成熟度\n【对你的价值】★★★★★ 飞书远程控制(OpenClaw)可集成Slack bot架构；占星金融预测可复用统一LLM API对接Claude/GPT做策略分析；FastAPI项目可参考其CLI agent实现自动化运维；小红书运营可用AI生成占星内容脚本\n【推荐指数】⭐⭐⭐⭐⭐ 你4个项目都涉及API集成和自动化，这个工具包的统一LLM接口能大幅降低多模型接入成本，编码agent可加速FastAPI后端开发"
+        },
+        {
+          "date": "2026-04-06",
+          "repo": "google-ai-edge/LiteRT-LM",
+          "description": "Google轻量级运行时语言模型(C++实现)",
+          "language": "C++",
+          "stars": 1399,
+          "today_stars": 113,
+          "score": 348.2916354289837,
+          "source": "trending",
+          "topics": [],
+          "forks": 176,
+          "license": "Apache-2.0",
+          "homepage": null,
+          "url": "https://github.com/google-ai-edge/LiteRT-LM",
+          "ai_analysis": "【是什么】Google开发的边缘设备语言模型运行时，C++底层实现，专为资源受限环境优化\n【技术亮点】C++高性能推理，适配移动端和嵌入式设备，Apache 2.0许可，是TensorFlow Lite的语言模型特化版本\n【对你的价值】★☆☆☆☆ 你的项目均为高级语言开发(TypeScript/Python/React)，无嵌入式需求，C++底层库难以直接集成\n【推荐指数】⭐☆☆☆☆ 除非要做占星硬件设备(如智能音箱占星助手)，否则这个C++底层库与你的Web/API技术栈脱节，不建议投入精力"
+        },
+        {
+          "date": "2026-04-06",
+          "repo": "VoltAgent/awesome-design-md",
+          "description": "知名网站设计系统DESIGN.md文件集合，供AI快速生成匹配UI",
+          "language": "HTML",
+          "stars": 12493,
+          "today_stars": 0,
+          "score": 13.193333479950764,
+          "source": "新星",
+          "topics": [
+            "awesome-list",
+            "design-md",
+            "design-system",
+            "design-tokens",
+            "figma",
+            "google-stitch",
+            "landing-page"
+          ],
+          "forks": 1574,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/VoltAgent/awesome-design-md",
+          "ai_analysis": "【是什么】收集热门网站的设计规范markdown文件，导入项目后可让AI coding agent自动生成风格一致的界面\n【技术亮点】design-as-code理念，用文本描述替代Figma，直接喂给Claude Code等工具即可生成组件，12.5k stars验证实用性\n【对你的价值】★★★★☆ FastAPI+React返厂系统可快速套用成熟设计风格；小红书运营可参考社交平台设计规范做内容排版；占星预测Web界面可复用金融类网站配色方案\n【推荐指数】⭐⭐⭐⭐☆ 你的React项目和小红书运营都需要精美UI，这个库能让AI直接生成专业级界面，省去从零设计的时间"
+        },
+        {
+          "date": "2026-04-06",
+          "repo": "emdash-cms/emdash",
+          "description": "基于Astro的全栈TypeScript CMS，WordPress精神续作",
+          "language": "TypeScript",
+          "stars": 7311,
+          "today_stars": 0,
+          "score": 12.727953567808774,
+          "source": "新星",
+          "topics": [
+            "astro",
+            "cms",
+            "emdash",
+            "typescript"
+          ],
+          "forks": 520,
+          "license": "MIT",
+          "homepage": "https://emdashcms.com",
+          "url": "https://github.com/emdash-cms/emdash",
+          "ai_analysis": "【是什么】现代化内容管理系统，用Astro+TypeScript重构WordPress核心理念，提供全栈类型安全的博客/CMS解决方案\n【技术亮点】Astro静态生成性能优越，TypeScript端到端类型检查，MIT许可可自由修改，7.3k stars显示活跃社区\n【对你的价值】★★★☆☆ 小红书占星运营可用它搭建独立占星内容站做SEO引流；FastAPI项目若需添加资讯模块可参考其CMS架构；但你现有技术栈已成型，迁移成本需评估\n【推荐指数】⭐⭐⭐☆☆ 如果计划做占星知识库或内容SEO站值得尝试，但若只是运营小红书账号，优先级低于AI工具和UI库"
+        }
+      ]
+    },
     {
       "date": "2026-04-05",
       "ai_report": "GitHub 宝藏日报 | 2026-04-05\n\n🤖 1. block/goose\n⭐ 开源AI智能体 | 🔤 Python | 📄 Apache-2.0\n💡 能自己写代码、改代码、跑测试的AI助手,支持接入任意大模型\n🎯 你的返厂统计分析系统开发可以用它自动生成FastAPI接口和React组件,比手写快很多。占星金融预测的数据处理脚本也能让它帮你写\n\n💬 2. telegramdesktop/tdesktop\n⭐ Telegram官方桌面客户端 | 🔤 C++ | 📄 GPL-3.0\n💡 Telegram桌面版的完整源码,跨平台即时通讯应用\n🎯 如果你想给小红书占星运营做个自动回复机器人,可以参考它的消息处理架构。OpenClaw远程控制也能借鉴它的跨平台通信方案\n\n🗺️ 3. ChinaSiro/claude-code-sourcemap\n⭐ Claude Code源码分析工具 | 🔤 TypeScript | 📄 MIT\n💡 帮你理解Claude Code内部实现的源码映射工具\n🎯 你现在就在用Claude Code,这个工具能让你看懂它怎么工作的,想定制自己的AI工作流时有用\n\n🧠 4. titanwings/colleague-skill\n⭐ 数字生命技能传承系统 | 🔤 未知 | 📄 未知\n💡 把离职同事的工作经验转化成可复用的AI技能包\n🎯 你的返厂统计分析系统如果有特殊业务逻辑,可以用这个思路把知识固化成AI技能,新人来了直接问AI就行\n\n🖼️ 5. Blaizzy/mlx-vlm\n⭐ Mac本地视觉模型工具 | 🔤 Python | 📄 MIT\n💡 在Mac上跑视觉语言模型,能看图说话还能微调\n🎯 小红书占星运营可以用它自动分析用户上传的星盘截图,占星金融预测也能用来识别K线图形态,全在本地跑不用担心数据泄露\n\n📊 今日总结\n- 直接能用：goose帮你写返厂系统代码,mlx-vlm分析星盘和K线图\n- 值得研究：tdesktop的跨平台方案给OpenClaw提供思路,colleague-skill的知识固化方法\n- 先收藏：claude-code-sourcemap等你想深度定制AI工作流再看",

@@ -1,6 +1,117 @@
 {
-  "generated_at": "2026-04-06T20:00:00.177617",
+  "generated_at": "2026-04-07T00:12:56.732326",
   "days": [
+    {
+      "date": "2026-04-07",
+      "ai_report": "GitHub 宝藏日报 | 2026-04-07\n\n🔥 1. abhigyanpatwari/GitNexus（23.1k星 (今日+837)）\n   [TypeScript] GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop \n   https://github.com/abhigyanpatwari/GitNexus\n\n⚡ 2. KeygraphHQ/shannon（36.2k星 (今日+703)）\n   [TypeScript] Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and exec\n   #penetration-testing #pentesting #security-audit\n   https://github.com/KeygraphHQ/shannon\n\n💎 3. ggml-org/llama.cpp（101.9k星 (今日+318)）\n   [C++] LLM inference in C/C++\n   #ggml\n   https://github.com/ggml-org/llama.cpp\n\n🚀 4. NVIDIA/personaplex（7.1k星 (今日+295)）\n   [Python] PersonaPlex code.\n   https://github.com/NVIDIA/personaplex\n\n🌟 5. ollama/ollama（167.5k星 (今日+263)）\n   [Go] Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.\n   #deepseek #gemma #gemma3\n   https://github.com/ollama/ollama\n\n---\n从 GitHub Trending + 定向搜索精选，30天去重",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-04-07",
+          "repo": "abhigyanpatwari/GitNexus",
+          "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+          "language": "TypeScript",
+          "stars": 23144,
+          "today_stars": 837,
+          "score": 2522.72887684128,
+          "source": "trending",
+          "topics": [],
+          "forks": 2623,
+          "license": "NOASSERTION",
+          "homepage": "https://gitnexus.vercel.app",
+          "url": "https://github.com/abhigyanpatwari/GitNexus",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-04-07",
+          "repo": "KeygraphHQ/shannon",
+          "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+          "language": "TypeScript",
+          "stars": 36235,
+          "today_stars": 703,
+          "score": 2121.118256531309,
+          "source": "trending",
+          "topics": [
+            "penetration-testing",
+            "pentesting",
+            "security-audit",
+            "security-automation",
+            "security-tools"
+          ],
+          "forks": 3790,
+          "license": "AGPL-3.0",
+          "homepage": "https://keygraph.io/",
+          "url": "https://github.com/KeygraphHQ/shannon",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-04-07",
+          "repo": "ggml-org/llama.cpp",
+          "description": "LLM inference in C/C++",
+          "language": "C++",
+          "stars": 101864,
+          "today_stars": 318,
+          "score": 967.0160414521393,
+          "source": "trending",
+          "topics": [
+            "ggml"
+          ],
+          "forks": 16442,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-04-07",
+          "repo": "NVIDIA/personaplex",
+          "description": "PersonaPlex code.",
+          "language": "Python",
+          "stars": 7124,
+          "today_stars": 295,
+          "score": 895.7054478215824,
+          "source": "trending",
+          "topics": [],
+          "forks": 1069,
+          "license": "MIT",
+          "homepage": null,
+          "url": "https://github.com/NVIDIA/personaplex",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-04-07",
+          "repo": "ollama/ollama",
+          "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+          "language": "Go",
+          "stars": 167526,
+          "today_stars": 263,
+          "score": 802.4481644380323,
+          "source": "trending",
+          "topics": [
+            "deepseek",
+            "gemma",
+            "gemma3",
+            "glm",
+            "go",
+            "golang",
+            "gpt-oss",
+            "llama",
+            "llama3",
+            "llm",
+            "llms",
+            "minimax",
+            "mistral",
+            "ollama",
+            "qwen"
+          ],
+          "forks": 15378,
+          "license": "MIT",
+          "homepage": "https://ollama.com",
+          "url": "https://github.com/ollama/ollama",
+          "ai_analysis": ""
+        }
+      ]
+    },
     {
       "date": "2026-04-06",
       "ai_report": "GitHub 宝藏日报 | 2026-04-06\n\n🤖 1. badlogic/pi-mono\n⭐ 未知 | 🔤 TypeScript | 📄 未知\n💡 AI代理开发全家桶，包含编码CLI、统一LLM接口、UI组件和Slack机器人\n🎯 你的返厂统计分析系统如果要加AI分析功能，这套工具能直接复用LLM接口层，省得自己封装多个模型API；OpenClaw要做远程协作的话，Slack机器人的实现思路可以借鉴到飞书bot开发\n\n🧠 2. google-ai-edge/gallery\n⭐ 未知 | 🔤 多语言 | 📄 未知\n💡 Google官方的边缘AI案例库，展示如何在本地设备上跑机器学习和生成式AI模型\n🎯 astro-finance做金融预测时，如果想在本地跑模型保护数据隐私(别把用户出生时间传给云端)，这里有现成的端侧部署方案；返厂系统的数据分析也能参考本地模型方案\n\n🎨 3. VoltAgent/awesome-design-md\n⭐ 未知 | 🔤 Markdown | 📄 未知\n💡 收集了知名网站的设计系统DESIGN.md文件，让AI能快速理解并生成符合品牌规范的UI\n🎯 小红书占星运营需要设计配图时，可以喂给AI这些大厂设计规范，生成更专业的视觉素材；返厂系统的前端React组件设计也能参考这些设计系统，快速建立统一视觉语言\n\n📝 4. emdash-cms/emdash\n⭐ 未知 | 🔤 TypeScript | 📄 未知\n💡 基于Astro的全栈CMS，号称WordPress的现代化替代品\n🎯 如果astro-finance要做内容营销站(发占星文章吸引用户)，这个Astro CMS正好匹配技术栈；比WordPress轻量，TypeScript全栈对你现有的React/FastAPI技术栈更友好\n\n⚡ 5. google-ai-edge/LiteRT-LM\n⭐ 未知 | 🔤 C++ | 📄 未知\n💡 Google出品的轻量级语言模型运行时，用C++实现的高性能推理引擎\n🎯 OpenClaw控制Mac时如果要加语音助手(说句话就执行操作)，这个轻量运行时能在Mac本地低延迟跑小模型；astro-finance的占星解读如果要做离线版APP，也能用这个跑本地LLM\n\n📊 今日总结\n- 直接能用：pi-mono的LLM接口封装可以直接接入返厂系统，awesome-design-md能马上喂给AI优化小红书配图\n- 值得研究：google-ai-edge/gallery的本地模型方案值得深入研究，看能不能把astro-finance的预测模型本地化部署\n- 先收藏：emdash CMS暂时收藏，等astro-finance需要做内容站时再拿出来用；LiteRT-LM等OpenClaw要做语音控制时研究",

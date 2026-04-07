@@ -1,25 +1,5 @@
 [
   {
-    "repo": "GoogleCloudPlatform/generative-ai",
-    "date": "2026-03-08"
-  },
-  {
-    "repo": "666ghj/MiroFish",
-    "date": "2026-03-08"
-  },
-  {
-    "repo": "toeverything/AFFiNE",
-    "date": "2026-03-08"
-  },
-  {
-    "repo": "virattt/ai-hedge-fund",
-    "date": "2026-03-08"
-  },
-  {
-    "repo": "alibaba/page-agent",
-    "date": "2026-03-08"
-  },
-  {
     "repo": "pbakaus/impeccable",
     "date": "2026-03-09"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "ollama/ollama",
     "date": "2026-04-07"
+  },
+  {
+    "repo": "tobi/qmd",
+    "date": "2026-04-08"
+  },
+  {
+    "repo": "elebumm/RedditVideoMakerBot",
+    "date": "2026-04-08"
+  },
+  {
+    "repo": "HKUDS/DeepTutor",
+    "date": "2026-04-08"
+  },
+  {
+    "repo": "forrestchang/andrej-karpathy-skills",
+    "date": "2026-04-08"
+  },
+  {
+    "repo": "santifer/career-ops",
+    "date": "2026-04-08"
   }
 ]

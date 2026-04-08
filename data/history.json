@@ -1,25 +1,5 @@
 [
   {
-    "repo": "pbakaus/impeccable",
-    "date": "2026-03-09"
-  },
-  {
-    "repo": "teng-lin/notebooklm-py",
-    "date": "2026-03-09"
-  },
-  {
-    "repo": "is-a-dev/register",
-    "date": "2026-03-09"
-  },
-  {
-    "repo": "karpathy/autoresearch",
-    "date": "2026-03-09"
-  },
-  {
-    "repo": "twostraws/SwiftUI-Agent-Skill",
-    "date": "2026-03-09"
-  },
-  {
     "repo": "666ghj/BettaFish",
     "date": "2026-03-10"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "santifer/career-ops",
     "date": "2026-04-08"
+  },
+  {
+    "repo": "TheCraigHewitt/seomachine",
+    "date": "2026-04-09"
+  },
+  {
+    "repo": "virattt/ai-hedge-fund",
+    "date": "2026-04-09"
+  },
+  {
+    "repo": "goharbor/harbor",
+    "date": "2026-04-09"
+  },
+  {
+    "repo": "farzaa/clicky",
+    "date": "2026-04-09"
+  },
+  {
+    "repo": "GitFrog1111/badclaude",
+    "date": "2026-04-09"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "repo": "666ghj/BettaFish",
-    "date": "2026-03-10"
-  },
-  {
-    "repo": "karpathy/nanochat",
-    "date": "2026-03-10"
-  },
-  {
-    "repo": "Raphire/Win11Debloat",
-    "date": "2026-03-10"
-  },
-  {
-    "repo": "duoan/TorchCode",
-    "date": "2026-03-10"
-  },
-  {
-    "repo": "viperrcrypto/Siftly",
-    "date": "2026-03-10"
-  },
-  {
     "repo": "promptfoo/promptfoo",
     "date": "2026-03-11"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "GitFrog1111/badclaude",
     "date": "2026-04-09"
+  },
+  {
+    "repo": "OpenBMB/VoxCPM",
+    "date": "2026-04-10"
+  },
+  {
+    "repo": "shiyu-coder/Kronos",
+    "date": "2026-04-10"
+  },
+  {
+    "repo": "coleam00/Archon",
+    "date": "2026-04-10"
+  },
+  {
+    "repo": "alchaincyf/zhangxuefeng-skill",
+    "date": "2026-04-10"
+  },
+  {
+    "repo": "xixu-me/awesome-persona-distill-skills",
+    "date": "2026-04-10"
   }
 ]

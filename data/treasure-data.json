@@ -1,6 +1,126 @@
 {
-  "generated_at": "2026-04-10T20:00:05.115980",
+  "generated_at": "2026-04-11T00:15:09.182942",
   "days": [
+    {
+      "date": "2026-04-11",
+      "ai_report": "GitHub 宝藏日报 | 2026-04-11\n\n🔧 1. microsoft/markitdown\n⭐ stars | 🔤 Python | 📄 MIT\n💡 微软出品的Office文档转Markdown工具，支持Word、Excel、PPT等格式一键转换\n🎯 你做返厂统计分析系统时如果要处理Excel报表，可以先转成Markdown再用AI分析；小红书占星运营写文章时也能把Word草稿快速转成发布格式\n\n🧠 2. milla-jovovich/mempalace\n⭐ stars | 🔤 未知 | 📄  开源\n💡 基准测试最高分的AI记忆系统，免费开源可自部署\n🎯 你的astro-finance项目可以接入这个记忆系统，让AI记住用户的占星偏好和历史预测；OpenClaw也能用它记录常用的Mac操作指令\n\n⚙️ 3. jqlang/jq\n⭐ stars | 🔤 C | 📄 MIT/CC-BY\n💡 命令行JSON处理神器，过滤、转换、查询JSON数据一行搞定\n🎯 返厂统计分析系统的FastAPI后端处理数据时必备，尤其是调试接口和清洗原始数据；占星API返回的JSON也能快速提取关键字段\n\n🤖 4. rowboatlabs/rowboat\n⭐ stars | 🔤 未知 | 📄 开源\n💡 开源AI协作助手，带记忆功能的智能对话系统\n🎯 可以部署在OpenClaw里作为远程操作的智能助手，记住你常用的Mac控制场景；小红书运营也能用它做自动回复和粉丝互动\n\n🎛️ 5. multica-ai/multica\n⭐ stars | 🔤 未知 | 📄 开源\n💡 开源AI代理管理平台，支持任务分配、技能积累和多Agent协作\n🎯 你的4个项目可以用它统一管理：astro-finance的预测Agent、OpenClaw的控制Agent、返厂系统的数据分析Agent、小红书的内容生成Agent，让它们互相学习技能\n\n📊 今日总结\n- 直接能用：jq处理返厂系统的JSON数据，markitdown转换运营文档\n- 值得研究：mempalace接入astro-finance做用户记忆，multica搭建你的多项目Agent中枢\n- 先收藏：rowboat等后续OpenClaw需要对话能力时再集成",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-04-11",
+          "repo": "microsoft/markitdown",
+          "description": "微软出品，将Office文档转Markdown的Python工具",
+          "language": "Python",
+          "stars": 98758,
+          "today_stars": 2353,
+          "score": 7071.989144572448,
+          "source": "trending",
+          "topics": [
+            "autogen",
+            "autogen-extension",
+            "langchain",
+            "markdown",
+            "microsoft-office",
+            "openai",
+            "pdf"
+          ],
+          "forks": 6049,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/microsoft/markitdown",
+          "ai_analysis": "【是什么】支持Word/Excel/PPT/PDF等文件转Markdown的命令行工具\n【技术亮点】集成LangChain和AutoGen生态，可作为AI workflow的文档预处理组件\n【对你的价值】返厂统计系统可用它解析Excel报表生成文档；小红书运营可批量转换内容素材为Markdown便于AI处理；占星分析报告可自动化生成格式化文档\n【推荐指数】★★★★☆ 实用工具型项目，10万stars证明稳定性，但不是你当前核心痛点"
+        },
+        {
+          "date": "2026-04-11",
+          "repo": "multica-ai/multica",
+          "description": "开源AI代理管理平台，任务分配与技能积累",
+          "language": "TypeScript",
+          "stars": 5518,
+          "today_stars": 1544,
+          "score": 4642.483563392287,
+          "source": "trending",
+          "topics": [],
+          "forks": 671,
+          "license": "NOASSERTION",
+          "homepage": "https://multica.ai",
+          "url": "https://github.com/multica-ai/multica",
+          "ai_analysis": "【是什么】将编程Agent转化为可管理团队的平台，支持任务分配和进度跟踪\n【技术亮点】技能复合系统(compound skills)，Agent可持续学习和进化\n【对你的价值】管理你4个项目的AI Agent团队；占星金融的多维度分析可拆分成专项Agent；返厂系统的数据处理流水线可Agent化；小红书运营的选题/写作/发布可流程编排\n【推荐指数】★★★☆☆ 概念先进但5.5k stars相对小众，适合你已有多个Agent需统一管理时再采用，当前优先级不如rowboat"
+        },
+        {
+          "date": "2026-04-11",
+          "repo": "rowboatlabs/rowboat",
+          "description": "开源AI协作助手，具备记忆能力",
+          "language": "TypeScript",
+          "stars": 11542,
+          "today_stars": 498,
+          "score": 1505.1245621399453,
+          "source": "trending",
+          "topics": [
+            "agents",
+            "agents-sdk",
+            "ai",
+            "ai-agents",
+            "ai-agents-automation",
+            "chatgpt",
+            "claude-code",
+            "claude-cowork",
+            "generative-ai",
+            "llm",
+            "multiagent",
+            "opeani",
+            "open-source",
+            "orchestration",
+            "productivity"
+          ],
+          "forks": 1081,
+          "license": "Apache-2.0",
+          "homepage": "https://www.rowboatlabs.com",
+          "url": "https://github.com/rowboatlabs/rowboat",
+          "ai_analysis": "【是什么】TypeScript实现的AI Agent框架，强调任务协作和持久化记忆\n【技术亮点】Agent SDK架构，支持多Agent协同工作和技能复用\n【对你的价值】OpenClaw可升级为智能助手自主操作Mac；占星金融可部署多Agent分工（数据采集/技术分析/占星解读）；返厂系统可加入AI客服；小红书可自动化内容策划\n【推荐指数】★★★★★ 高度契合！你在做4个AI应用，这个框架可统一技术栈，1万stars说明成熟度够"
+        },
+        {
+          "date": "2026-04-11",
+          "repo": "jqlang/jq",
+          "description": "命令行JSON处理器，数据处理瑞士军刀",
+          "language": "C",
+          "stars": 34202,
+          "today_stars": 48,
+          "score": 156.06810300530336,
+          "source": "trending",
+          "topics": [
+            "jq"
+          ],
+          "forks": 1758,
+          "license": "NOASSERTION",
+          "homepage": "https://jqlang.org",
+          "url": "https://github.com/jqlang/jq",
+          "ai_analysis": "【是什么】类似sed/awk的JSON专用命令行工具，可过滤/转换/查询JSON数据\n【对你的价值】返厂系统FastAPI接口调试必备；占星金融API数据清洗；小红书数据分析的ETL工具；OpenClaw自动化脚本中处理配置文件\n【推荐指数】★★★★☆ 基础设施级工具，34k stars老牌项目，但你可能已经在用或有替代方案"
+        },
+        {
+          "date": "2026-04-11",
+          "repo": "milla-jovovich/mempalace",
+          "description": "基准测试最高分的AI记忆系统，免费开源",
+          "language": "Python",
+          "stars": 39335,
+          "today_stars": 0,
+          "score": 14.1895583090103,
+          "source": "新星",
+          "topics": [
+            "ai",
+            "chromadb",
+            "llm",
+            "mcp",
+            "memory",
+            "python"
+          ],
+          "forks": 4929,
+          "license": "MIT",
+          "homepage": null,
+          "url": "https://github.com/milla-jovovich/mempalace",
+          "ai_analysis": "【是什么】使用ChromaDB实现的长期记忆管理系统，支持MCP协议\n【技术亮点】向量数据库+记忆宫殿算法，可让AI助手跨会话记住上下文和用户偏好\n【对你的价值】OpenClaw远程控制可增加上下文记忆提升操作准确性；占星金融预测可建立历史数据记忆库提升预判；小红书运营可记住用户画像和内容偏好\n【推荐指数】★★★★★ 强烈推荐！你的4个项目都是AI应用场景，记忆系统是刚需，4万stars证明质量"
+        }
+      ]
+    },
     {
       "date": "2026-04-10",
       "ai_report": "GitHub 宝藏日报 | 2026-04-10\n\n🛠️ 1. Archon - 首个开源AI编程工具链构建器\n⭐ 数据未知 | 🔤 语言未知 | 📄 许可证未知\n💡 让AI编程过程可复现、可定制的工具链构建平台\n🎯 你现在手里三个项目(astro-finance、OpenClaw、返厂系统)都在用AI辅助开发,这个工具能把你的编程workflow固化下来,比如\"读取飞书API→生成FastAPI路由→写React组件\"这种重复流程,以后一键复现,不用每次都重新调教AI\n\n💰 2. Kronos - 金融市场专用语言模型\n⭐ 数据未知 | 🔤 语言未知 | 📄 许可证未知\n💡 针对金融数据训练的基础模型,懂K线、财报、市场术语\n🎯 直接对标你的astro-finance项目,传统LLM不懂\"水逆影响科技股\"这种占星金融交叉概念,Kronos至少金融那半边是native的,可以拿来做行情解读、结合你的占星规则生成投资建议,或者给小红书粉丝出每日星象+股市策略\n\n🎤 3. VoxCPM - 免分词多语言语音合成\n⭐ 数据未知 | 🔤 语言未知 | 📄 许可证未知\n💡 不需要分词的TTS引擎,支持语音克隆和创意音色设计\n🎯 小红书占星运营可以升级玩法:克隆你自己的声音做\"今日星座运势\"语音推送,或者给12星座做不同音色的人设配音。OpenClaw项目如果要做语音交互(远程控制Mac时语音反馈),这个也能直接集成\n\n🎓 4. 张雪峰认知框架skill\n⭐ 数据未知 | 🔤 语言未知 | 📄 许可证未知\n💡 用张雪峰的决策逻辑做高考志愿、考研方向、职业规划\n🎯 小红书占星号可以整个联动内容:\"星盘+张雪峰式规划\",比如\"金牛座适合报哪些专业\"\"水星逆行期不要跳槽,但这三个行业除外\",把玄学和实用主义结合,这种反差内容在小红书很吃香\n\n🎭 5. awesome-persona-distill-skills - 人格提炼skill合集\n⭐ 数据未知 | 🔤 语言未知 | 📄 许可证未知\n💡 收录女娲、乔布斯等各类人格的AI skill模板\n🎯 给你的三个技术项目做文档和用户沟通时能换人格:返厂系统用\"富士康质检主管\"口吻写报告,OpenClaw用\"乔布斯\"风格写产品说明,astro-finance用\"女娲\"神话叙事包装算法逻辑。小红书更直接,12星座对应12种人格做内容矩阵\n\n📊 今日总结\n- 直接能用:VoxCPM做小红书语音内容,张雪峰skill做占星+职业规划选题\n- 值得研究:Kronos接入astro-finance做金融预测后端,Archon把你的开发流程自动化\n- 先收藏:persona-distill-skills,等内容矩阵扩张时批量生产不同风格的号",

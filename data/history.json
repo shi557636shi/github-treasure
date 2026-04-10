@@ -1,25 +1,5 @@
 [
   {
-    "repo": "promptfoo/promptfoo",
-    "date": "2026-03-11"
-  },
-  {
-    "repo": "sepinf-inc/IPED",
-    "date": "2026-03-11"
-  },
-  {
-    "repo": "HKUDS/CLI-Anything",
-    "date": "2026-03-11"
-  },
-  {
-    "repo": "karpathy/agenthub",
-    "date": "2026-03-11"
-  },
-  {
-    "repo": "jackwener/twitter-cli",
-    "date": "2026-03-11"
-  },
-  {
     "repo": "AstrBotDevs/AstrBot",
     "date": "2026-03-12"
   },
@@ -550,5 +530,25 @@
   {
     "repo": "xixu-me/awesome-persona-distill-skills",
     "date": "2026-04-10"
+  },
+  {
+    "repo": "microsoft/markitdown",
+    "date": "2026-04-11"
+  },
+  {
+    "repo": "multica-ai/multica",
+    "date": "2026-04-11"
+  },
+  {
+    "repo": "rowboatlabs/rowboat",
+    "date": "2026-04-11"
+  },
+  {
+    "repo": "jqlang/jq",
+    "date": "2026-04-11"
+  },
+  {
+    "repo": "milla-jovovich/mempalace",
+    "date": "2026-04-11"
   }
 ]

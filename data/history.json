@@ -1,13 +1,5 @@
 [
   {
-    "repo": "AstrBotDevs/AstrBot",
-    "date": "2026-03-12"
-  },
-  {
-    "repo": "fishaudio/fish-speech",
-    "date": "2026-03-12"
-  },
-  {
     "repo": "langflow-ai/openrag",
     "date": "2026-03-13"
   },
@@ -550,5 +542,25 @@
   {
     "repo": "milla-jovovich/mempalace",
     "date": "2026-04-11"
+  },
+  {
+    "repo": "alexpate/awesome-design-systems",
+    "date": "2026-04-12"
+  },
+  {
+    "repo": "TapXWorld/ChinaTextbook",
+    "date": "2026-04-12"
+  },
+  {
+    "repo": "alchaincyf/hermes-agent-orange-book",
+    "date": "2026-04-12"
+  },
+  {
+    "repo": "mattmireles/gemma-tuner-multimodal",
+    "date": "2026-04-12"
+  },
+  {
+    "repo": "phuryn/claude-usage",
+    "date": "2026-04-12"
   }
 ]

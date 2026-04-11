@@ -1,6 +1,102 @@
 {
-  "generated_at": "2026-04-11T20:00:04.898875",
+  "generated_at": "2026-04-12T00:23:12.995170",
   "days": [
+    {
+      "date": "2026-04-12",
+      "ai_report": "GitHub 宝藏日报 | 2026-04-12\n\n📚 1. 中国小初高及大学全科PDF教材合集\n⭐ 7.2k stars | 🔤 无 | 📄 无\n💡 覆盖小学到大学的各学科正版教材PDF资源库\n🎯 如果你做占星教育内容或者小红书科普，这里的数学、物理教材可以用来做\"星盘背后的数学原理\"之类的硬核内容，提升专业度\n\n🎨 2. 优秀设计系统精选合集\n⭐ 17.8k stars | 🔤 无 | 📄 CC-BY-4.0\n💡 收录全球顶级公司设计系统的规范文档和组件库\n🎯 你的返厂统计分析系统(FastAPI+React)前端可以直接参考这些大厂设计规范，省掉从零定义按钮、表单样式的时间，快速搭出专业界面\n\n🤖 3. Hermes Agent开源AI智能体框架实战教程\n⭐ 0.3k stars | 🔤 Python | 📄 MIT\n💡 手把手教你构建可执行任务的AI Agent系统\n🎯 可以给astro-finance项目加一层智能体，让它自动抓取财经新闻、天象数据，然后生成预测报告。或者给OpenClaw加个语音助手\"帮我打开Mac上的Xcode\"\n\n💻 4. 苹果芯片上微调Gemma多模态模型工具\n⭐ 0.2k stars | 🔤 Python | 📄 Apache-2.0\n💡 专为M系列芯片优化的Gemma模型本地微调方案\n🎯 如果你想在本地训练一个\"看星盘图直接给解读\"的模型，或者让OpenClaw能看懂Mac屏幕截图来执行操作，这个工具能在你的MacBook上直接跑，不用花钱租GPU\n\n📊 5. Claude Code使用量监控仪表盘\n⭐ 0.2k stars | 🔤 TypeScript | 📄 无\n💡 实时追踪Claude Code的API调用次数和token消耗\n🎯 你现在用Claude做这么多项目，这个仪表盘能帮你看清每月API花了多少钱、哪个项目最费token，避免月底账单爆炸\n\n📊 今日总结\n- 直接能用：awesome-design-systems拿来美化返厂统计系统界面，claude-usage装上监控API成本\n- 值得研究：hermes-agent可以给astro-finance和OpenClaw加智能体能力，gemma-tuner让你本地训练星盘识别模型\n- 先收藏：ChinaTextbook的教材资源，以后做小红书占星科普的数学原理内容时能用上",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-04-12",
+          "repo": "alexpate/awesome-design-systems",
+          "description": "优秀设计系统精选合集",
+          "language": "",
+          "stars": 21778,
+          "today_stars": 1978,
+          "score": 5945.676035986942,
+          "source": "trending",
+          "topics": [
+            "awesome",
+            "awesome-list",
+            "design-systems",
+            "hacktoberfest",
+            "pattern-library",
+            "ui-library"
+          ],
+          "forks": 1350,
+          "license": "Unlicense",
+          "homepage": "https://git.io/design-systems",
+          "url": "https://github.com/alexpate/awesome-design-systems",
+          "ai_analysis": "【是什么】精选全球顶级产品设计系统的awesome列表\n【技术亮点】涵盖Material/Ant Design等成熟组件库及设计规范\n【对你的价值】FastAPI+React项目可直接参考设计系统提升UI专业度,OpenClaw远程界面可借鉴交互模式\n【推荐指数】⭐⭐⭐⭐⭐ 前端开发必备,能快速提升返厂系统UI质量,节省设计成本"
+        },
+        {
+          "date": "2026-04-12",
+          "repo": "TapXWorld/ChinaTextbook",
+          "description": "中国小初高及大学全科PDF教材合集",
+          "language": "Roff",
+          "stars": 67701,
+          "today_stars": 472,
+          "score": 1428.6611901672454,
+          "source": "trending",
+          "topics": [],
+          "forks": 15129,
+          "license": null,
+          "homepage": "",
+          "url": "https://github.com/TapXWorld/ChinaTextbook",
+          "ai_analysis": "【是什么】覆盖全学段的中文教材数字化资源库\n【技术亮点】使用Roff格式组织，67.7k星表明资源完整度高\n【对你的价值】占星运营可提取教育心理学素材,返厂系统可参考教材组织逻辑做知识库架构\n【推荐指数】⭐⭐⭐ 资源型项目,对技术开发帮助有限,但可作为内容素材库"
+        },
+        {
+          "date": "2026-04-12",
+          "repo": "alchaincyf/hermes-agent-orange-book",
+          "description": "Hermes Agent开源AI智能体框架实战教程",
+          "language": "",
+          "stars": 1722,
+          "today_stars": 0,
+          "score": 11.472066294235272,
+          "source": "新星",
+          "topics": [],
+          "forks": 186,
+          "license": null,
+          "homepage": null,
+          "url": "https://github.com/alchaincyf/hermes-agent-orange-book",
+          "ai_analysis": "【是什么】Nous Research开源Agent框架的中文入门指南\n【技术亮点】系统化教程覆盖Agent工作流、工具调用、多轮对话\n【对你的价值】可为占星金融预测增加AI智能分析能力,自动化小红书内容生成,为返厂系统接入智能客服\n【推荐指数】⭐⭐⭐⭐⭐ 高度契合,能为所有项目增加AI能力,橙皮书系列质量有保障"
+        },
+        {
+          "date": "2026-04-12",
+          "repo": "mattmireles/gemma-tuner-multimodal",
+          "description": "苹果芯片上微调Gemma多模态模型工具",
+          "language": "Python",
+          "stars": 1184,
+          "today_stars": 0,
+          "score": 11.146703404773803,
+          "source": "新星",
+          "topics": [],
+          "forks": 75,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
+          "ai_analysis": "【是什么】基于Metal的Gemma模型本地微调框架,支持音频/图像/文本\n【技术亮点】针对Apple Silicon优化,使用MPS加速,支持多模态输入\n【对你的价值】Mac设备可本地训练占星图像识别模型,为小红书生成配图,但需要较强ML背景\n【推荐指数】⭐⭐⭐ 技术门槛高,除非做星盘图像识别或多模态内容生成,否则性价比一般"
+        },
+        {
+          "date": "2026-04-12",
+          "repo": "phuryn/claude-usage",
+          "description": "Claude Code使用量监控仪表盘",
+          "language": "Python",
+          "stars": 831,
+          "today_stars": 0,
+          "score": 10.839202047568222,
+          "source": "新星",
+          "topics": [
+            "claude-code"
+          ],
+          "forks": 119,
+          "license": "MIT",
+          "homepage": "https://www.productcompass.pm/",
+          "url": "https://github.com/phuryn/claude-usage",
+          "ai_analysis": ""
+        }
+      ]
+    },
     {
       "date": "2026-04-11",
       "ai_report": "GitHub 宝藏日报 | 2026-04-11\n\n🔧 1. microsoft/markitdown\n⭐ stars | 🔤 Python | 📄 MIT\n💡 微软出品的Office文档转Markdown工具，支持Word、Excel、PPT等格式一键转换\n🎯 你做返厂统计分析系统时如果要处理Excel报表，可以先转成Markdown再用AI分析；小红书占星运营写文章时也能把Word草稿快速转成发布格式\n\n🧠 2. milla-jovovich/mempalace\n⭐ stars | 🔤 未知 | 📄  开源\n💡 基准测试最高分的AI记忆系统，免费开源可自部署\n🎯 你的astro-finance项目可以接入这个记忆系统，让AI记住用户的占星偏好和历史预测；OpenClaw也能用它记录常用的Mac操作指令\n\n⚙️ 3. jqlang/jq\n⭐ stars | 🔤 C | 📄 MIT/CC-BY\n💡 命令行JSON处理神器，过滤、转换、查询JSON数据一行搞定\n🎯 返厂统计分析系统的FastAPI后端处理数据时必备，尤其是调试接口和清洗原始数据；占星API返回的JSON也能快速提取关键字段\n\n🤖 4. rowboatlabs/rowboat\n⭐ stars | 🔤 未知 | 📄 开源\n💡 开源AI协作助手，带记忆功能的智能对话系统\n🎯 可以部署在OpenClaw里作为远程操作的智能助手，记住你常用的Mac控制场景；小红书运营也能用它做自动回复和粉丝互动\n\n🎛️ 5. multica-ai/multica\n⭐ stars | 🔤 未知 | 📄 开源\n💡 开源AI代理管理平台，支持任务分配、技能积累和多Agent协作\n🎯 你的4个项目可以用它统一管理：astro-finance的预测Agent、OpenClaw的控制Agent、返厂系统的数据分析Agent、小红书的内容生成Agent，让它们互相学习技能\n\n📊 今日总结\n- 直接能用：jq处理返厂系统的JSON数据，markitdown转换运营文档\n- 值得研究：mempalace接入astro-finance做用户记忆，multica搭建你的多项目Agent中枢\n- 先收藏：rowboat等后续OpenClaw需要对话能力时再集成",

@@ -1,21 +1,5 @@
 [
   {
-    "repo": "langflow-ai/openrag",
-    "date": "2026-03-13"
-  },
-  {
-    "repo": "vectorize-io/hindsight",
-    "date": "2026-03-13"
-  },
-  {
-    "repo": "InsForge/InsForge",
-    "date": "2026-03-13"
-  },
-  {
-    "repo": "google/A2UI",
-    "date": "2026-03-13"
-  },
-  {
     "repo": "lightpanda-io/browser",
     "date": "2026-03-14"
   },
@@ -562,5 +546,25 @@
   {
     "repo": "phuryn/claude-usage",
     "date": "2026-04-12"
+  },
+  {
+    "repo": "snarktank/ralph",
+    "date": "2026-04-13"
+  },
+  {
+    "repo": "rustfs/rustfs",
+    "date": "2026-04-13"
+  },
+  {
+    "repo": "ahujasid/blender-mcp",
+    "date": "2026-04-13"
+  },
+  {
+    "repo": "yizhiyanhua-ai/fireworks-tech-graph",
+    "date": "2026-04-13"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "date": "2026-04-13"
   }
 ]

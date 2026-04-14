@@ -1,21 +1,5 @@
 [
   {
-    "repo": "lightpanda-io/browser",
-    "date": "2026-03-14"
-  },
-  {
-    "repo": "public-apis/public-apis",
-    "date": "2026-03-14"
-  },
-  {
-    "repo": "anthropics/claude-plugins-official",
-    "date": "2026-03-14"
-  },
-  {
-    "repo": "dolthub/dolt",
-    "date": "2026-03-14"
-  },
-  {
     "repo": "volcengine/OpenViking",
     "date": "2026-03-15"
   },
@@ -566,5 +550,25 @@
   {
     "repo": "nashsu/llm_wiki",
     "date": "2026-04-13"
+  },
+  {
+    "repo": "anthropics/claude-cookbooks",
+    "date": "2026-04-14"
+  },
+  {
+    "repo": "jamiepine/voicebox",
+    "date": "2026-04-14"
+  },
+  {
+    "repo": "QLHazyCoder/codex-oauth-automation-extension",
+    "date": "2026-04-14"
+  },
+  {
+    "repo": "momenbasel/PureMac",
+    "date": "2026-04-14"
+  },
+  {
+    "repo": "joeynyc/hermes-hudui",
+    "date": "2026-04-14"
   }
 ]

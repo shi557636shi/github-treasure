@@ -1,9 +1,5 @@
 [
   {
-    "repo": "volcengine/OpenViking",
-    "date": "2026-03-15"
-  },
-  {
     "repo": "shanraisshan/claude-code-best-practice",
     "date": "2026-03-16"
   },
@@ -570,5 +566,25 @@
   {
     "repo": "joeynyc/hermes-hudui",
     "date": "2026-04-14"
+  },
+  {
+    "repo": "chrislgarry/Apollo-11",
+    "date": "2026-04-15"
+  },
+  {
+    "repo": "vyfor/rattles",
+    "date": "2026-04-15"
+  },
+  {
+    "repo": "whwangovo/pyre-code",
+    "date": "2026-04-15"
+  },
+  {
+    "repo": "sterlingcrispin/nothing-ever-happens",
+    "date": "2026-04-15"
+  },
+  {
+    "repo": "Mouseww/anything-analyzer",
+    "date": "2026-04-15"
   }
 ]

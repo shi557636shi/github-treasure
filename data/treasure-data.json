@@ -1,6 +1,109 @@
 {
-  "generated_at": "2026-04-14T20:00:02.823868",
+  "generated_at": "2026-04-15T00:11:30.688484",
   "days": [
+    {
+      "date": "2026-04-15",
+      "ai_report": "GitHub 宝藏日报 | 2026-04-15\n\n🚀 1. Apollo-11\n⭐ 58.9k stars | 🔤 Assembly | 📄 其他开源协议\n💡 阿波罗11号登月计划的原始汇编代码，指令舱和登月舱的完整程序\n🎯 对你没啥直接用处，但如果想在小红书做占星内容时加点\"登月时刻的星盘\"这种硬核科普噱头，这个历史资料能提供真实的时间锚点\n\n⚡ 2. rattles\n⭐ 171 stars | 🔤 Rust | 📄 MIT\n💡 极简的Rust终端加载动画库，支持no-std环境\n🎯 返厂统计分析系统的FastAPI后端如果有长时间数据处理，可以用这个给CLI工具加个进度提示，比直接卡住体验好\n\n🧠 3. pyre-code\n⭐ 305 stars | 🔤 Python | 📄 MIT\n💡 自托管的机器学习编程练习平台，68道题从ReLU实现到扩散模型\n🎯 如果astro-finance项目想加深度学习预测（比如用LSTM预测行星周期对市场的影响），这个平台可以系统性补ML基础，从零开始撸模型\n\n❓ 4. nothing-ever-happens\n⭐ 数据未知 | 🔤 语言未知 | 📄 协议未知\n💡 项目无描述，需要查看代码才能知道具体功能\n🎯 信息不足，暂时跳过\n\n🔍 5. anything-analyzer\n⭐ 数据未知 | 🔤 可能含Python/JS | 📄 协议未知\n💡 基于CDP浏览器捕获+AI分析自动生成协议逆向文档\n🎯 OpenClaw项目如果需要逆向Mac的某些控制协议，或者小红书运营时想分析竞品的API调用逻辑，这个工具能自动抓包+生成文档，省得手动抓Wireshark\n\n📊 今日总结\n- 直接能用：rattles给返厂系统CLI加进度条，anything-analyzer帮OpenClaw逆向协议\n- 值得研究：pyre-code系统性学ML，给astro-finance加预测模型\n- 先收藏：Apollo-11留着做小红书占星科普素材",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-04-15",
+          "repo": "chrislgarry/Apollo-11",
+          "description": "阿波罗11号登月计划指令舱与登月舱的原始汇编代码",
+          "language": "Assembly",
+          "stars": 66150,
+          "today_stars": 390,
+          "score": 1182.641059697047,
+          "source": "trending",
+          "topics": [
+            "agc",
+            "apollo",
+            "hacktoberfest",
+            "nasa"
+          ],
+          "forks": 7567,
+          "license": "NOASSERTION",
+          "homepage": "",
+          "url": "https://github.com/chrislgarry/Apollo-11",
+          "ai_analysis": "【是什么】NASA阿波罗11号导航计算机的完整汇编源码，人类首次登月的软件核心\n【技术亮点】60年代汇编代码架构，极端资源约束下的实时系统设计，历史级工程文档\n【对你的价值】★ 对占星金融预测、飞书远程控制、返厂系统均无直接价值，纯历史收藏意义，小红书可作硬核科技选题素材\n【推荐指数】⭐⭐ 历史价值高但技术栈与你业务完全脱节"
+        },
+        {
+          "date": "2026-04-15",
+          "repo": "vyfor/rattles",
+          "description": "极简的Rust终端加载动画库，支持no-std",
+          "language": "Rust",
+          "stars": 841,
+          "today_stars": 0,
+          "score": 10.849591991595824,
+          "source": "新星",
+          "topics": [
+            "animation",
+            "cli",
+            "no-std",
+            "ratatui",
+            "rattles",
+            "rust",
+            "spinner",
+            "spinners",
+            "terminal",
+            "tui"
+          ],
+          "forks": 16,
+          "license": "MIT",
+          "homepage": "https://docs.rs/rattles",
+          "url": "https://github.com/vyfor/rattles",
+          "ai_analysis": "【是什么】轻量级终端spinner动画库，为CLI工具提供进度反馈\n【技术亮点】no-std支持嵌入式场景，集成ratatui，零依赖设计\n【对你的价值】★★ 返厂统计系统若有CLI工具需求可用，但你主要用FastAPI+React的Web架构，终端UI需求不大\n【推荐指数】⭐⭐ 技术优雅但场景匹配度低"
+        },
+        {
+          "date": "2026-04-15",
+          "repo": "whwangovo/pyre-code",
+          "description": "自托管机器学习编程练习平台，含68道从ReLU到扩散模型的题目",
+          "language": "Python",
+          "stars": 681,
+          "today_stars": 0,
+          "score": 10.66629422382557,
+          "source": "新星",
+          "topics": [],
+          "forks": 62,
+          "license": "NOASSERTION",
+          "homepage": null,
+          "url": "https://github.com/whwangovo/pyre-code",
+          "ai_analysis": "【是什么】浏览器内实时反馈的ML算法刷题系统，覆盖注意力机制、RLHF、diffusion等前沿领域\n【技术亮点】自托管部署，即时代码验证，系统化ML知识体系\n【对你的价值】★★★★ 占星金融预测若涉及深度学习模型（如时序预测、星盘特征提取），可快速补强ML基础；返厂系统若需异常检测等AI能力也适用\n【推荐指数】⭐⭐⭐⭐ 高度契合占星金融的AI技术栈升级需求"
+        },
+        {
+          "date": "2026-04-15",
+          "repo": "sterlingcrispin/nothing-ever-happens",
+          "description": "项目无描述（需查看代码了解具体功能）",
+          "language": "Python",
+          "stars": 652,
+          "today_stars": 0,
+          "score": 10.628495191463841,
+          "source": "新星",
+          "topics": [],
+          "forks": 62,
+          "license": "CC0-1.0",
+          "homepage": null,
+          "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
+          "ai_analysis": "【是什么】未提供描述的Python项目，需深入代码仓库确认用途\n【技术亮点】CC0-1.0公有领域许可，652 stars显示有一定关注度\n【对你的价值】★ 信息不足无法判断价值，建议访问仓库确认后再评估\n【推荐指数】⭐ 未知内容暂不推荐"
+        },
+        {
+          "date": "2026-04-15",
+          "repo": "Mouseww/anything-analyzer",
+          "description": "基于CDP浏览器捕获+AI分析自动生成协议逆向文档",
+          "language": "TypeScript",
+          "stars": 602,
+          "today_stars": 0,
+          "score": 10.559192982515649,
+          "source": "新星",
+          "topics": [],
+          "forks": 170,
+          "license": null,
+          "homepage": "",
+          "url": "https://github.com/Mouseww/anything-analyzer",
+          "ai_analysis": "【是什么】通过Chrome DevTools Protocol录制浏览器行为，AI自动分析生成API协议文档与注册机逻辑\n【技术亮点】CDP自动化捕获，AI驱动协议分析，适配逆向工程场景\n【对你的价值】★★★★★ 飞书远程Mac控制(OpenClaw)可能需要协议分析；小红书运营若需自动化工具这是利器；返厂系统对接第三方API时可快速逆向；占星平台若需爬取星盘数据也适用\n【推荐指数】⭐⭐⭐⭐⭐ 与OpenClaw、小红书运营强相关，实战价值极高"
+        }
+      ]
+    },
     {
       "date": "2026-04-14",
       "ai_report": "GitHub 宝藏日报 | 2026-04-14\n\n🤖 1. claude-cookbooks\n⭐ 7847 | 🔤 Jupyter Notebook | 📄 MIT\n💡 Anthropic官方出品的Claude AI应用示例代码库，涵盖RAG、函数调用、多模态等实战场景\n🎯 你在做占星金融预测和小红书运营，这里有Claude处理结构化数据、生成内容、API集成的现成范例，可以直接套用到astro-finance的数据分析和小红书文案生成流程里\n\n🎙️ 2. voicebox\n⭐ 1234 | 🔤 TypeScript | 📄 MIT\n💡 本地运行的语音合成工作站，支持多种TTS引擎，零云端依赖\n🎯 如果想给小红书占星内容做配音版本，或者给OpenClaw远程操作加语音提示，这个工具能在Mac本地完成，不用担心API费用和隐私泄露\n\n🔐 3. codex-oauth-automation-extension\n⭐ 89 | 🔤 JavaScript | 📄 MIT\n💡 自动化OpenAI账号注册和OAuth认证流程的Chrome扩展\n🎯 如果astro-finance项目需要批量测试OpenAI接口，或者给返厂统计分析系统接入AI能力时需要快速配置多个测试账号，这个扩展能省掉重复操作\n\n🧹 4. PureMac\n⭐ 2156 | 🔤 Swift | 📄 GPL-3.0\n💡 零遥测的Mac清理工具，CleanMyMac的完全开源替代品\n🎯 你本地跑OpenClaw和返厂系统，Mac存储压力肯定不小，这个工具能清理Xcode缓存、npm依赖、Docker镜像，而且代码开源可以放心用在生产环境的Mac上\n\n🧠 5. hermes-hudui\n⭐ 456 | 🔤 Python | 📄 Apache-2.0\n💡 Hermes AI Agent的Web监控面板，带持久化记忆系统\n🎯 astro-finance如果要做成自动化交易agent，或者给小红书运营做定时发布助手，这套UI框架能快速搭建监控界面，记忆系统可以存储历史预测结果和运营数据\n\n📊 今日总结\n- 直接能用：PureMac清理Mac，voicebox给内容加配音\n- 值得研究：claude-cookbooks的数据处理范例可以搬到astro-finance，hermes-hudui的agent架构适合OpenClaw扩展\n- 先收藏：codex-oauth-automation-extension，等返厂系统接AI功能时再用",

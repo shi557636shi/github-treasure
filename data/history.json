@@ -1,21 +1,5 @@
 [
   {
-    "repo": "shanraisshan/claude-code-best-practice",
-    "date": "2026-03-16"
-  },
-  {
-    "repo": "topoteretes/cognee",
-    "date": "2026-03-16"
-  },
-  {
-    "repo": "voidzero-dev/vite-plus",
-    "date": "2026-03-16"
-  },
-  {
-    "repo": "Crosstalk-Solutions/project-nomad",
-    "date": "2026-03-16"
-  },
-  {
     "repo": "langchain-ai/deepagents",
     "date": "2026-03-17"
   },
@@ -586,5 +570,25 @@
   {
     "repo": "Mouseww/anything-analyzer",
     "date": "2026-04-15"
+  },
+  {
+    "repo": "Lordog/dive-into-llms",
+    "date": "2026-04-16"
+  },
+  {
+    "repo": "vercel-labs/open-agents",
+    "date": "2026-04-16"
+  },
+  {
+    "repo": "public-apis/public-apis",
+    "date": "2026-04-16"
+  },
+  {
+    "repo": "google/magika",
+    "date": "2026-04-16"
+  },
+  {
+    "repo": "Donchitos/Claude-Code-Game-Studios",
+    "date": "2026-04-16"
   }
 ]

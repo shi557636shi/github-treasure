@@ -1,13 +1,5 @@
 [
   {
-    "repo": "langchain-ai/deepagents",
-    "date": "2026-03-17"
-  },
-  {
-    "repo": "YishenTu/claudian",
-    "date": "2026-03-17"
-  },
-  {
     "repo": "codecrafters-io/build-your-own-x",
     "date": "2026-03-18"
   },
@@ -590,5 +582,25 @@
   {
     "repo": "Donchitos/Claude-Code-Game-Studios",
     "date": "2026-04-16"
+  },
+  {
+    "repo": "lsdefine/GenericAgent",
+    "date": "2026-04-17"
+  },
+  {
+    "repo": "EvoMap/evolver",
+    "date": "2026-04-17"
+  },
+  {
+    "repo": "BasedHardware/omi",
+    "date": "2026-04-17"
+  },
+  {
+    "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+    "date": "2026-04-17"
+  },
+  {
+    "repo": "steipete/wacli",
+    "date": "2026-04-17"
   }
 ]

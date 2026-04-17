@@ -1,17 +1,5 @@
 [
   {
-    "repo": "codecrafters-io/build-your-own-x",
-    "date": "2026-03-18"
-  },
-  {
-    "repo": "jarrodwatts/claude-hud",
-    "date": "2026-03-18"
-  },
-  {
-    "repo": "cloudflare/workerd",
-    "date": "2026-03-18"
-  },
-  {
     "repo": "unslothai/unsloth",
     "date": "2026-03-19"
   },
@@ -602,5 +590,25 @@
   {
     "repo": "steipete/wacli",
     "date": "2026-04-17"
+  },
+  {
+    "repo": "z-lab/dflash",
+    "date": "2026-04-18"
+  },
+  {
+    "repo": "ChromeDevTools/chrome-devtools-mcp",
+    "date": "2026-04-18"
+  },
+  {
+    "repo": "Tracer-Cloud/opensre",
+    "date": "2026-04-18"
+  },
+  {
+    "repo": "pingdotgg/t3code",
+    "date": "2026-04-18"
+  },
+  {
+    "repo": "Nightmare-Eclipse/RedSun",
+    "date": "2026-04-18"
   }
 ]

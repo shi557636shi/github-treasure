@@ -1,25 +1,5 @@
 [
   {
-    "repo": "gsd-build/get-shit-done",
-    "date": "2026-03-20"
-  },
-  {
-    "repo": "opendataloader-project/opendataloader-pdf",
-    "date": "2026-03-20"
-  },
-  {
-    "repo": "louis-e/arnis",
-    "date": "2026-03-20"
-  },
-  {
-    "repo": "mobile-dev-inc/Maestro",
-    "date": "2026-03-20"
-  },
-  {
-    "repo": "newton-physics/newton",
-    "date": "2026-03-20"
-  },
-  {
     "repo": "vas3k/TaxHacker",
     "date": "2026-03-21"
   },
@@ -618,5 +598,25 @@
   {
     "repo": "deepseek-ai/DeepGEMM",
     "date": "2026-04-19"
+  },
+  {
+    "repo": "Fincept-Corporation/FinceptTerminal",
+    "date": "2026-04-20"
+  },
+  {
+    "repo": "paperless-ngx/paperless-ngx",
+    "date": "2026-04-20"
+  },
+  {
+    "repo": "ruvnet/RuView",
+    "date": "2026-04-20"
+  },
+  {
+    "repo": "vercel-labs/wterm",
+    "date": "2026-04-20"
+  },
+  {
+    "repo": "lewislulu/html-ppt-skill",
+    "date": "2026-04-20"
   }
 ]

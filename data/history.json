@@ -1,25 +1,5 @@
 [
   {
-    "repo": "systemd/systemd",
-    "date": "2026-03-22"
-  },
-  {
-    "repo": "protocolbuffers/protobuf",
-    "date": "2026-03-22"
-  },
-  {
-    "repo": "HKUDS/ClawTeam",
-    "date": "2026-03-22"
-  },
-  {
-    "repo": "VoltAgent/awesome-codex-subagents",
-    "date": "2026-03-22"
-  },
-  {
-    "repo": "lcoutodemos/clui-cc",
-    "date": "2026-03-22"
-  },
-  {
     "repo": "affaan-m/everything-claude-code",
     "date": "2026-03-23"
   },
@@ -618,5 +598,25 @@
   {
     "repo": "browser-use/browser-harness",
     "date": "2026-04-21"
+  },
+  {
+    "repo": "sansan0/TrendRadar",
+    "date": "2026-04-22"
+  },
+  {
+    "repo": "zilliztech/claude-context",
+    "date": "2026-04-22"
+  },
+  {
+    "repo": "microsoft/ai-agents-for-beginners",
+    "date": "2026-04-22"
+  },
+  {
+    "repo": "dayanch96/YTLite",
+    "date": "2026-04-22"
+  },
+  {
+    "repo": "alchaincyf/huashu-design",
+    "date": "2026-04-22"
   }
 ]

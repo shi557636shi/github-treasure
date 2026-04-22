@@ -1,25 +1,5 @@
 [
   {
-    "repo": "affaan-m/everything-claude-code",
-    "date": "2026-03-23"
-  },
-  {
-    "repo": "browser-use/browser-use",
-    "date": "2026-03-23"
-  },
-  {
-    "repo": "jamwithai/production-agentic-rag-course",
-    "date": "2026-03-23"
-  },
-  {
-    "repo": "MiniMax-AI/skills",
-    "date": "2026-03-23"
-  },
-  {
-    "repo": "mattprusak/autoresearch-genealogy",
-    "date": "2026-03-23"
-  },
-  {
     "repo": "vxcontrol/pentagi",
     "date": "2026-03-24"
   },
@@ -618,5 +598,25 @@
   {
     "repo": "alchaincyf/huashu-design",
     "date": "2026-04-22"
+  },
+  {
+    "repo": "open-metadata/OpenMetadata",
+    "date": "2026-04-23"
+  },
+  {
+    "repo": "Z4nzu/hackingtool",
+    "date": "2026-04-23"
+  },
+  {
+    "repo": "vercel-labs/skills",
+    "date": "2026-04-23"
+  },
+  {
+    "repo": "AIDC-AI/Pixelle-Video",
+    "date": "2026-04-23"
+  },
+  {
+    "repo": "tw93/Kami",
+    "date": "2026-04-23"
   }
 ]

@@ -1,25 +1,5 @@
 [
   {
-    "repo": "vxcontrol/pentagi",
-    "date": "2026-03-24"
-  },
-  {
-    "repo": "hsliuping/TradingAgents-CN",
-    "date": "2026-03-24"
-  },
-  {
-    "repo": "jingyaogong/minimind",
-    "date": "2026-03-24"
-  },
-  {
-    "repo": "kepano/obsidian-skills",
-    "date": "2026-03-24"
-  },
-  {
-    "repo": "czlonkowski/n8n-mcp",
-    "date": "2026-03-24"
-  },
-  {
     "repo": "pascalorg/editor",
     "date": "2026-03-25"
   },
@@ -618,5 +598,25 @@
   {
     "repo": "tw93/Kami",
     "date": "2026-04-23"
+  },
+  {
+    "repo": "Alishahryar1/free-claude-code",
+    "date": "2026-04-24"
+  },
+  {
+    "repo": "Anil-matcha/Open-Generative-AI",
+    "date": "2026-04-24"
+  },
+  {
+    "repo": "huggingface/ml-intern",
+    "date": "2026-04-24"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "date": "2026-04-24"
+  },
+  {
+    "repo": "mksglu/context-mode",
+    "date": "2026-04-24"
   }
 ]

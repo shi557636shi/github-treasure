@@ -1,6 +1,128 @@
 {
-  "generated_at": "2026-04-24T20:00:06.019766",
+  "generated_at": "2026-04-25T00:19:13.780470",
   "days": [
+    {
+      "date": "2026-04-25",
+      "ai_report": "GitHub 宝藏日报 | 2026-04-25\n\n🛠️ 1. codecrafters-io/build-your-own-x\n⭐ 300k+ stars | 🔤 多语言 | 📄 免费\n💡 一个编程实战教程索引，教你从零实现Git、Docker、Redis等经典工具\n🎯 对你的价值：返厂统计分析系统写累了可以来这里练手，比如自己实现个简单的数据库或HTTP服务器，能加深对FastAPI底层的理解。OpenClaw项目如果要做远程控制协议，可以参考里面\"Build your own VNC\"的教程\n\n🔐 2. dani-garcia/vaultwarden\n⭐ 40k+ stars | 🔤 Rust | 📄 GPL-3.0\n💡 用Rust重写的Bitwarden密码管理器后端，内存占用只有官方版本的1/10\n🎯 对你的价值：astro-finance和小红书运营涉及多个平台账号管理，可以自己搭一个密码库，避免用第三方服务。Rust项目也能给你写高性能服务时做参考\n\n📊 3. PostHog/posthog\n⭐ 22k+ stars | 🔤 Python/TypeScript | 📄 MIT\n💡 开源版的Google Analytics + Mixpanel，能追踪用户行为、做AB测试、录屏回放\n🎯 对你的价值：直接能嵌入返厂统计分析系统，看用户在哪个环节卡住了。小红书占星运营也能用，追踪哪篇文章转化率高、用户从哪个入口来的。比自己写埋点省一个月\n\n⚡ 4. microsoft/typescript-go\n⭐ 15k+ stars | 🔤 Go | 📄 MIT\n💡 微软正在用Go重写TypeScript编译器，目标是让编译速度提升10倍\n🎯 对你的价值：如果返厂统计分析系统的React前端编译慢到想摔电脑，可以关注这个项目进展。另外能学到微软怎么用Go做编译器优化，对OpenClaw的性能调优有启发\n\n🔍 5. google/osv-scanner\n⭐ 6k+ stars | 🔤 Go | 📄 Apache-2.0\n💡 Google出品的依赖漏洞扫描器,扫描package.json、requirements.txt里的安全漏洞\n🎯 对你的价值：给返厂统计分析系统(FastAPI)和astro-finance的依赖跑一遍,避免用了有漏洞的库被黑。小红书账号如果泄露就麻烦了。集成到CI里每次部署前自动检查\n\n📊 今日总结\n- 直接能用：PostHog嵌入返厂系统做用户分析，osv-scanner扫描所有项目依赖漏洞，vaultwarden管理多平台账号密码\n- 值得研究：codecrafters教程能提升底层理解，给OpenClaw远程控制和astro-finance数据处理打基础\n- 先收藏：typescript-go等编译速度优化成熟了再用，现在可以学学微软的优化思路",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-04-25",
+          "repo": "codecrafters-io/build-your-own-x",
+          "description": "从零重构经典技术的编程实战教程集合",
+          "language": "Markdown",
+          "stars": 494307,
+          "today_stars": 817,
+          "score": 2465.3879935213054,
+          "source": "trending",
+          "topics": [
+            "awesome-list",
+            "free",
+            "programming",
+            "tutorial-code",
+            "tutorial-exercises",
+            "tutorials"
+          ],
+          "forks": 46817,
+          "license": null,
+          "homepage": "https://codecrafters.io",
+          "url": "https://github.com/codecrafters-io/build-your-own-x",
+          "ai_analysis": "【是什么】汇集各类「从零构建X」教程的精选列表,覆盖数据库/编辑器/Web服务器等数十个方向\n【技术亮点】通过重构Redis/Git/Docker等真实技术深度理解底层原理,纯Markdown无代码依赖\n【对你的价值】FastAPI系统可参考Web框架构建教程提升架构能力;OpenClaw远程控制可学习网络协议实现;占星预测系统的算法模块可借鉴数据结构教程优化性能\n【推荐指数】★★★★★ 技术人必备学习资源库,适合你三个技术项目的深度优化需求"
+        },
+        {
+          "date": "2026-04-25",
+          "repo": "dani-garcia/vaultwarden",
+          "description": "Rust编写的轻量级Bitwarden密码管理服务",
+          "language": "Rust",
+          "stars": 59089,
+          "today_stars": 252,
+          "score": 768.543013280411,
+          "source": "trending",
+          "topics": [
+            "bitwarden",
+            "bitwarden-rs",
+            "docker",
+            "rocket",
+            "rust",
+            "vaultwarden"
+          ],
+          "forks": 2724,
+          "license": "AGPL-3.0",
+          "homepage": "",
+          "url": "https://github.com/dani-garcia/vaultwarden",
+          "ai_analysis": "【是什么】非官方Bitwarden兼容服务器,资源占用远低于官方版,支持Docker部署\n【技术亮点】Rust实现高性能低内存,单二进制文件部署,完整兼容Bitwarden客户端生态\n【对你的价值】可为OpenClaw/FastAPI系统提供自托管的安全凭证管理方案;小红书运营的多账号密码可统一加密存储;学习Rust异步编程和安全实践\n【推荐指数】★★★☆☆ 实用工具,但与你核心业务关联度一般,更多是运维层面价值"
+        },
+        {
+          "date": "2026-04-25",
+          "repo": "google/osv-scanner",
+          "description": "Google开源的依赖漏洞扫描工具",
+          "language": "Go",
+          "stars": 9336,
+          "today_stars": 147,
+          "score": 451.94032168607464,
+          "source": "trending",
+          "topics": [
+            "scanner",
+            "security-audit",
+            "security-tools",
+            "vulnerability-scanner"
+          ],
+          "forks": 611,
+          "license": "Apache-2.0",
+          "homepage": "https://google.github.io/osv-scanner/",
+          "url": "https://github.com/google/osv-scanner",
+          "ai_analysis": "【是什么】使用OSV数据库扫描项目依赖安全漏洞的Go命令行工具\n【技术亮点】支持多语言生态(Python/Rust/Go/JS),离线扫描lockfile,集成GitHub Actions自动化检测\n【对你的价值】必须集成到FastAPI/OpenClaw/占星预测三个项目的CI/CD中防范供应链攻击;扫描React/飞书SDK等依赖的已知漏洞;作为技术博主可产出安全加固实践文章\n【推荐指数】★★★★☆ 安全基建必备工具,对技术项目和博主身份双重价值,扣一星因功能单一"
+        },
+        {
+          "date": "2026-04-25",
+          "repo": "PostHog/posthog",
+          "description": "开源全栈产品分析与用户行为追踪平台",
+          "language": "Python",
+          "stars": 32967,
+          "today_stars": 90,
+          "score": 282.03615885620775,
+          "source": "trending",
+          "topics": [
+            "ab-testing",
+            "ai-analytics",
+            "analytics",
+            "cdp",
+            "data-warehouse",
+            "experiments",
+            "feature-flags",
+            "javascript",
+            "product-analytics",
+            "python",
+            "react",
+            "session-replay",
+            "surveys",
+            "typescript",
+            "web-analytics"
+          ],
+          "forks": 2577,
+          "license": "NOASSERTION",
+          "homepage": "https://posthog.com",
+          "url": "https://github.com/PostHog/posthog",
+          "ai_analysis": "【是什么】集成产品分析/会话回放/AB测试/特征开关/数据仓库的一体化开发者平台\n【技术亮点】Python后端+ClickHouse数据仓库,支持实时事件流处理和AI辅助分析,自托管保护隐私\n【对你的价值】返厂系统可嵌入产品分析追踪用户操作路径;小红书运营可监测内容转化漏斗和AB测试文案;OpenClaw可记录远程操作session回放;占星预测可分析用户查询模式优化推荐算法\n【推荐指数】★★★★★ 强烈推荐!完美匹配你四个项目的数据分析需求,尤其是运营增长和系统优化"
+        },
+        {
+          "date": "2026-04-25",
+          "repo": "microsoft/typescript-go",
+          "description": "微软用Go原生重写TypeScript编译器项目",
+          "language": "Go",
+          "stars": 24965,
+          "today_stars": 22,
+          "score": 77.79466314078226,
+          "source": "trending",
+          "topics": [],
+          "forks": 907,
+          "license": "Apache-2.0",
+          "homepage": "",
+          "url": "https://github.com/microsoft/typescript-go",
+          "ai_analysis": "【是什么】TypeScript编译器的Go语言原生移植版本,目标提升编译性能\n【技术亮点】跨语言编译器移植的工程实践,Go并发特性优化编译速度,仍在开发阶段\n【对你的价值】FastAPI+React项目的前端TS编译可能受益于性能提升;可学习编译器设计和Go高性能编程;但当前为staging阶段,生产可用性待观察\n【推荐指数】★★☆☆☆ 前沿技术探索,但对你当前项目实际帮助有限,更适合长期技术储备"
+        }
+      ]
+    },
     {
       "date": "2026-04-24",
       "ai_report": "GitHub 宝藏日报 | 2026-04-24\n\n🤖 1. coreyhaines31/marketingskills\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 给Claude AI装上SEO、文案、转化优化的技能包\n🎯 你做小红书占星运营正好用得上，可以让AI帮你写星座文案、优化账号SEO、设计转化路径，比自己一个个想标题效率高\n\n🪟 2. mksglu/context-mode\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 让AI编码时的输出内容减少98%占用，把沙盒内容隔离出去\n🎯 OpenClaw和返厂系统开发时能省大量token费用,特别是FastAPI+React前后端一起调试的时候,上下文经常爆\n\n🎨 3. Alishahryar1/free-claude-code\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 终端/VSCode/Discord里免费用Claude Code,思路跟OpenClaw类似\n🎯 你在做OpenClaw飞书远程控制Mac,这个项目的实现方式可以直接参考,看看人家怎么绕过限制接入多个客户端的\n\n🖼️ 4. Anil-matcha/Open-Generative-AI\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 200+开源AI模型的图像视频生成工作室,Flux/Midjourney/Sora都有\n🎯 小红书占星运营需要配图,这个比Midjourney便宜,还能本地跑。星座卡片、运势海报都能批量生成\n\n🧠 5. huggingface/ml-intern\n⭐ 未知 | 🔤 未知 | 📄 未知\n💡 AI自己读论文、训练模型、部署上线的ML工程师代理\n🎯 astro-finance金融预测可以试试,让它自动跑占星数据和市场数据的关联模型,比你手动调参数快\n\n📊 今日总结\n- 直接能用：marketingskills装上就能写小红书文案,Open-Generative-AI马上能给账号做配图\n- 值得研究：free-claude-code的多端接入方案对OpenClaw项目有参考价值,context-mode省token的思路可以用在返厂系统开发上\n- 先收藏：ml-intern等astro-finance数据积累够了再用,现在上手可能数据不够喂",

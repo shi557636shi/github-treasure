@@ -1,25 +1,5 @@
 [
   {
-    "repo": "pascalorg/editor",
-    "date": "2026-03-25"
-  },
-  {
-    "repo": "hesreallyhim/awesome-claude-code",
-    "date": "2026-03-25"
-  },
-  {
-    "repo": "harry0703/MoneyPrinterTurbo",
-    "date": "2026-03-25"
-  },
-  {
-    "repo": "supermemoryai/supermemory",
-    "date": "2026-03-25"
-  },
-  {
-    "repo": "aquasecurity/trivy",
-    "date": "2026-03-25"
-  },
-  {
     "repo": "mvanhorn/last30days-skill",
     "date": "2026-03-26"
   },
@@ -618,5 +598,25 @@
   {
     "repo": "mksglu/context-mode",
     "date": "2026-04-24"
+  },
+  {
+    "repo": "codecrafters-io/build-your-own-x",
+    "date": "2026-04-25"
+  },
+  {
+    "repo": "dani-garcia/vaultwarden",
+    "date": "2026-04-25"
+  },
+  {
+    "repo": "google/osv-scanner",
+    "date": "2026-04-25"
+  },
+  {
+    "repo": "PostHog/posthog",
+    "date": "2026-04-25"
+  },
+  {
+    "repo": "microsoft/typescript-go",
+    "date": "2026-04-25"
   }
 ]

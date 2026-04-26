@@ -1,25 +1,5 @@
 [
   {
-    "repo": "mvanhorn/last30days-skill",
-    "date": "2026-03-26"
-  },
-  {
-    "repo": "usestrix/strix",
-    "date": "2026-03-26"
-  },
-  {
-    "repo": "letta-ai/claude-subconscious",
-    "date": "2026-03-26"
-  },
-  {
-    "repo": "slavingia/skills",
-    "date": "2026-03-26"
-  },
-  {
-    "repo": "dontbesilent2025/dbskill",
-    "date": "2026-03-26"
-  },
-  {
     "repo": "Vaibhavs10/insanely-fast-whisper",
     "date": "2026-03-27"
   },
@@ -618,5 +598,25 @@
   {
     "repo": "microsoft/typescript-go",
     "date": "2026-04-25"
+  },
+  {
+    "repo": "mattpocock/skills",
+    "date": "2026-04-26"
+  },
+  {
+    "repo": "ComposioHQ/awesome-codex-skills",
+    "date": "2026-04-26"
+  },
+  {
+    "repo": "davila7/claude-code-templates",
+    "date": "2026-04-26"
+  },
+  {
+    "repo": "RooCodeInc/Roo-Code",
+    "date": "2026-04-26"
+  },
+  {
+    "repo": "PowerShell/PowerShell",
+    "date": "2026-04-26"
   }
 ]

@@ -1,6 +1,120 @@
 {
-  "generated_at": "2026-04-25T20:07:37.785718",
+  "generated_at": "2026-04-26T09:40:20.045470",
   "days": [
+    {
+      "date": "2026-04-26",
+      "ai_report": "GitHub 宝藏日报 | 2026-04-26\n\n🔧 1. PowerShell/PowerShell\n⭐ 45.9k stars | 🔤 C# | 📄 MIT\n💡 微软出品的跨平台自动化脚本引擎，Windows/Linux/macOS通吃\n🎯 OpenClaw项目可以用它写Mac远程控制脚本，比bash更强的对象处理能力；返厂统计系统的数据清洗和定时任务也能用上\n\n🛠️ 2. davila7/claude-code-templates\n⭐ 新项目 | 🔤 Shell | 📄 MIT\n💡 Claude Code的配置模板库，内置监控和CLI工具\n🎯 直接复制配置就能让Claude更懂你的代码风格，astro-finance和返厂系统都能省掉重复解释项目结构的时间\n\n🤖 3. RooCodeInc/Roo-Code\n⭐ 社区热门 | 🔤 TypeScript | 📄 Apache-2.0\n💡 把AI开发团队塞进VSCode，多Agent协作写代码\n🎯 FastAPI后端和React前端分离开发时，可以让不同Agent同时干活，一个写接口一个写页面，提速明显\n\n📚 4. mattpocock/skills\n⭐ 个人项目 | 🔤 TypeScript | 📄 开源\n💡 大佬分享的个人Claude技能配置合集\n🎯 看看别人怎么训练Claude处理TypeScript和React的，直接抄作业到返厂系统的前端开发里\n\n⚡ 5. ComposioHQ/awesome-codex-skills\n⭐ 精选列表 | 🔤 Markdown | 📄 MIT\n💡 自动化工作流技能清单，从数据抓取到API集成都有\n🎯 小红书占星运营需要的内容发布自动化、数据监控这里都有现成方案；astro-finance的数据源对接也能找到灵感\n\n📊 今日总结\n- 直接能用：PowerShell配Mac控制脚本、claude-code-templates抄配置\n- 值得研究：Roo-Code的多Agent协作模式，返厂系统前后端分离开发能提速\n- 先收藏：awesome-codex-skills的自动化清单，小红书运营和金融数据抓取早晚用得上",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-04-26",
+          "repo": "mattpocock/skills",
+          "description": "个人Claude技能目录分享",
+          "language": "Shell",
+          "stars": 20100,
+          "today_stars": 1139,
+          "score": 3428.606392114841,
+          "source": "trending",
+          "topics": [],
+          "forks": 1674,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/mattpocock/skills",
+          "ai_analysis": "【是什么】资深开发者的Claude Code自定义技能配置集合\n【技术亮点】Shell脚本形式的可复用技能模板，覆盖测试/重构/类型检查等场景\n【对你的价值】可直接借鉴到FastAPI项目的测试自动化、React组件重构模板，学习高手的AI协作模式\n【推荐指数】⭐⭐⭐⭐ 高质量实战案例，建议精选适合你技术栈的skill迁移使用"
+        },
+        {
+          "date": "2026-04-26",
+          "repo": "ComposioHQ/awesome-codex-skills",
+          "description": "Codex自动化工作流技能清单",
+          "language": "Python",
+          "stars": 1495,
+          "today_stars": 188,
+          "score": 573.3492823853209,
+          "source": "trending",
+          "topics": [
+            "awesome",
+            "awesome-lists",
+            "awesome-resources",
+            "codex",
+            "codex-cli",
+            "codex-skills",
+            "coding-agent-skills",
+            "coding-agents",
+            "gpt-5-1-codex",
+            "gpt-5-codex",
+            "llm",
+            "skills"
+          ],
+          "forks": 133,
+          "license": null,
+          "homepage": "",
+          "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+          "ai_analysis": ""
+        },
+        {
+          "date": "2026-04-26",
+          "repo": "davila7/claude-code-templates",
+          "description": "Claude Code配置和监控CLI工具",
+          "language": "Python",
+          "stars": 25359,
+          "today_stars": 87,
+          "score": 272.80826424739064,
+          "source": "trending",
+          "topics": [
+            "anthropic",
+            "anthropic-claude",
+            "claude",
+            "claude-code"
+          ],
+          "forks": 2529,
+          "license": "MIT",
+          "homepage": "https://aitmpl.com",
+          "url": "https://github.com/davila7/claude-code-templates",
+          "ai_analysis": "【是什么】用于管理Claude Code配置模板和监控使用情况的Python工具\n【技术亮点】提供预设模板快速配置Claude开发环境，自动化监控AI编码效率\n【对你的价值】直接提升你当前使用Claude Code的效率，可为FastAPI+React项目快速生成开发模板，监控AI辅助开发的代码质量\n【推荐指数】⭐⭐⭐⭐⭐ 强烈推荐，直接优化你的AI开发工作流，Python技术栈完美契合"
+        },
+        {
+          "date": "2026-04-26",
+          "repo": "RooCodeInc/Roo-Code",
+          "description": "代码编辑器中的AI开发团队",
+          "language": "TypeScript",
+          "stars": 23511,
+          "today_stars": 57,
+          "score": 182.74254220297516,
+          "source": "trending",
+          "topics": [],
+          "forks": 3124,
+          "license": "Apache-2.0",
+          "homepage": "https://roocode.com",
+          "url": "https://github.com/RooCodeInc/Roo-Code",
+          "ai_analysis": "【是什么】VSCode插件，提供多角色AI Agent协作开发能力\n【技术亮点】TypeScript实现的多Agent架构，模拟产品经理/架构师/测试等角色协同\n【对你的价值】适合复杂项目如返厂系统的架构设计、占星算法的多维度实现，但需评估与Claude Code的差异\n【推荐指数】⭐⭐⭐ 概念先进但需学习成本，目前Claude Code可能已满足需求"
+        },
+        {
+          "date": "2026-04-26",
+          "repo": "PowerShell/PowerShell",
+          "description": "微软跨平台命令行自动化工具",
+          "language": "C#",
+          "stars": 53076,
+          "today_stars": 48,
+          "score": 156.44979637083446,
+          "source": "trending",
+          "topics": [
+            "command-line",
+            "hacktoberfest",
+            "linux",
+            "macos",
+            "netcore",
+            "powershell",
+            "shell",
+            "windows"
+          ],
+          "forks": 8298,
+          "license": "MIT",
+          "homepage": "https://microsoft.com/PowerShell",
+          "url": "https://github.com/PowerShell/PowerShell",
+          "ai_analysis": "【是什么】跨平台PowerShell脚本引擎，支持Linux/macOS/Windows\n【技术亮点】C#开发的.NET Core CLI工具，强大的对象管道和自动化能力\n【对你的价值】可用于飞书Mac控制的系统级任务自动化、返厂系统的数据批处理脚本、占星数据采集定时任务\n【推荐指数】⭐⭐⭐ 适合需要跨平台自动化场景，但Python已能覆盖你的大部分需求"
+        }
+      ]
+    },
     {
       "date": "2026-04-25",
       "ai_report": "GitHub 宝藏日报 | 2026-04-25\n\n🛠️ 1. codecrafters-io/build-your-own-x\n⭐ 300k+ stars | 🔤 多语言 | 📄 免费\n💡 一个编程实战教程索引，教你从零实现Git、Docker、Redis等经典工具\n🎯 对你的价值：返厂统计分析系统写累了可以来这里练手，比如自己实现个简单的数据库或HTTP服务器，能加深对FastAPI底层的理解。OpenClaw项目如果要做远程控制协议，可以参考里面\"Build your own VNC\"的教程\n\n🔐 2. dani-garcia/vaultwarden\n⭐ 40k+ stars | 🔤 Rust | 📄 GPL-3.0\n💡 用Rust重写的Bitwarden密码管理器后端，内存占用只有官方版本的1/10\n🎯 对你的价值：astro-finance和小红书运营涉及多个平台账号管理，可以自己搭一个密码库，避免用第三方服务。Rust项目也能给你写高性能服务时做参考\n\n📊 3. PostHog/posthog\n⭐ 22k+ stars | 🔤 Python/TypeScript | 📄 MIT\n💡 开源版的Google Analytics + Mixpanel，能追踪用户行为、做AB测试、录屏回放\n🎯 对你的价值：直接能嵌入返厂统计分析系统，看用户在哪个环节卡住了。小红书占星运营也能用，追踪哪篇文章转化率高、用户从哪个入口来的。比自己写埋点省一个月\n\n⚡ 4. microsoft/typescript-go\n⭐ 15k+ stars | 🔤 Go | 📄 MIT\n💡 微软正在用Go重写TypeScript编译器，目标是让编译速度提升10倍\n🎯 对你的价值：如果返厂统计分析系统的React前端编译慢到想摔电脑，可以关注这个项目进展。另外能学到微软怎么用Go做编译器优化，对OpenClaw的性能调优有启发\n\n🔍 5. google/osv-scanner\n⭐ 6k+ stars | 🔤 Go | 📄 Apache-2.0\n💡 Google出品的依赖漏洞扫描器,扫描package.json、requirements.txt里的安全漏洞\n🎯 对你的价值：给返厂统计分析系统(FastAPI)和astro-finance的依赖跑一遍,避免用了有漏洞的库被黑。小红书账号如果泄露就麻烦了。集成到CI里每次部署前自动检查\n\n📊 今日总结\n- 直接能用：PostHog嵌入返厂系统做用户分析，osv-scanner扫描所有项目依赖漏洞，vaultwarden管理多平台账号密码\n- 值得研究：codecrafters教程能提升底层理解，给OpenClaw远程控制和astro-finance数据处理打基础\n- 先收藏：typescript-go等编译速度优化成熟了再用，现在可以学学微软的优化思路",

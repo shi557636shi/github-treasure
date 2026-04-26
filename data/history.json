@@ -1,25 +1,5 @@
 [
   {
-    "repo": "Vaibhavs10/insanely-fast-whisper",
-    "date": "2026-03-27"
-  },
-  {
-    "repo": "Yeachan-Heo/oh-my-claudecode",
-    "date": "2026-03-27"
-  },
-  {
-    "repo": "datalab-to/chandra",
-    "date": "2026-03-27"
-  },
-  {
-    "repo": "virattt/dexter",
-    "date": "2026-03-27"
-  },
-  {
-    "repo": "zarazhangrui/codebase-to-course",
-    "date": "2026-03-27"
-  },
-  {
     "repo": "hacksider/Deep-Live-Cam",
     "date": "2026-03-28"
   },
@@ -618,5 +598,25 @@
   {
     "repo": "PowerShell/PowerShell",
     "date": "2026-04-26"
+  },
+  {
+    "repo": "openclaw/openclaw",
+    "date": "2026-04-27"
+  },
+  {
+    "repo": "gastownhall/beads",
+    "date": "2026-04-27"
+  },
+  {
+    "repo": "home-assistant/core",
+    "date": "2026-04-27"
+  },
+  {
+    "repo": "op7418/guizang-ppt-skill",
+    "date": "2026-04-27"
+  },
+  {
+    "repo": "ConardLi/garden-skills",
+    "date": "2026-04-27"
   }
 ]

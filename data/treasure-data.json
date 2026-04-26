@@ -1,6 +1,121 @@
 {
-  "generated_at": "2026-04-26T20:00:05.639857",
+  "generated_at": "2026-04-27T00:29:07.799028",
   "days": [
+    {
+      "date": "2026-04-27",
+      "ai_report": "GitHub 宝藏日报 | 2026-04-27\n\n🤖 1. openclaw/openclaw\n⭐ stars | 🔤 Python/Go | 📄 license\n💡 跨平台AI个人助手，能在任意操作系统上运行\n🎯 你的飞书远程Mac控制(OpenClaw)项目同名，可以看看这个开源实现的跨平台方案，说不定能借鉴到你的远程控制架构里\n\n🏠 2. home-assistant/core\n⭐ stars | 🔤 Python | 📄 Apache-2.0\n💡 本地优先的开源智能家居自动化平台，不依赖云服务\n🎯 你的返厂统计分析系统(FastAPI+React)可以参考它的本地优先架构设计，特别是FastAPI的最佳实践和实时数据处理方式\n\n🧠 3. gastownhall/beads\n⭐ stars | 🔤 Go | 📄 license\n💡 给编码Agent加记忆功能的Go工具，让AI记住上下文\n🎯 你做占星金融预测(astro-finance)需要AI记住历史数据和预测逻辑，这个记忆增强工具的思路值得研究，看能不能用到金融预测的上下文管理\n\n🎨 4. op7418/guizang-ppt-skill\n⭐ stars | 🔤 JavaScript | 📄 license\n💡 Claude技能包，把文本直接转成杂志风格的HTML幻灯片\n🎯 你做小红书占星运营肯定需要做内容排版，这个技能可以快速生成好看的占星内容展示页，比自己做PPT效率高\n\n🛠️ 5. ConardLi/garden-skills\n⭐ stars | 🔤 JavaScript | 📄 license\n💡 ConardLi开源的Claude Skills工具集，包含设计、检索、图像生成功能\n🎯 小红书占星运营需要配图和设计，这个技能集的图像生成和设计功能可以直接用来做占星图表和配图\n\n📊 今日总结\n- 直接能用：guizang-ppt-skill做占星内容排版、garden-skills做小红书配图\n- 值得研究：beads的记忆机制可以用到astro-finance的预测逻辑、home-assistant的FastAPI架构参考\n- 先收藏：openclaw看看跨平台方案能不能优化你的OpenClaw项目",
+      "project_count": 5,
+      "projects": [
+        {
+          "date": "2026-04-27",
+          "repo": "openclaw/openclaw",
+          "description": "跨平台AI个人助手,支持任意操作系统",
+          "language": "TypeScript",
+          "stars": 364367,
+          "today_stars": 620,
+          "score": 1874.123078073776,
+          "source": "trending",
+          "topics": [
+            "ai",
+            "assistant",
+            "crustacean",
+            "molty",
+            "openclaw",
+            "own-your-data",
+            "personal"
+          ],
+          "forks": 74612,
+          "license": "MIT",
+          "homepage": "https://openclaw.ai",
+          "url": "https://github.com/openclaw/openclaw",
+          "ai_analysis": "【是什么】通用型AI助手框架,可在任何OS上运行\n【技术亮点】TypeScript构建,36万+星标显示成熟度极高,MIT协议便于商用集成\n【对你的价值】可集成到OpenClaw飞书远程控制项目中,实现AI辅助的Mac远程操作;也可用于占星金融预测的自动化任务调度\n【推荐指数】⭐⭐⭐⭐⭐ 与你的OpenClaw项目同名且高度相关,技术栈匹配,社区活跃度极高"
+        },
+        {
+          "date": "2026-04-27",
+          "repo": "gastownhall/beads",
+          "description": "为编码Agent提供记忆增强的Go工具",
+          "language": "Go",
+          "stars": 21545,
+          "today_stars": 133,
+          "score": 410.6666929968488,
+          "source": "trending",
+          "topics": [
+            "agents",
+            "claude-code",
+            "coding"
+          ],
+          "forks": 1434,
+          "license": "MIT",
+          "homepage": "",
+          "url": "https://github.com/gastownhall/beads",
+          "ai_analysis": "【是什么】专为Claude Code等AI编码助手设计的上下文记忆管理系统\n【技术亮点】Go语言高性能实现,2.1万星标,专注解决Agent长对话记忆问题\n【对你的价值】若使用AI辅助开发返厂系统或OpenClaw,可集成beads保持项目上下文连贯性;对占星内容生成也能提升一致性\n【推荐指数】⭐⭐⭐⭐ 直接提升AI开发效率,但需学习Go语言集成成本"
+        },
+        {
+          "date": "2026-04-27",
+          "repo": "home-assistant/core",
+          "description": "本地优先的开源智能家居自动化平台",
+          "language": "Python",
+          "stars": 86367,
+          "today_stars": 52,
+          "score": 168.87269566885686,
+          "source": "trending",
+          "topics": [
+            "asyncio",
+            "hacktoberfest",
+            "home-automation",
+            "internet-of-things",
+            "iot",
+            "mqtt",
+            "python",
+            "raspberry-pi"
+          ],
+          "forks": 37353,
+          "license": "Apache-2.0",
+          "homepage": "https://www.home-assistant.io",
+          "url": "https://github.com/home-assistant/core",
+          "ai_analysis": "【是什么】Python异步IoT自动化核心引擎,强调隐私与本地控制\n【技术亮点】基于asyncio的事件驱动架构,Apache2.0协议,8.6万星标证明稳定性\n【对你的价值】可借鉴其事件驱动模式优化返厂系统的实时统计;Python技术栈与FastAPI后端契合,可复用组件设计思路\n【推荐指数】⭐⭐⭐ 架构设计值得学习,但IoT场景与你的业务关联度中等"
+        },
+        {
+          "date": "2026-04-27",
+          "repo": "op7418/guizang-ppt-skill",
+          "description": "Claude技能:文本转杂志风HTML幻灯片",
+          "language": "HTML",
+          "stars": 2945,
+          "today_stars": 0,
+          "score": 11.938170598246241,
+          "source": "新星",
+          "topics": [],
+          "forks": 317,
+          "license": "MIT",
+          "homepage": null,
+          "url": "https://github.com/op7418/guizang-ppt-skill",
+          "ai_analysis": "【是什么】将提示词转换为横滑杂志风格HTML演示文档的Claude Skill\n【技术亮点】10种布局+5主题+WebGL背景,单文件输出便于分发,MIT协议\n【对你的价值】可用于生成小红书占星内容的视觉化展示;返厂系统汇报材料快速制作;占星金融预测结果的专业呈现\n【推荐指数】⭐⭐⭐⭐⭐ 直接解决内容可视化痛点,与小红书运营强相关,即插即用"
+        },
+        {
+          "date": "2026-04-27",
+          "repo": "ConardLi/garden-skills",
+          "description": "ConardLi的开源Skills集:设计/检索/图像生成",
+          "language": "JavaScript",
+          "stars": 1350,
+          "today_stars": 0,
+          "score": 11.260667536990013,
+          "source": "新星",
+          "topics": [
+            "agent",
+            "claude",
+            "gpt-image-2",
+            "rag",
+            "skills",
+            "web-design"
+          ],
+          "forks": 252,
+          "license": "MIT",
+          "homepage": "https://github.com/ConardLi/garden-skills",
+          "url": "https://github.com/ConardLi/garden-skills",
+          "ai_analysis": "【是什么】涵盖Web设计、知识检索、GPT图像生成的Claude技能合集\n【技术亮点】JavaScript实现,集成RAG检索和GPT-Image-2,MIT协议可自由修改\n【对你的价值】图像生成可用于小红书占星配图;RAG检索可增强占星知识库查询;Web设计技能辅助返厂系统前端开发\n【推荐指数】⭐⭐⭐⭐ 功能全面但需筛选适用模块,占星运营和系统开发都有助益"
+        }
+      ]
+    },
     {
       "date": "2026-04-26",
       "ai_report": "GitHub 宝藏日报 | 2026-04-26\n\n🔧 1. PowerShell/PowerShell\n⭐ 45.9k stars | 🔤 C# | 📄 MIT\n💡 微软出品的跨平台自动化脚本引擎，Windows/Linux/macOS通吃\n🎯 OpenClaw项目可以用它写Mac远程控制脚本，比bash更强的对象处理能力；返厂统计系统的数据清洗和定时任务也能用上\n\n🛠️ 2. davila7/claude-code-templates\n⭐ 新项目 | 🔤 Shell | 📄 MIT\n💡 Claude Code的配置模板库，内置监控和CLI工具\n🎯 直接复制配置就能让Claude更懂你的代码风格，astro-finance和返厂系统都能省掉重复解释项目结构的时间\n\n🤖 3. RooCodeInc/Roo-Code\n⭐ 社区热门 | 🔤 TypeScript | 📄 Apache-2.0\n💡 把AI开发团队塞进VSCode，多Agent协作写代码\n🎯 FastAPI后端和React前端分离开发时，可以让不同Agent同时干活，一个写接口一个写页面，提速明显\n\n📚 4. mattpocock/skills\n⭐ 个人项目 | 🔤 TypeScript | 📄 开源\n💡 大佬分享的个人Claude技能配置合集\n🎯 看看别人怎么训练Claude处理TypeScript和React的，直接抄作业到返厂系统的前端开发里\n\n⚡ 5. ComposioHQ/awesome-codex-skills\n⭐ 精选列表 | 🔤 Markdown | 📄 MIT\n💡 自动化工作流技能清单，从数据抓取到API集成都有\n🎯 小红书占星运营需要的内容发布自动化、数据监控这里都有现成方案；astro-finance的数据源对接也能找到灵感\n\n📊 今日总结\n- 直接能用：PowerShell配Mac控制脚本、claude-code-templates抄配置\n- 值得研究：Roo-Code的多Agent协作模式，返厂系统前后端分离开发能提速\n- 先收藏：awesome-codex-skills的自动化清单，小红书运营和金融数据抓取早晚用得上",

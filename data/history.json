@@ -1,25 +1,5 @@
 [
   {
-    "repo": "hacksider/Deep-Live-Cam",
-    "date": "2026-03-28"
-  },
-  {
-    "repo": "twentyhq/twenty",
-    "date": "2026-03-28"
-  },
-  {
-    "repo": "onyx-dot-app/onyx",
-    "date": "2026-03-28"
-  },
-  {
-    "repo": "FreeCAD/FreeCAD",
-    "date": "2026-03-28"
-  },
-  {
-    "repo": "alvinunreal/awesome-opensource-ai",
-    "date": "2026-03-28"
-  },
-  {
     "repo": "SakanaAI/AI-Scientist-v2",
     "date": "2026-03-29"
   },
@@ -618,5 +598,25 @@
   {
     "repo": "ConardLi/garden-skills",
     "date": "2026-04-27"
+  },
+  {
+    "repo": "donnemartin/system-design-primer",
+    "date": "2026-04-28"
+  },
+  {
+    "repo": "penpot/penpot",
+    "date": "2026-04-28"
+  },
+  {
+    "repo": "deepseek-ai/DeepSeek-V3",
+    "date": "2026-04-28"
+  },
+  {
+    "repo": "drona23/claude-token-efficient",
+    "date": "2026-04-28"
+  },
+  {
+    "repo": "google/skills",
+    "date": "2026-04-28"
   }
 ]
